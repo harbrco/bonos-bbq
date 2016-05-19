@@ -1,4 +1,20 @@
-// add header styles here
+.header {
+   .logo {
+      width: 180px;
+      height: 73px;
+      background-image: url('../img/bonos-logo-white@2x.png');
+      background-size: 180px 73px;
+      @extend %hoverTrans;
+
+      a {
+         @extend %linkblock;
+      }
+
+      &:hover {
+         @extend %hoverFade;
+      }
+   }
+}
 
 
 // HEADER TYPOGRAPHY = = = = = = =
