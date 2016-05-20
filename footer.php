@@ -1,21 +1,16 @@
       </div><!-- /.middle-wrapper -->
 
       <!-- footer -->
-      <footer class="footer" role="contentinfo">
+      <div class="footer-wrapper">
+         <footer class="footer" role="contentinfo">
+            <div class="smoked-badge"></div>
 
-         <div class="footer-social">
-            <ul>
-               <li class="fb"><a href="#">Fb</a></li>
-               <li class="twt"><a href="#">Twt</a></li>
-               <li class="gplus"><a href="#">G+</a></li>
-            </ul>
-         </div>
+            <div class="footer-copyright">
+               <p><span class="copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?></span> <span class="footer-copyright-divider">&nbsp;&nbsp;•&nbsp;&nbsp;</span> <span class="harbr-credit"><a href="http://harbr.co/" target="_blank">Crafted by Harbr</a></span></p>
+            </div>
 
-         <div class="footer-copyright">
-            <p class="copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?> - All rights reserved</p>
-         </div>
-
-      </footer>
+         </footer>
+      </div>
       <!-- /footer -->
 
       <?php wp_footer(); ?>

@@ -557,6 +557,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/locally-smoked@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35124,
+		"inputAbbreviatedPath": "\/img\/locally-smoked@2x.png",
+		"outputAbbreviatedPath": "\/img\/locally-smoked@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/section-bgs\/home-hero-bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 653096,
+		"inputAbbreviatedPath": "\/img\/section-bgs\/home-hero-bg.jpg",
+		"outputAbbreviatedPath": "\/img\/section-bgs\/home-hero-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/section-bgs\/home-tagline-bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54303,
+		"inputAbbreviatedPath": "\/img\/section-bgs\/home-tagline-bg.jpg",
+		"outputAbbreviatedPath": "\/img\/section-bgs\/home-tagline-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/index.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -590,7 +623,7 @@
 		},
 	"\/js\/libs\/jquery.fittext.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/libs\/jquery.fittext.js",
 		"outputAbbreviatedPath": "\/js\/libs\/min\/jquery.fittext-min.js",
@@ -803,7 +836,7 @@
 	"bowerAbbreviatedPath": "",
 	"displayValue": "bonos-bbq",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "pencil_yellow"
+	"iconImageName": "brackets_orange"
 	},
 "projectSettings": {
 	"alwaysUseExternalServer": 1,

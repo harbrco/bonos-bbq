@@ -1,5 +1,17 @@
+.header-wrapper {
+   @extend %clear;
+   width: 100%;
+   position: absolute;
+   z-index: 9;
+}
+
 .header {
+   @extend %clear;
+   margin-top: 48px;
+
    .logo {
+      display: inline-block;
+      float: left;
       width: 180px;
       height: 73px;
       background-image: url('../img/bonos-logo-white@2x.png');
@@ -14,11 +26,219 @@
          @extend %hoverFade;
       }
    }
+
+   .main-menu {
+      display: inline-block;
+      float: right;
+      width: auto;
+      margin-top: 24px;
+      position: relative;
+      z-index: 10;
+
+      ul {
+         text-align: right;
+      }
+
+      li {
+         display: inline-block;
+         @extend %sansB;
+         font-size: 18px;
+         text-transform: uppercase;
+         margin-left: 2px;
+         @include letSpc(1px);
+
+         &.isHome {
+            display: none;
+         }
+
+         a {
+            color: $white;
+            padding: 10px 16px;
+
+            &:hover {
+               color: $secondary;
+            }
+         }
+
+         &.current-menu-item,
+         &.current_page_item {
+            border-bottom: 4px solid $secondary;
+
+            a {
+               cursor: default;
+               color: $white;
+
+               &:hover {
+                  color: $white;
+               }
+            }
+         }
+      }
+   }
+}
+
+.mobile-menu-icon {
+   display: none;
+   width: 40px;
+   height: 35px;
+   margin: 50px auto;
+   transform: rotate(0deg);
+   transition: .5s ease-in-out;
+   cursor: pointer;
+   position: absolute;
+   top: 20px;
+   right: 5%;
+   z-index: 12;
+
+   span {
+      display: block;
+      position: absolute;
+      height: 5px;
+      width: 100%;
+      background-color: $white;
+      border-radius: 9px;
+      opacity: 1;
+      left: 0;
+      transform: rotate(0deg);
+      transition: background-color 0.2s ease, transform .3s ease-in-out, top .3s ease-in-out, width .3s ease-in-out, left .3s ease-in-out;
+
+      &:nth-child(1) {
+         top: 0px;
+      }
+
+      &:nth-child(2),
+      &:nth-child(3) {
+         top: 14px;
+      }
+
+      &:nth-child(4) {
+         top: 28px;
+      }
+   }
+
+   &:hover {
+      span {
+         background-color: $secondary;
+      }
+   }
+
+   &.open {
+      span {
+         background-color: $darkGray;
+
+         &:nth-child(1) {
+            top: 18px;
+            width: 0%;
+            left: 50%;
+         }
+
+         &:nth-child(2) {
+            transform: rotate(45deg);
+         }
+
+         &:nth-child(3) {
+            transform: rotate(-45deg);
+         }
+
+         &:nth-child(4) {
+            top: 18px;
+            width: 0%;
+            left: 50%;
+         }
+      }
+
+      &:hover {
+         span {
+            background-color: $secondary;
+         }
+      }
+   }
+}
+
+.mobile-menu-wrapper {
+   @extend %absFill;
+   opacity: 0;
+   position: fixed;
+   background-color: rgba($white, .97);
+   z-index: -1;
+   transition: z-index 0.2s, step-end 0.3s, opacity 0.2s linear;
+
+   .mobile-menu {
+      @extend %absFill;
+      margin-top: -10%;
+      transition: margin-top 0.5s ease 0.3s;
+   }
+
+   ul {
+      text-align: center;
+   }
+
+   li {
+      @extend %sansB;
+      width: auto;
+      font-size: 22px;
+      text-transform: uppercase;
+      margin-left: 2px;
+      @include letSpc(1px);
+      margin-bottom: 25px;
+
+      a {
+         color: $darkGray;
+         padding: 4px 16px;
+
+         &:hover {
+            color: $secondary;
+         }
+      }
+
+      &.current-menu-item,
+      &.current_page_item {
+         a {
+            border-bottom: 4px solid $secondary;
+            cursor: default;
+            color: $darkGray;
+
+            &:hover {
+               color: $darkGray;
+            }
+         }
+      }
+   }
+}
+
+body.modalOpen {
+   .mobile-menu-icon {
+      display: inline-block !important;
+   }
+
+   .mobile-menu-wrapper {
+      z-index: 11;
+      opacity: 1;
+      transition: z-index 0.3s, step-start, opacity 0.3s linear;
+
+      .mobile-menu {
+         margin-top: 0;
+         transition: margin-top 0.5s ease-in-out 0.1s;
+      }
+   }
 }
 
 
-// HEADER TYPOGRAPHY = = = = = = =
+.middle-wrapper {
+   background-color: $white;
+}
 
 
 // HEADER BREAKPOINTS = = = = = = =
 
+@media only screen and (max-width:900px) {
+   .mobile-menu-icon {
+      display: inline-block;
+   }
+
+   .header {
+      .main-menu {
+         display: none;
+      }
+   }
+}

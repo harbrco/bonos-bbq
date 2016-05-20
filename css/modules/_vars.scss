@@ -1,4 +1,5 @@
 $primary: #C3502B;      // Primary is Orange
+$primaryDk: #873920;    // Primary is Darker Orange
 $secondary: #9C1A1D;    // Secondary is Red
 
 $beige: #b8b79a;
@@ -18,3 +19,45 @@ $test: #62e920;   // Test is a bright green just for testing purposes
 
 $sans: 'Oswald', Helvetica, sans-serif;  // Oswald has weights of 300, 400, 700
 $serif: 'Lora', "Times New Roman", Serif;  // Lora has weights of "normal" and "bold"
+
+%sans {
+   font-family: $sans;
+   font-weight: 400;
+}
+%sansLt {
+   font-family: $sans;
+   font-weight: 300;
+}
+%sansB {
+   font-family: $sans;
+   font-weight: 700;
+}
+%sansIt {
+   @extend %sans;
+   font-style: italic;
+}
+%sansLtIt {
+   @extend %sansLt;
+   font-style: italic;
+}
+%sansBIt {
+   @extend %sansB;
+   font-style: italic;
+}
+
+%serif {
+   font-family: $serif;
+   font-weight: 400;
+}
+%serifB {
+   font-family: $serif;
+   font-weight: 700;
+}
+%serifIt {
+   @extend %serif;
+   font-style: italic;
+}
+%serifBIt {
+   @extend %serifB;
+   font-style: italic;
+}

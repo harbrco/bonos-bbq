@@ -1,6 +1,5 @@
 // @codekit-prepend "libs/modernizr.js"
 // @codekit-prepend "libs/jquery.bxslider.min.js"
-// @codekit-prepend "libs/jquery.fittext.js"
 // @codekit-prepend "libs/fastclick.js"
 
 // DOM Ready
@@ -10,14 +9,10 @@
     FastClick.attach(document.body);
 
     // Mobile Menu toggle
-    jQuery(document).ready(function($){
-      /* prepend menu icon */
-      $('#mobile-menu-wrap').prepend('<div id="menu-icon">CATEGORIES <span class="icon"></span></div>');
-      /* toggle nav */
-      $("#menu-icon").on("click", function(){
-        $("#mobile-menu").slideToggle('fast', 'swing');
-        $(this).toggleClass("active");
-      });
+    $('.mobile-menu-icon').click(function(e){
+      e.preventDefault();
+      $('body').toggleClass('modalOpen');
+      $(this).toggleClass('open');
     });
 
 
@@ -30,6 +25,22 @@
     // $("a").bind('taphold', function(event) {
     //   event.preventDefault();
     // });
+
+
+    // Home Lower CTA Videos
+    if( $('body').hasClass('home') ) {
+      var hoverVids = function() {
+        function hoverVideo() {
+          $('video', this).get(0).play();
+        }
+        function hideVideo() {
+          $('video', this).get(0).pause();
+        }
+
+        $('.home-lower-cta').hover( hoverVideo, hideVideo );
+      };
+      hoverVids();
+    }
 
 
     // Vertical Align Elements
@@ -75,8 +86,17 @@
     });
 
 
-    // FitText.js
-    $(".intro-content h1").fitText(1.2, { minFontSize: '34px', maxFontSize: '120px' });
+    // Force .middle-wrapper to have min-height to fill up space and push footer down (for short-content pages)
+    if ( ! $('body').hasClass('touch') ) {
+      var middleWrapperHeight;
+      $(window).resize(function() {
+        //var headerHeight = $('.header-wrapper').height();
+        var footerHeight = $('.footer-wrapper').height();
+        //middleWrapperHeight = $(window).height() - headerHeight - footerHeight;
+        middleWrapperHeight = $(window).height() - footerHeight;
+        $('.middle-wrapper').css('min-height', middleWrapperHeight);
+      }).resize();
+    }
 
 
     // Gravity Forms default text clear on focus

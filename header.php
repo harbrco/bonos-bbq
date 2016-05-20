@@ -27,10 +27,23 @@
    </head>
    <body <?php body_class(); ?>>
 
-      <div class="header-wrapper">
+      <a href="" class="mobile-menu-icon mobile-menu-toggle">
+         <span></span>
+         <span></span>
+         <span></span>
+         <span></span>
+      </a>
 
-         <!-- header -->
-         <header class="header" role="banner">
+      <div class="mobile-menu-wrapper">
+         <nav class="nav mobile-menu" role="navigation">
+            <div class="inner vAlign">
+               <?php html5blank_nav(); ?>
+            </div>
+         </nav>
+      </div>
+
+      <div class="header-wrapper">
+         <header class="header container" role="banner">
 
             <!-- logo -->
             <div class="logo">
@@ -39,13 +52,11 @@
             <!-- /logo -->
 
             <!-- <a class="menu-button">Menu</a> -->
-            <nav class="nav" role="navigation">
+            <nav class="nav main-menu" role="navigation">
                <?php html5blank_nav(); ?>
             </nav>
 
          </header>
-         <!-- /header -->
-
       </div><!-- /.header-wrapper -->
 
       <div class="middle-wrapper">

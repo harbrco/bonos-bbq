@@ -1,31 +1,77 @@
+.footer-wrapper {
+   @extend %clear;
+   background-color: $darkGray;
+}
+
 .footer {
-	@extend %clear;
+   @extend %clear;
+   position: relative;
+   z-index: 3;
+
+   .smoked-badge {
+      position: absolute;
+      left: 50%;
+      top: -67px;
+      margin-left: -107px;
+      width: 213px;
+      height: 190px;
+      background-image: url('../img/locally-smoked@2x.png');
+      background-size: 213px 190px;
+   }
 }
 
 .footer-copyright {
-	
-}
+   width: 100%;
+   display: block;
+   text-align: center;
+   margin-top: 160px;
+   border-top: 1px solid $medDkGray;
+   padding: 20px;
 
+   p {
+      color: $medGray;
+      font-family: $serif;
+      font-size: 16px;
+      line-height: 26px;
+   }
 
-// FOOTER TYPOGRAPHY = = = = = = =
+   a {
+      color: $medGray;
 
-.footer-copyright {
-
-	p {
-		font-family: $serif;
-		font-size: 16px;
-		line-height: 26px;
-	}
-
-	a {
-		color: $white;
-
-		&:hover {
-			color: $secondary;
-		}
-	}
+      &:hover {
+         color: $primary;
+      }
+   }
 }
 
 
 // FOOTER BREAKPOINTS = = = = = = =
 
+@media only screen and (max-width:768px) {
+   .footer {
+      .smoked-badge {
+         top: 30px;
+      }
+   }
+
+   .footer-copyright {
+      margin-top: 250px;
+   }
+}
+
+@media only screen and (max-width:420px) {
+   .footer-copyright {
+      .copyright,
+      .harbr-credit {
+         display: block;
+      }
+
+      .harbr-credit {
+         margin-top: 6px;
+      }
+
+      .footer-copyright-divider {
+         display: none;
+      }
+   }
+}

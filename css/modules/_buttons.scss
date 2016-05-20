@@ -1,0 +1,63 @@
+.centerBtn {
+   text-align: center;
+
+   a {
+      display: inline-block;
+   }
+}
+
+.btn {
+   display: inline-block;
+   color: $white;
+   background-color: rgba($primary, 0.55);
+   padding: 12px 26px;
+   border-color: $primary;
+   border-width: 1px;
+   border-style: solid;
+   font-size: 18px;
+   line-height: 18px;
+   @extend %sansB;
+   text-transform: uppercase;
+   @include letSpc(1px);
+   min-width: 190px;
+   position: relative;
+
+   &:before,
+   &:after {
+      content: '';
+      display: inline-block;
+      position: absolute;
+      top: 19px;
+      width: 21px;
+      height: 3px;
+      background-color: $primary;
+      @extend %hoverTrans;
+   }
+
+   &:before {
+      left: -11px;
+   }
+   &:after {
+      right: -11px;
+   }
+
+   &:hover {
+      color: $white;
+      background-color: rgba($primary, 0.75);
+
+      &:before {
+         left: -21px;
+      }
+      &:after {
+         right: -21px;
+      }
+   }
+
+   &.btn--ghost {
+      background-color: transparent;
+
+      &:hover {
+         background-color: rgba($primary, 0.75);
+      }
+   }
+}
