@@ -12,7 +12,7 @@ body {
    font-size: 14px;
    line-height: 1.6;
    font-weight: 300;
-   font-family: $sans;
+   font-family: $serif;
    background: $lightGray;
    color: $darkGray;
    height: 100%;
@@ -21,7 +21,8 @@ body {
    margin: 0;
    -webkit-touch-callout: none !important;
 
-   &.modalOpen {
+   &.modalOpen,
+   &.noScroll {
       overflow: hidden;
    }
 }
@@ -81,12 +82,16 @@ input:focus {
 .container {
    @extend %clear;
    max-width: 1280px;
-   width: 95%;
+   width: 92%;
    margin: 0 auto;
    position: relative;
 
    &.narrowContentLg {
-      max-width: 1060px;
+      max-width: 1080px;
+   }
+
+   &.narrowContentMd {
+      max-width: 756px;
    }
 
    &.narrowContent {
@@ -100,17 +105,179 @@ input:focus {
    margin-bottom: 0;
 }
 
+
+// Fancybox modal popup
+.fancy-positioner {
+   position: fixed;
+   width: 100%;
+   height: 100%;
+   z-index: -1;
+   top: 0;
+   height: 0;
+   transition: z-index 0.8s step-end, height 1.2s cubic-bezier(.666,0,.333,1);
+
+   &.isOpen {
+      z-index: 999;
+      height: 100%;
+      transition: z-index 0.6s step-start, height 0.1s cubic-bezier(.666,0,.333,1);
+   }
+}
+#fancyWrap {
+   background-color: rgba($white, .94);
+   display: block;
+   position: fixed;
+   z-index: -1;
+   top: 0vh !important;
+   left: 0;
+   opacity: 0;
+   @extend %absFill;
+   overflow: hidden;
+   @extend %clear;
+   transition: z-index 0.2s, step-end 0.3s, opacity 0.2s linear;
+
+   &.isOpen {
+      z-index: 98;
+      opacity: 1;
+      transition: z-index 0.3s, step-start, opacity 0.3s linear;
+   }
+
+   .close-btn {
+      z-index: 9999;
+      position: absolute;
+      top: 12px;
+      left: 50%;
+      margin-left: -18px;
+   }
+
+   .fancybox-item.fancybox-close {
+      display: none;
+   }
+}
+.fancybox-wrap {
+   position: absolute !important;
+}
+.fancybox-overlay,
+#fancybox-loading {
+   background-color: transparent !important;
+   position: absolute !important;
+}
+#fancybox-loading {
+   display: none !important;
+}
+
+.fancybox-close {
+   position: fixed;
+   top: 5px;
+   right: 5px;
+   width: 36px;
+   height: 36px;
+   cursor: pointer;
+   z-index: 8040;
+   background: transparent;
+}
+.fancybox-overlay {
+   background-color: rgba($black, .9);
+   background-image: none;
+}
+.fancybox-skin {
+   position: relative;
+   background: transparent;
+   color: #444;
+   text-shadow: none;
+}
+.fancybox-opened .fancybox-skin {
+   box-shadow: none;
+}
+
+.fancybox-mobile {
+   top: 80px !important; // positioning fix for mobile browsers.
+}
+
+
+
 // Reset bxSlider
 .bx-wrapper {
    margin-bottom: 0;
+
+   .bx-viewport {
+      -moz-box-shadow: none;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      border: none;
+      left: 0;
+      background-color: transparent;
+      margin: 0 !important;
+   }
+   .bx-viewport li { min-height: 1px; min-width: 1px; }  // Fix for infinite loop weirdness
+
+   .bx-controls.bx-has-pager {
+      width: 200px;
+      display: inline-block;
+      margin: 0;
+      padding: 19px 0 0;
+      list-style: none;
+      cursor: default;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      text-align: right;
+      position: absolute;
+      bottom: 9%;
+      right: 8%;
+
+      .bx-pager {
+         bottom: 5%;
+         z-index: 52;
+         padding: 0;
+      }
+   }
+
+   .bx-default-pager {
+      text-align: right;
+
+      .bx-pager-item {
+         font-size: inherit;
+         position: relative;
+         display: inline-block;
+         vertical-align: top;
+         margin: 0 5px;
+         width: 15px;
+         height: 15px;
+         cursor: pointer;
+
+         a {
+            color: transparent;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            outline: none;
+            border-radius: 7px !important;
+            background-color: rgba($white, .7);
+            cursor: pointer;
+            position: absolute;
+            text-indent: -9999px;
+
+            &:hover,
+            &:focus {
+               background-color: $white;
+            }
+
+            &.active {
+               border-radius: 100% !important;
+               background-color: $primary;
+               cursor: default;
+
+               &:hover,
+               &:focus {
+                  background-color: $primary;
+               }
+            }
+         }
+      }
+   }
 }
-.bx-wrapper .bx-viewport {
-   -moz-box-shadow: none;
-   -webkit-box-shadow: none;
-   box-shadow: none;
-   border: none;
-   left: 0;
-   background: #fff;
-   margin: 0 !important;
-}
-.bx-viewport li { min-height: 1px; min-width: 1px; }  // Fix for infinite loop weirdness

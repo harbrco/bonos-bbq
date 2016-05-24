@@ -13,6 +13,15 @@
       </div>
       <!-- /footer -->
 
+      <div class="fancy-positioner">
+         <div id="fancyWrap" class="">
+            <a href="javascript:parent.$.fancybox.close();" class="close-modal close-btn modal-toggle">
+               <span></span>
+               <span></span>
+            </a>
+         </div>
+      </div>
+
       <?php wp_footer(); ?>
 
       <!-- analytics -->

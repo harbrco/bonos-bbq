@@ -13,6 +13,39 @@
 }
 
 
+.hasOverlay {
+   position: relative;
+
+   .container,
+   .section-heading {
+      position: relative;
+      z-index: 1;
+   }
+}
+
+.darkOverlay {
+   @extend %absFill;
+   background-color: rgba($black, .5);
+   z-index: 1;
+
+   &.do20 { background-color: rgba($black, .2); }
+
+   &.do30 { background-color: rgba($black, .3); }
+
+   &.do50 { background-color: rgba($black, .5); }
+
+   &.do60 { background-color: rgba($black, .6); }
+
+   &.do70 { background-color: rgba($black, .7); }
+}
+
+.whiteOverlay {
+   @extend %absFill;
+   background-color: rgba($white, .94);
+   z-index: 1;
+}
+
+
 .hero {
    @extend .wrapper;
    z-index: 0;
@@ -20,13 +53,9 @@
    width: 100%;
    @extend %bgCover--center;
 
-   &.hero--small {
-
-   }
-
    .push-down {
       position: relative;
-      height: 170px;
+      height: 160px;
       width: 100%;
    }
 
@@ -39,19 +68,30 @@
       }
    }
 
+   &.hero--small {
+      .hero-content {
+         padding: 4% 0 9%;
+      }
+   }
+
    .inner {
       width: 100%;
       position: relative;
+      text-align: center;
    }
 
    .hero-heading {
       text-align: center;
+      display: inline-block;
+      width: auto;
 
       h2,
       h3 {
          @extend %sansB;
          color: $white;
          text-transform: uppercase;
+         display: inline-block;
+         width: auto;
       }
 
       h2 {
@@ -70,31 +110,212 @@
       .top-accent {
          display: block;
          height: 5px;
-         width: 650px;
+         width: 80%;
          background-color: $secondary;
          margin: 0 auto 20px;
       }
 
+      .bottom-accent {
+         display: block;
+         height: 5px;
+         width: 80%;
+         background-color: $secondary;
+         margin: 20px auto 0;
+      }
+
       .heading-tagline {
-         max-width: 650px;
+         max-width: 80%;
          margin: 10px auto 0;
+         @extend %clear;
 
          .bottom-left-accent,
          .bottom-right-accent {
             display: inline-block;
             height: 5px;
-            width: 180px;
+            width: 25%;
             background-color: $secondary;
+            margin: 20px auto;
          }
 
          .bottom-left-accent {
-            margin: 20px auto 20px;
             float: left;
          }
 
          .bottom-right-accent {
-            margin: 20px auto 20px;
             float: right;
+         }
+      }
+   }
+}
+@media only screen and (max-width:1280px) {
+   .hero {
+      .hero-heading {
+         h2 {
+            font-size: 44px;
+            line-height: 52px;
+         }
+
+         h3 {
+            font-size: 27px;
+            line-height: 37px;
+         }
+         .heading-tagline {
+            .bottom-left-accent,
+            .bottom-right-accent {
+               margin: 16px auto;
+            }
+         }
+      }
+   }
+}
+@media only screen and (max-width:1024px) {
+   .hero {
+      .push-down {
+         height: 140px;
+      }
+
+      .hero-heading {
+         h2 {
+            font-size: 36px;
+            line-height: 42px;
+         }
+
+         h3 {
+            font-size: 24px;
+            line-height: 34px;
+         }
+         .top-accent {
+            margin: 0 auto 18px;
+         }
+         .bottom-accent {
+            margin: 18px auto 0;
+         }
+         .heading-tagline {
+            margin: 8px auto 0;
+
+            .bottom-left-accent,
+            .bottom-right-accent {
+               width: 23%;
+               margin: 16px auto;
+            }
+         }
+      }
+   }
+}
+@media only screen and (max-width:768px) {
+   .hero {
+      &.hero--small {
+         .hero-content {
+            padding: 7% 0 10%;
+         }
+      }
+
+      .push-down {
+         height: 130px;
+      }
+
+      .hero-heading {
+         h2 {
+            font-size: 28px;
+            line-height: 38px;
+            @include letSpc(1px);
+         }
+
+         h3 {
+            font-size: 21px;
+            line-height: 31px;
+            @include letSpc(1px);
+         }
+         .top-accent {
+            height: 4px;
+            margin: 0 auto 12px;
+         }
+         .bottom-accent {
+            height: 4px;
+            margin: 12px auto 0;
+         }
+         .heading-tagline {
+            margin: 2px auto 0;
+
+            .bottom-left-accent,
+            .bottom-right-accent {
+               width: 19%;
+               margin: 14px auto;
+               height: 4px;
+            }
+         }
+      }
+
+      .hero-content .centerBtn {
+         margin-top: 8%;
+      }
+   }
+}
+@media only screen and (max-width:580px) {
+   .hero {
+      &.hero--small {
+         .hero-content {
+            padding: 9% 0 12%;
+         }
+      }
+
+      .push-down {
+         height: 130px;
+      }
+
+      .hero-content {
+         padding: 15% 0 17%;
+      }
+
+      .hero-heading {
+         h2 {
+            font-size: 22px;
+            line-height: 32px;
+         }
+
+         h3 {
+            font-size: 18px;
+            line-height: 27px;
+         }
+         .heading-tagline {
+            .bottom-left-accent,
+            .bottom-right-accent {
+               width: 17%;
+               margin: 12px auto;
+            }
+         }
+      }
+
+      .hero-content .centerBtn {
+         margin-top: 10%;
+      }
+   }
+}
+@media only screen and (max-width:480px) {
+   .hero {
+      .push-down {
+         height: 110px;
+      }
+   }
+}
+@media only screen and (max-width:460px) {
+   .hero {
+      .hero-heading {
+         h2 {
+            font-size: 20px;
+            line-height: 30px;
+         }
+
+         h3 {
+            font-size: 17px;
+            line-height: 26px;
+         }
+         .heading-tagline {
+            .bottom-left-accent,
+            .bottom-right-accent {
+               width: 16%;
+               margin: 11px auto;
+            }
          }
       }
    }
@@ -147,26 +368,112 @@
          padding: 0 7%;
       }
    }
+}
 
-   .split-50-left {
+.page-intro-split-cols {
+   &.split-50 {
+      .split-50-left {
+         padding-right: 5%;
+         padding-left: 11%;
+
+         .intro-text {
+            h3 {
+               @extend %sansB;
+               text-transform: uppercase;
+               font-size: 25px;
+               line-height: 30px;
+               @include letSpc(1px);
+            }
+         }
+      }
+
+      .split-50-right {
+         @extend %bgCover--center;
+      }
+   }
+}
+
+.form-section {
+   .section-heading {
+      text-align: center;
    }
 
-   .split-50-right {
+   .form-instructions {
+      text-align: center;
+   }
+}
+
+.layout-2-text-col {
+   .split-50 {
+      .split-50-left {
+         padding: 0 5% 0 0;
+      }
+
+      .split-50-right {
+         padding: 0 0 0 5%;
+      }
+   }
+}
+
+.layout-text-img-bg {
+   @extend %bgCover--center;
+
+   .left-text-col {
+      max-width: 460px;
+   }
+}
+
+.layout-single-centered-col {
+   .section-heading {
+      text-align: center;
+   }
+}
+@media only screen and (max-width:1280px) {
+   .layout-2-text-col {
+      .split-50 {
+         .split-50-left {
+            padding: 0 4% 0 0;
+         }
+
+         .split-50-right {
+            padding: 0 0 0 4%;
+         }
+      }
+   }
+}
+@media only screen and (max-width:768px) {
+   .layout-2-text-col {
+      .split-50 {
+         display: block;
+
+         .split-50-left,
+         .split-50-right {
+            width: 100%;
+            padding: 0;
+         }
+      }
+   }
+
+   .layout-text-img-bg {
+      .left-text-col {
+         max-width: 100%;
+      }
    }
 }
 
 
+
 .well {
-   padding-top: 7%;
-   padding-bottom: 7%;
+   padding-top: 9%;
+   padding-bottom: 9%;
 
    &.well--noBottom {
       padding-bottom: 0;
    }
 }
 .well--dbl {
-   padding-top: 14%;
-   padding-bottom: 14%;
+   padding-top: 18%;
+   padding-bottom: 18%;
 
    &.well--noBottom {
       padding-bottom: 0;
@@ -191,16 +498,16 @@
 }
 
 .well--s {
-   padding-top: 5%;
-   padding-bottom: 5%;
+   padding-top: 6%;
+   padding-bottom: 6%;
 
    &.well--noBottom {
       padding-bottom: 0;
    }
 }
 .well--s--dbl {
-   padding-top: 5%;
-   padding-bottom: 5%;
+   padding-top: 9%;
+   padding-bottom: 9%;
 
    &.well--noBottom {
       padding-bottom: 0;
@@ -282,12 +589,114 @@
       height: 4px;
       background-color: $secondary;
    }
+
+   &.wBars {
+      h3 {
+         font-size: 50px;
+         line-height: 56px;
+         @include letSpc(2px);
+      }
+
+      &:before {
+         content: "";
+         display: block;
+         height: 5px;
+         width: 330px;
+         background-color: $secondary;
+         margin: 0 auto 20px;
+      }
+
+      &:after {
+         content: "";
+         display: block;
+         height: 5px;
+         width: 330px;
+         background-color: $secondary;
+         margin: 20px auto 0;
+      }
+   }
+
+   &.wBarsTextTop {
+      width: auto;
+
+      &:after {
+         display: none;
+      }
+
+      h2 {
+         width: auto;
+         display: inline-block;
+         @extend %sansB;
+         font-size: 50px;
+         line-height: 58px;
+         text-transform: uppercase;
+         @include letSpc(3px);
+      }
+
+      h3 {
+         font-size: 20px;
+         line-height: 22px;
+         @include letSpc(2px);
+         display: inline-block;
+         margin-top: 11px;
+      }
+
+      .bottom-accent {
+         display: block;
+         height: 5px;
+         width: 80%;
+         background-color: $secondary;
+         margin: 20px auto 0;
+      }
+
+      .heading-tagline {
+         @extend %clear;
+         max-width: 80%;
+         margin: 10px auto 0;
+
+         .top-left-accent,
+         .top-right-accent {
+            display: inline-block;
+            height: 5px;
+            width: 25%;
+            background-color: $secondary;
+            margin: 20px auto;
+         }
+
+         .top-left-accent {
+            float: left;
+         }
+
+         .top-right-accent {
+            float: right;
+         }
+      }
+   }
 }
 
 
 .hasContent {
+   h1 {
+
+   }
+
+   h2 {
+
+   }
+
+   h3 {
+
+   }
+
+   h4 {
+      @extend %sansB;
+      font-size: 20px;
+      line-height: 25px;
+      text-transform: uppercase;
+      @include letSpc(1px);
+   }
+
    p {
-      @extend %serif;
       font-size: 16px;
       line-height: 23px;
       margin-bottom: 20px;
@@ -295,5 +704,237 @@
 
    .btn {
       margin-top: 10px;
+   }
+}
+
+@media only screen and (max-width:1280px) {
+   .section-heading {
+      h3 {
+         font-size: 34px;
+         line-height: 40px;
+      }
+
+      &.wBars {
+         h3 {
+            font-size: 44px;
+            line-height: 50px;
+         }
+
+         &:before {
+            width: 290px;
+         }
+
+         &:after {
+            width: 290px;
+         }
+      }
+
+      &.wBarsTextTop {
+         h2 {
+            font-size: 44px;
+            line-height: 52px;
+         }
+
+         h3 {
+            margin-top: 8px;
+         }
+
+         .heading-tagline {
+            .top-left-accent,
+            .top-right-accent {
+               width: 23%;
+               margin: 16px auto;
+            }
+         }
+
+         .bottom-accent {
+            margin: 16px auto 0;
+         }
+      }
+   }
+}
+
+@media only screen and (max-width:1024px) {
+   .section-heading {
+      h3 {
+         font-size: 30px;
+         line-height: 36px;
+      }
+
+      &.wBars {
+         h3 {
+            font-size: 40px;
+            line-height: 48px;
+            @include letSpc(1px);
+         }
+
+         &:before {
+            width: 240px;
+         }
+
+         &:after {
+            width: 240px;
+         }
+      }
+
+      &.wBarsTextTop {
+         h2 {
+            font-size: 36px;
+            line-height: 42px;
+         }
+
+         h3 {
+            margin-top: 8px;
+         }
+
+         .heading-tagline {
+            .top-left-accent,
+            .top-right-accent {
+               width: 21%;
+               margin: 16px auto;
+            }
+         }
+
+         .bottom-accent {
+            margin: 16px auto 0;
+         }
+      }
+   }
+
+   .hasContent {
+      p {
+         font-size: 15px;
+         line-height: 21px;
+      }
+   }
+}
+
+@media only screen and (max-width:900px) {
+   .section-heading {
+      &.wBars {
+         h3 {
+            font-size: 34px;
+            line-height: 42px;
+         }
+
+         &:before {
+            width: 200px;
+            margin: 0 auto 16px;
+         }
+
+         &:after {
+            width: 200px;
+            margin: 16px auto 0;
+         }
+      }
+   }
+}
+
+@media only screen and (max-width:768px) {
+   .section-heading {
+      &.wBars {
+         h3 {
+            font-size: 30px;
+            line-height: 28px;
+         }
+
+         &:before {
+            height: 4px;
+            width: 170px;
+            margin: 0 auto 12px;
+         }
+
+         &:after {
+            height: 4px;
+            width: 170px;
+            margin: 12px auto 0;
+         }
+      }
+
+      &.wBarsTextTop {
+         h2 {
+            font-size: 28px;
+            line-height: 38px;
+         }
+
+         h3 {
+            font-size: 17px;
+            line-height: 19px;
+            margin-top: 6px;
+         }
+
+         .heading-tagline {
+            .top-left-accent,
+            .top-right-accent {
+               width: 20%;
+               margin: 12px auto;
+            }
+         }
+
+         .bottom-accent {
+            margin: 12px auto 0;
+         }
+      }
+   }
+}
+
+@media only screen and (max-width:680px) {
+   .section-heading {
+      &.wBars {
+         h3 {
+            font-size: 40px;
+            line-height: 48px;
+         }
+
+         &:before {
+            height: 5px;
+            width: 240px;
+         }
+
+         &:after {
+            height: 5px;
+            width: 240px;
+         }
+      }
+   }
+}
+
+@media only screen and (max-width:520px) {
+   .section-heading {
+      &.wBars {
+         h3 {
+            font-size: 34px;
+            line-height: 42px;
+         }
+
+         &:before {
+            height: 4px;
+            width: 200px;
+         }
+
+         &:after {
+            height: 4px;
+            width: 200px;
+         }
+      }
+   }
+}
+
+@media only screen and (max-width:440px) {
+   .section-heading {
+      &.wBars {
+         h3 {
+            font-size: 28px;
+            line-height: 36px;
+         }
+
+         &:before {
+            width: 160px;
+         }
+
+         &:after {
+            width: 160px;
+         }
+      }
    }
 }

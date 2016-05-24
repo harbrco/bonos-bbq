@@ -1,4 +1,61 @@
 .home {
+   .home-about-intro-slider {
+      font-size: 0;
+
+      .left-col,
+      .right-col {
+         width: 50%;
+         display: inline-block;
+         font-size: 14px;
+         vertical-align: top;
+
+         &.hasContent {
+            padding: 0 7%;
+         }
+      }
+   }
+
+   .home-about-slider {
+      height: 100%;
+
+      .slide {
+         @extend %bgCover--center;
+         height: 100%;
+
+         .slide-text {
+            position: absolute;
+            z-index: 1;
+            bottom: 8%;
+            left: 8%;
+            @include letSpc(1px);
+            text-transform: uppercase;
+
+            h4 {
+               @extend %sansB;
+               color: $white;
+               font-size: 20px;
+               line-height: 26px;
+               margin-bottom: 4px;
+            }
+
+            span {
+               @extend %sansB;
+               @extend %hoverTrans;
+               color: $primary;
+               font-size: 16px;
+            }
+
+            &:hover {
+               cursor: pointer;
+
+               span {
+                  color: $white;
+               }
+            }
+         }
+      }
+   }
+
    .home-tagline-banner {
       @extend %bgCover--center;
       padding: 60px 30px;
@@ -14,14 +71,43 @@
    }
 
    .home-lower-ctas {
+      position: relative;
+
+      .or-box {
+         position: absolute;
+         z-index: 4;
+         top: 50%;
+         left: 50%;
+         margin-left: -34px;
+         margin-top: -22px;
+         width: 68px;
+         height: 45px;
+         border: 1px solid $primary;
+         text-align: center;
+         padding-top: 10px;
+
+         span {
+            color: $primary;
+            font-size: 20px;
+            line-height: 22px;
+            text-transform: uppercase;
+            @extend %sansB;
+            @include letSpc(1px);
+         }
+      }
+
       .flex-inner {
          position: relative;
-         z-index: 2;
+         z-index: 3;
       }
 
       .home-lower-cta {
          overflow: hidden;
          text-align: center;
+
+         .btn {
+            margin-top: 50px;
+         }
       }
 
       .split-50-left {
@@ -36,7 +122,7 @@
          position: absolute;
          top: 0;
          left: 0;
-         z-index: 1;
+         z-index: 0;
          width: 100%;
          height: 100%;
          background-image: url('http://img.youtube.com/vi/nZcejtAwxz4/maxresdefault.jpg');
@@ -46,7 +132,7 @@
             top: 50%;
             left: 50%;
             min-width: 101%;
-            min-height: 100%;
+            min-height: 101%;
             width: auto;
             height: auto;
             z-index: 0;
@@ -68,4 +154,97 @@
 
 
 // HOMEPAGE BREAKPOINTS = = = = = = =
+@media only screen and (max-width:1024px) {
+   .home {
+      .home-about-intro-slider {
+         .well--dbl {
+            padding-top: 10%;
+            padding-bottom: 10%;
+         }
 
+         .left-col.hasContent,
+         .right-col.hasContent {
+             padding: 0 5%;
+         }
+      }
+
+      .home-tagline-banner {
+         padding: 70px 30px;
+
+         h3 {
+            font-size: 30px;
+            line-height: 36px;
+         }
+      }
+
+      .home-lower-ctas .home-lower-cta .btn {
+          margin-top: 40px;
+      }
+   }
+}
+
+@media only screen and (max-width:900px) {
+   .home {
+      .home-about-intro-slider {
+         .left-col,
+         .right-col {
+            width: 100%;
+            display: block;
+         }
+
+         .well--dbl {
+            padding-top: 10%;
+            padding-bottom: 10%;
+         }
+
+         .left-col.hasContent,
+         .right-col.hasContent {
+             padding: 0 7%;
+         }
+      }
+
+      .home-lower-ctas .home-lower-cta .btn {
+          margin-top: 30px;
+      }
+   }
+}
+
+@media only screen and (max-width:680px) {
+   .home {
+      .home-lower-ctas {
+         &.split-50 {
+            display: block;
+
+            .split-50-left,
+            .split-50-right {
+               width: 100%;
+               display: block;
+            }
+         }
+      }
+   }
+}
+
+@media only screen and (max-width:768px) {
+   .home {
+      .home-tagline-banner {
+         h3 {
+            font-size: 24px;
+            line-height: 30px;
+         }
+      }
+   }
+}
+
+@media only screen and (max-width:420px) {
+   .home {
+      .home-tagline-banner {
+         padding: 50px 30px;
+
+         h3 {
+            font-size: 20px;
+            line-height: 26px;
+         }
+      }
+   }
+}

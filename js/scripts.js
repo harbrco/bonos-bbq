@@ -1,6 +1,9 @@
 // @codekit-prepend "libs/modernizr.js"
 // @codekit-prepend "libs/jquery.bxslider.min.js"
 // @codekit-prepend "libs/fastclick.js"
+// @codekit-prepend "libs/jquery.fancybox.pack.js"
+// @codekit-prepend "libs/fancybox-helpers/jquery.fancybox-buttons.js"
+// @codekit-prepend "libs/fancybox-helpers/jquery.fancybox-media.js"
 
 // DOM Ready
 (function($, window, undefined) {
@@ -76,14 +79,96 @@
     }, false);
 
 
+
+    var homeAboutSliderHeight;
+
+    var homeAboutSliderHeightCalc = function(){
+      homeAboutSliderHeight = $('.home-about-intro').height();
+      $('.bx-viewport').css("height", homeAboutSliderHeight);
+    };
+    homeAboutSliderHeightCalc();
+
+    $(window).resize(function() {
+      homeAboutSliderHeightCalc();
+    }).resize();
+
+
     // bxSlider(s)
-    $('.CLASSofSLIDER').bxSlider({
-      adaptiveHeight: true,
-      nextSelector: '.slide-next',
-      prevSelector: '.slide-prev',
-      nextText: '',
-      prevText: ''
+    $('.home-about-slider').bxSlider({
+      mode: 'fade',
+      auto: ($(".home-about-slider>.slide").length > 1) ? true: false,
+      autoHover: true,
+      pause: 5000,
+      adaptiveHeight: false,
+      controls: false,
+      pager: ($(".home-about-slider>.slide").length > 1) ? true: false
     });
+
+
+
+    // Fancybox - Modal popup
+    // video modal
+    $(".fancybox-video").fancybox({
+      width: "100%",
+      height: "85%",
+      type:'iframe',
+      openOpacity: true,
+
+      helpers: {
+        media :{},
+        overlay: {
+          locked: false
+        }
+      },
+      beforeLoad: function() {
+        $('#fancybox-loading').appendTo('#fancyWrap');
+      },
+      beforeShow: function() {
+        $('.fancybox-wrap, .fancybox-overlay, #fancybox-loading').appendTo('#fancyWrap');
+      },
+      afterShow: function() {
+        $('.fancybox-close').addClass('close-btn').prepend("<i class='close-icon'></i>");
+        $('body').addClass('noScroll');
+      },
+      afterClose: function() {
+        $('#fancyWrap, .fancy-positioner').removeClass('isOpen');
+        $('body').removeClass('noScroll');
+      }
+    });
+
+    $('body').on('click', '.video-play-btn', function(){
+      $('#fancyWrap, .fancy-positioner').addClass('isOpen');
+    });
+
+
+    // image modal
+    $('body').on('click', '.image-modal', function(e){
+      e.preventDefault();
+      $('#fancyWrap, .fancy-positioner').addClass('isOpen');
+    });
+
+    $(".fancybox-image").fancybox({
+      helpers: {
+        overlay: {
+          locked: false
+        }
+      },
+      beforeLoad: function() {
+        $('#fancybox-loading').appendTo('#fancyWrap');
+      },
+      beforeShow: function() {
+        $('.fancybox-wrap, .fancybox-overlay, #fancybox-loading').appendTo('#fancyWrap');
+      },
+      afterShow: function() {
+        $('.fancybox-close').addClass('close-btn').prepend("<i class='close-icon'></i>");
+        $('body').addClass('noScroll');
+      },
+      afterClose: function() {
+        $('#fancyWrap, .fancy-positioner').removeClass('isOpen');
+        $('body').removeClass('noScroll');
+      }
+    });
+
 
 
     // Force .middle-wrapper to have min-height to fill up space and push footer down (for short-content pages)

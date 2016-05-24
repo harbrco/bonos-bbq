@@ -25,33 +25,73 @@
    </div>
 
 
-   <div class="home-about-intro-slider split-50 isDarkGray">
-      <div class="home-about-intro split-50-left hasContent">
-         <div class="flex-inner well--dbl">
+   <div class="home-about-intro-slider isDarkGray">
+      <div class="home-about-intro left-col hasContent">
+         <div class="well--dbl">
             <div class="section-heading">
-               <h3>This is Who We Are</h3>
+               <h3><?php the_field('intro_heading'); ?></h3>
             </div>
 
-            <p>Welcome to Bono’s Pit Bar-B-Q! At Bono’s, it’s not just about serving great food, it’s about providing the most authentic traditional southern BBQ experience you’ve ever had.</p>
-            <p>We invite you to come join us whether it is your first time ever or first time this week. And remember, if you don’t see a Pit, it ain’t Legit.</p>
+            <?php the_field('intro_text'); ?>
             <a href="/about/" class="btn wAccents btn--ghost">More About Us</a>
          </div>
       </div>
 
-      <div class="home-about-slider split-50-right">
+      <div class="home-about-slider-wrapper right-col">
+         <?php if( have_rows('intro_slides') ): ?>
+         <div class="home-about-slider">
+            <?php while( have_rows('intro_slides') ): the_row(); ?>
+            <div class="slide hasOverlay" style="background-image: url('<?php the_sub_field('slide_background_image'); ?>');">
+               <div class="darkOverlay do20"></div>
+               <div class="slide-text">
+                  <?php if ( get_sub_field('open_in_new_tab') && get_sub_field('slide_link_url') ) { ?>
+                     <a href="<?php the_sub_field('slide_link_url'); ?>" target="_blank">
+                        <h4><?php the_sub_field('slide_title'); ?></h4>
+                        <span>View</span>
+                     </a>
+
+                  <?php } elseif ( get_sub_field('slide_link_url') ) { ?>
+                     <a href="<?php the_sub_field('slide_link_url'); ?>">
+                        <h4><?php the_sub_field('slide_title'); ?></h4>
+                        <span>View</span>
+                     </a>
+
+                  <?php } elseif ( get_sub_field('slide_type') == "image-popup" ) { ?>
+                     <a href="<?php the_sub_field('slide_image'); ?>" class="fancybox-image image-modal">
+                        <h4><?php the_sub_field('slide_title'); ?></h4>
+                        <span>View</span>
+                     </a>
+
+                  <?php } elseif ( get_sub_field('slide_type') == "video-popup" ) { ?>
+                     <a href="<?php the_sub_field('slide_video_url'); ?>" class="video-play-btn fancybox-video">
+                        <h4><?php the_sub_field('slide_title'); ?></h4>
+                        <span>View</span>
+                     </a>
+
+                  <?php } ?>
+               </div>
+            </div>
+
+            <?php endwhile; ?>
+         </div>
+         <?php endif; ?>
       </div>
    </div>
 
 
    <div class="home-tagline-banner isPrimary" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/section-bgs/home-tagline-bg.jpg');">
-      <h3>If You Don't See A Pit, It Ain't Legit.</h3>
+      <h3>If You Don't See A Pit, <span class="noWrap">It Ain't Legit.</span></h3>
    </div>
 
 
    <div class="home-lower-ctas split-50 isDarkGray">
-      <div class="home-lower-cta split-50-left">
+      <div class="or-box">
+         <span>OR</span>
+      </div>
+      <div class="home-lower-cta split-50-left hasOverlay">
+         <div class="darkOverlay do60"></div>
          <div class="flex-inner well--dbl">
-            <div class="section-heading">
+            <div class="section-heading wBars">
                <h3>Plan Your Visit</h3>
             </div>
 
@@ -67,9 +107,10 @@
          </div>
       </div>
 
-      <div class="home-lower-cta split-50-right">
+      <div class="home-lower-cta split-50-right hasOverlay">
+         <div class="darkOverlay do60"></div>
          <div class="flex-inner well--dbl">
-            <div class="section-heading">
+            <div class="section-heading wBars">
                <h3>Plan Your Event</h3>
             </div>
 

@@ -1,8 +1,29 @@
-// add contact page specific styles here:
+.contact {
+   .page-intro-split-cols {
+      .split-50-left {
+         a {
+            color: $darkGray;
+            cursor: text;
+         }
 
+         .intro-text {
+            .phone,
+            .fax {
+               display: inline-block;
+               vertical-align: top;
 
+               p {
+                  margin-bottom: 0;
+               }
+            }
 
-// CONTACT PAGE TYPOGRAPHY = = = = = = =
+            .phone {
+               margin-right: 30px;
+            }
+         }
+      }
+   }
+}
 
 
 
