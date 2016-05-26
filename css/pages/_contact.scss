@@ -1,7 +1,8 @@
-.contact {
+.contact,
+.catering {
    .page-intro-split-cols {
       .split-50-left {
-         a {
+         a[href^=tel] {
             color: $darkGray;
             cursor: text;
          }
@@ -29,4 +30,45 @@
 
 
 // CONTACT PAGE BREAKPOINTS = = = = = = =
+@media only screen and (max-width:1440px) {
+   .catering {
+      .page-intro-split-cols {
+         &.split-50 {
+            .split-50-left {
+               padding-right: 7%;
+               padding-left: 7%;
+            }
+         }
+      }
+   }
+}
 
+@media only screen and (max-width:1280px) {
+   .catering {
+      .page-intro-split-cols {
+         &.split-50 {
+            .split-50-left {
+               padding-right: 5%;
+               padding-left: 5%;
+            }
+         }
+      }
+   }
+}
+
+@media only screen and (max-width:1024px) {
+   .page-intro-split-cols {
+      &.split-50 {
+         display: block;
+
+         .split-50-left,
+         .split-50-right {
+            width: 100%;
+         }
+
+         .split-50-right {
+            padding-bottom: 55%;
+         }
+      }
+   }
+}

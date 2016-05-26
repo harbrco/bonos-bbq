@@ -16,6 +16,7 @@
    border-style: solid;
    font-size: 18px;
    line-height: 18px;
+   @extend %hoverTrans;
    @extend %sansB;
    text-transform: uppercase;
    @include letSpc(1px);
@@ -58,6 +59,20 @@
 
       &:hover {
          background-color: rgba($primary, 0.75);
+      }
+   }
+}
+
+.isLightGray,
+.isWhite {
+   .btn {
+      &.btn--ghost {
+         color: $darkGray;
+
+         &:hover {
+            color: $white;
+            background-color: $primary;
+         }
       }
    }
 }

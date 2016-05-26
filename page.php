@@ -4,8 +4,14 @@
    <?php /* CONTACT */ if ( is_page( 'contact' ) ) { ?>
       <?php get_template_part( 'partials/partial', 'contact' ); ?>
 
+   <?php } /* MENU */ elseif ( is_page( 'menu' ) ) { ?>
+      <?php get_template_part( 'partials/partial', 'menu' ); ?>
+
    <?php } /* ABOUT */ elseif ( is_page( 'about' ) ) { ?>
       <?php get_template_part( 'partials/partial', 'about' ); ?>
+
+   <?php } /* CATERING */ elseif ( is_page( 'catering' ) ) { ?>
+      <?php get_template_part( 'partials/partial', 'catering' ); ?>
 
 
    <?php } /* GENERIC PAGES */ else { ?>

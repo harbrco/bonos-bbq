@@ -1,4 +1,4 @@
-<div class="hero hero--small" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/section-bgs/about-lower-cta-bg.jpg');">
+<div class="hero hero--small" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/section-bgs/catering-hero-bg.jpg');">
    <div class="push-down">
    </div>
 
@@ -6,7 +6,7 @@
       <div class="inner">
          <div class="hero-heading container">
             <span class="top-accent"></span>
-            <h2>Contact Us</h2>
+            <h2>Bono's Catering</h2>
             <span class="bottom-accent"></span>
          </div>
       </div>
@@ -22,24 +22,11 @@
          </div>
 
          <div class="intro-text">
-            <div class="address">
-               <h3>Corporate Office</h3>
-               <p><?php the_field('corporate_office_address'); ?></p>
-            </div>
+            <?php the_field('intro_text'); ?>
 
-            <div class="phone">
-               <h3>Phone</h3>
-               <?php
-               $phoneNumber = get_field('phone_number');
-               $phoneClean = str_replace('.', '', $phoneNumber);
-               ?>
-               <p><a href="tel:+1<?php echo $phoneClean; ?>"><?php the_field('phone_number'); ?></a></p>
-            </div>
-
-            <div class="fax">
-               <h3>Fax</h3>
-               <p><?php the_field('fax_number'); ?></p>
-            </div>
+            <?php if(get_field('catering_menu_pdf')) { ?>
+               <a href="<?php the_field('catering_menu_pdf'); ?>" class="btn btn--ghost" target="_blank">Download Menu</a>
+            <?php } ?>
          </div>
       </div>
    </div>
@@ -56,13 +43,13 @@
       </div>
 
       <div class="form-instructions">
-         <?php the_field('form_instructions'); ?>
+         <p><?php the_field('form_instructions'); ?></p>
 
          <h4><?php the_field('form_instruction_subheading'); ?></h4>
       </div>
 
       <div class="form-wrapper">
-         <?php gravity_form(1, false, false, false, '', true, 12); ?>
+         <?php gravity_form(2, false, false, false, '', true, 12); ?>
       </div>
    </div>
 </div>

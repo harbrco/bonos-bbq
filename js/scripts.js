@@ -184,6 +184,14 @@
     }
 
 
+    // Gravity Forms custom select field - give focus effects.
+    $('.select-style').find('select').on('focusin', function() {
+      $(this).parent().addClass('hasFocus');
+    });
+    $('.select-style').find('select').on('focusout', function() {
+      $(this).parent().removeClass('hasFocus');
+    });
+
     // Gravity Forms default text clear on focus
     $.fn.cleardefault = function() {
       return this.focus(function() {

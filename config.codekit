@@ -266,6 +266,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/css\/modules\/_forms.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/modules\/_forms.scss",
+		"outputAbbreviatedPath": "\/css\/css\/_forms.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/css\/modules\/_grid.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -426,6 +442,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/css\/pages\/_menu.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/pages\/_menu.scss",
+		"outputAbbreviatedPath": "\/css\/css\/_menu.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/css\/partials\/_footer.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -553,6 +585,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/catering-intro-photo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42111,
+		"inputAbbreviatedPath": "\/img\/catering-intro-photo.jpg",
+		"outputAbbreviatedPath": "\/img\/catering-intro-photo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/contact-intro-photo.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -652,6 +695,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/icons\/select-down-arrow@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 301,
+		"inputAbbreviatedPath": "\/img\/icons\/select-down-arrow@2x.png",
+		"outputAbbreviatedPath": "\/img\/icons\/select-down-arrow@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/locally-smoked@2x.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -696,6 +750,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/section-bgs\/catering-hero-bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 554969,
+		"inputAbbreviatedPath": "\/img\/section-bgs\/catering-hero-bg.jpg",
+		"outputAbbreviatedPath": "\/img\/section-bgs\/catering-hero-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/section-bgs\/home-hero-bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -714,6 +779,72 @@
 		"initialSize": 54303,
 		"inputAbbreviatedPath": "\/img\/section-bgs\/home-tagline-bg.jpg",
 		"outputAbbreviatedPath": "\/img\/section-bgs\/home-tagline-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/section-bgs\/menu-family-feast-min.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 152914,
+		"inputAbbreviatedPath": "\/img\/section-bgs\/menu-family-feast-min.jpg",
+		"outputAbbreviatedPath": "\/img\/section-bgs\/menu-family-feast-min.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/section-bgs\/menu-platters-min.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 112185,
+		"inputAbbreviatedPath": "\/img\/section-bgs\/menu-platters-min.jpg",
+		"outputAbbreviatedPath": "\/img\/section-bgs\/menu-platters-min.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/section-bgs\/menu-salads-min.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 103111,
+		"inputAbbreviatedPath": "\/img\/section-bgs\/menu-salads-min.jpg",
+		"outputAbbreviatedPath": "\/img\/section-bgs\/menu-salads-min.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/section-bgs\/menu-sandwiches-min.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 122587,
+		"inputAbbreviatedPath": "\/img\/section-bgs\/menu-sandwiches-min.jpg",
+		"outputAbbreviatedPath": "\/img\/section-bgs\/menu-sandwiches-min.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/section-bgs\/menu-smokehouse-stackers-min.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 154628,
+		"inputAbbreviatedPath": "\/img\/section-bgs\/menu-smokehouse-stackers-min.jpg",
+		"outputAbbreviatedPath": "\/img\/section-bgs\/menu-smokehouse-stackers-min.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/section-bgs\/menu-smokin-snacks-min.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 176744,
+		"inputAbbreviatedPath": "\/img\/section-bgs\/menu-smokin-snacks-min.jpg",
+		"outputAbbreviatedPath": "\/img\/section-bgs\/menu-smokin-snacks-min.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -915,11 +1046,29 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/partials\/partial-catering.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/partials\/partial-catering.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/partials\/partial-contact.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/partials\/partial-contact.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/partials\/partial-menu.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/partials\/partial-menu.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
