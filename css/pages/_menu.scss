@@ -26,7 +26,7 @@
 
          &:hover {
             .menu-category {
-               transform:scale(1.2)
+               transform:scale(1.17)
             }
 
             .menu-category-title {
@@ -51,7 +51,7 @@
          position: relative;
          vertical-align: top;
          padding-bottom: 63.8%;
-         transition: transform 4s ease-out;
+         transition: transform 4s cubic-bezier(.4,.09,.57,1);
       }
 
       .menu-category-title {
@@ -98,6 +98,251 @@
             }
             &:after {
                right: -11px;
+            }
+         }
+      }
+
+
+      .menu-items-box {
+         display: none;
+
+         .menu-category-heading {
+            @extend %bgCover--center;
+            width: 100%;
+            padding: 22px 30px;
+            position: relative;
+
+            h3 {
+               color: $white;
+               font-size: 30px;
+               line-height: 36px;
+               @extend %sansB;
+               text-transform: uppercase;
+               @include letSpc(1px);
+               position: relative;
+               z-index: 1;
+            }
+         }
+
+         .menu-items-list {
+            display: block;
+            padding: 5% 10%;
+
+            .menu-item-list {
+               column-count: 2;
+               column-gap: 60px;
+            }
+
+            .menu-item {
+               vertical-align: top;
+               display: inline;
+
+               h4 {
+                  color: $darkGray;
+                  font-size: 18px;
+                  line-height: 22px;
+                  @extend %sansB;
+                  text-transform: uppercase;
+                  @include letSpc(1px);
+                  margin-bottom: 2px;
+
+                  &.no-description {
+                     margin-bottom: 18px;
+                  }
+               }
+
+               p {
+                  font-size: 13px;
+                  line-height: 19px;
+                  margin-bottom: 18px;
+               }
+
+               &:first-child {
+                  h4 {
+                     margin-top: 0;
+                  }
+               }
+            }
+         }
+      }
+   }
+
+
+   .fancybox-wrap {
+      max-width: 750px;
+
+      .fancybox-inner {
+         overflow: visible !important;
+         max-width: 720px;
+      }
+
+      .menu-items-box {
+         .menu-category-box-shadow {
+            box-shadow: 0px 2px 16px 0px rgba(0,0,0,0.1);
+         }
+
+         .menu-category-heading {
+            @extend %bgCover--center;
+            width: 100%;
+            padding: 22px 30px;
+            position: relative;
+
+            h3 {
+               color: $white;
+               font-size: 30px;
+               line-height: 36px;
+               @extend %sansB;
+               text-transform: uppercase;
+               @include letSpc(1px);
+               position: relative;
+               z-index: 1;
+            }
+         }
+
+         .menu-items-list {
+            display: block;
+            padding: 5% 10%;
+
+            .menu-item-list {
+               column-count: 2;
+               column-gap: 60px;
+               column-fill: balance;
+            }
+
+            .menu-item {
+               -webkit-margin-before: 0;
+               -webkit-margin-after: 0;
+               vertical-align: top;
+               display: inline-block;
+
+               h4 {
+                  color: $darkGray;
+                  font-size: 18px;
+                  line-height: 22px;
+                  @extend %sansB;
+                  text-transform: uppercase;
+                  @include letSpc(1px);
+                  margin-bottom: 2px;
+
+                  &.no-description {
+                     margin-bottom: 18px;
+                  }
+               }
+
+               p {
+                  font-size: 13px;
+                  line-height: 19px;
+                  margin-bottom: 18px;
+               }
+
+               &:first-child {
+                  h4 {
+                     margin-top: 0;
+                  }
+               }
+            }
+         }
+
+         .next-prev-menu-category-links {
+            @extend %clear;
+            font-size: 0;
+
+            .more-items {
+               display: block;
+               text-align: center;
+               padding: 24px 0;
+
+               h4 {
+                  position: relative;
+                  color: $darkGray;
+                  font-size: 16px;
+                  line-height: 20px;
+                  @extend %sansB;
+                  text-transform: uppercase;
+                  @include letSpc(1px);
+
+                  &:before,
+                  &:after {
+                     position: absolute;
+                     top: 10px;
+                     content: '';
+                     display: block;
+                     width: calc(50% - 66px);
+                     height: 1px;
+                     background-color: $lightDkGray;
+                  }
+
+                  &:before {
+                     left: 0;
+                  }
+
+                  &:after {
+                     right: 0;
+                  }
+               }
+            }
+
+            .prev,
+            .next {
+               @extend %bgCover--center;
+               font-size: 14px;
+               display: inline-block;
+               vertical-align: top;
+               width: 49%;
+
+               a {
+                  display: block;
+                  padding: 10px;
+                  position: relative;
+                  z-index: 1;
+                  color: $white;
+                  font-size: 18px;
+                  line-height: 22px;
+                  @extend %sansB;
+                  text-transform: uppercase;
+                  @include letSpc(1px);
+               }
+            }
+            .prev {
+               margin-right: 1%;
+            }
+            .next {
+               float: right;
+            }
+         }
+      }
+
+      .fancybox-nav {
+         display: none;
+      }
+   }
+}
+
+// MENU PAGE BREAKPOINTS = = = = = = =
+@media only screen and (max-width:1280px) {
+   .menu {
+
+   }
+}
+
+@media only screen and (max-width:650px) {
+   .menu {
+      .menu-categories {
+         .menu-category-wrap {
+            display: block;
+            width: 100%;
+            margin: 0 0 5%;
+
+            a {
+               display: none;
+            }
+
+            .menu-items-box {
+               display: block;
+
+               .more-items {
+                  display: none;
+               }
             }
          }
       }

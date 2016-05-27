@@ -22,9 +22,10 @@
 
       <?php if( have_rows('menu_Category') ): ?>
       <div class="menu-categories">
+         <?php $menuCatIndex = 1; ?>
          <?php while( have_rows('menu_Category') ): the_row(); ?>
             <div class="menu-category-wrap hasOverlay">
-               <a href="#">
+               <a href="#menu-category-<?php echo $menuCatIndex; ?>" class="fancybox-menu-box" data-fancybox-group="menuCategories">
                   <div class="darkOverlay do50"></div>
                   <div class="menu-category isDarkGray" style="background-image: url('<?php the_sub_field('menu_category_image'); ?>');">
                   </div>
@@ -35,9 +36,54 @@
                      </div>
                   </div>
                </a>
+
+               <div id="menu-category-<?php echo $menuCatIndex; ?>" class="menu-items-box">
+                  <div class="menu-category-box-shadow">
+                     <div class="menu-category-heading isDarkGray hasOverlay" style="background-image: url('<?php the_sub_field('menu_category_image'); ?>');">
+                        <div class="darkOverlay do50"></div>
+                        <h3><?php the_sub_field('menu_category_title'); ?></h3>
+                     </div>
+
+                     <?php if( have_rows('menu_item') ): ?>
+                     <div class="menu-items-list isWhite">
+                        <ul class="menu-item-list">
+                        <?php while( have_rows('menu_item') ): the_row(); ?>
+                           <li class="menu-item">
+                              <?php if (get_sub_field('menu_item_description')) { ?>
+                                 <h4><?php the_sub_field('menu_item_name'); ?></h4>
+                                 <p><?php the_sub_field('menu_item_description'); ?></p>
+
+                              <?php } else { ?>
+                                 <h4 class="no-description"><?php the_sub_field('menu_item_name'); ?></h4>
+
+                              <?php } ?>
+                           </li>
+                        <?php endwhile; ?>
+                        </ul>
+                     </div>
+                     <?php endif; ?>
+                  </div>
+
+                  <div class="next-prev-menu-category-links">
+                     <div class="more-items">
+                        <h4>Keep Looking</h4>
+                     </div>
+
+                     <div class="prev hasOverlay" style="background-image: url('<?php the_sub_field('menu_category_image'); ?>');">
+                        <div class="darkOverlay do50"></div>
+                        <a href="javascript:parent.$.fancybox.prev();">prev</a>
+                     </div>
+
+                     <div class="next hasOverlay" style="background-image: url('<?php the_sub_field('menu_category_image'); ?>');">
+                        <div class="darkOverlay do50"></div>
+                        <a href="javascript:parent.$.fancybox.next();">next</a>
+                     </div>
+                  </div>
+               </div>
             </div>
 
-         <?php endwhile; ?>
+         <?php $menuCatIndex++; ?>
+      <?php endwhile; ?>
       </div>
       <?php endif; ?>
    </div>
