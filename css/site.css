@@ -1585,6 +1585,8 @@ body.modalOpen .mobile-menu-wrapper {
     .home .home-lower-ctas .home-lower-cta .btn {
       margin-top: 50px; }
     .home .home-lower-ctas .home-lower-cta .darkOverlay {
+      width: 101%;
+      height: 101%;
       margin-left: -1px;
       margin-top: -1px; }
   .home .home-lower-ctas .split-50-left {
@@ -2215,8 +2217,6 @@ body.modalOpen .mobile-menu-wrapper {
     z-index: 1; }
 
 .darkOverlay {
-  width: 101%;
-  height: 101%;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 1; }
   .darkOverlay.do20 {
