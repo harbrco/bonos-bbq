@@ -19,6 +19,39 @@
     });
 
 
+    // Homepage Song Fade
+    if( $('body').hasClass('home') ) {
+      var audioElm = $('#scrollaudio').get(0);
+      audioElm.play();
+
+      var elHeight = $('.hero').height();
+      var elHeightCalc = elHeight * 0.8;
+
+      var maxVol = 1;
+      var minVol = 0.2;
+
+      $(window).scroll(function() {
+        if( $(window).scrollTop() >= elHeightCalc ) {
+          audioElm.volume = minVol;
+        } else {
+          audioElm.volume = maxVol - $(window).scrollTop() / elHeight;
+        }
+      });
+
+      $('.audio-toggle').click(function() {
+        if (audioElm.paused === false) {
+          audioElm.pause();
+          $(this).addClass('playBtn');
+          $(this).removeClass('pauseBtn');
+        } else {
+          audioElm.play();
+          $(this).addClass('pauseBtn');
+          $(this).removeClass('playBtn');
+        }
+      });
+    }
+
+
     // Adds touch screen "hover" support
     // Also needed to add "-webkit-tap-highlight-color: rgba(0,0,0,0);" to the "a" tag in _defaults.scss to get rid of gray overlay
     document.addEventListener("touchstart", function(){}, true);
@@ -209,8 +242,11 @@
       }
     });
 
+
     $(".fancybox-menu-box").fancybox({
       minWidth: '100%',
+      scrolling: 'visible',
+      type: 'inline',
       nextEffect: 'fade',
       prevEffect: 'fade',
       helpers: {

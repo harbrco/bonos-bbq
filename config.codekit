@@ -651,6 +651,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/icons\/arrow-sm-white-lt@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 261,
+		"inputAbbreviatedPath": "\/img\/icons\/arrow-sm-white-lt@2x.png",
+		"outputAbbreviatedPath": "\/img\/icons\/arrow-sm-white-lt@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/arrow-sm-white-rt@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 251,
+		"inputAbbreviatedPath": "\/img\/icons\/arrow-sm-white-rt@2x.png",
+		"outputAbbreviatedPath": "\/img\/icons\/arrow-sm-white-rt@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/audio-pause@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2760,
+		"inputAbbreviatedPath": "\/img\/icons\/audio-pause@2x.png",
+		"outputAbbreviatedPath": "\/img\/icons\/audio-pause@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/audio-play@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3406,
+		"inputAbbreviatedPath": "\/img\/icons\/audio-play@2x.png",
+		"outputAbbreviatedPath": "\/img\/icons\/audio-play@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/icons\/close-x-sprite.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -779,6 +823,17 @@
 		"initialSize": 54303,
 		"inputAbbreviatedPath": "\/img\/section-bgs\/home-tagline-bg.jpg",
 		"outputAbbreviatedPath": "\/img\/section-bgs\/home-tagline-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/section-bgs\/lower-cta-bg-temp.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 512358,
+		"inputAbbreviatedPath": "\/img\/section-bgs\/lower-cta-bg-temp.jpg",
+		"outputAbbreviatedPath": "\/img\/section-bgs\/lower-cta-bg-temp.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

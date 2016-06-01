@@ -1,8 +1,14 @@
 <?php get_header(); ?>
 
    <div class="hero" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/section-bgs/home-hero-bg.jpg');">
+      <audio id="scrollaudio" src="<?php echo get_template_directory_uri(); ?>/media/jingle.mp3"></audio>
+
       <div class="push-down">
       </div>
+
+      <span class="audio-toggle pauseBtn">
+         <span class="icon"></span>
+      </span>
 
       <div class="hero-content">
          <div class="inner">
@@ -98,10 +104,10 @@
             <a href="/locations/" class="btn wAccents">View Locations</a>
          </div>
 
-         <div class="video">
+         <div class="video" style="background-image: url('<?php the_field('cta_left_background_image'); ?>');">
             <video class="thevideo" loop preload="none">
-            <source src="http://giant.gfycat.com/VerifiableTerrificHind.mp4" type="video/mp4">
-            <source src="http://giant.gfycat.com/VerifiableTerrificHind.webm" type="video/webm">
+            <source src="<?php the_field('cta_left_background_video_webm'); ?>" type="video/webm">
+            <source src="<?php the_field('cta_left_background_video_mp4'); ?>" type="video/mp4">
             Your browser does not support the video tag.
             </video>
          </div>
@@ -117,10 +123,10 @@
             <a href="/catering/" class="btn wAccents">Catering Info</a>
          </div>
 
-         <div class="video">
+         <div class="video" style="background-image: url('<?php the_field('cta_right_background_image'); ?>');">
             <video class="thevideo" loop preload="none">
-            <source src="http://giant.gfycat.com/VerifiableTerrificHind.mp4" type="video/mp4">
-            <source src="http://giant.gfycat.com/VerifiableTerrificHind.webm" type="video/webm">
+            <source src="<?php the_field('cta_right_background_video_webm'); ?>" type="video/webm">
+            <source src="<?php the_field('cta_right_background_video_mp4'); ?>" type="video/mp4">
             Your browser does not support the video tag.
             </video>
          </div>

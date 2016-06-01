@@ -61,13 +61,15 @@
             position: absolute;
             z-index: 1;
             width: 100%;
+            max-width: 90%;
             text-align: center;
+            margin-left: 5%;
          }
 
          h3 {
             @extend %hoverTrans;
             position: relative;
-            display: inline;
+            display: inline-block;
             width: auto;
             color: $white;
             font-size: 30px;
@@ -86,7 +88,7 @@
                content: '';
                display: inline-block;
                position: absolute;
-               top: 31px;
+               top: 49.9%;
                width: 21px;
                height: 3px;
                background-color: $white;
@@ -121,6 +123,10 @@
                @include letSpc(1px);
                position: relative;
                z-index: 1;
+            }
+
+            .close-menu-modal {
+               display: none;
             }
          }
 
@@ -172,7 +178,7 @@
       max-width: 750px;
 
       .fancybox-inner {
-         overflow: visible !important;
+         //overflow: visible !important;
          max-width: 720px;
       }
 
@@ -197,11 +203,34 @@
                position: relative;
                z-index: 1;
             }
+
+            .close-menu-modal {
+               position: absolute;
+               top: 0;
+               right: 0;
+               z-index: 1;
+               width: 72px;
+               height: 80px;
+               display: inline-block;
+               background-color: rgba($black, .3);
+               border-left: 1px solid $medGray;
+               @extend %hoverTrans;
+
+               a {
+                  @extend %linkblock;
+               }
+
+               &:hover {
+                  background-color: rgba($black, .6);
+               }
+            }
          }
 
          .menu-items-list {
             display: block;
             padding: 5% 10%;
+            max-height: calc(100vh - 260px) !important;
+            overflow-y: scroll;
 
             .menu-item-list {
                column-count: 2;
@@ -282,13 +311,37 @@
                }
             }
 
+            .prev-next-arrow {
+               display: inline-block;
+               position: absolute;
+               z-index: 1;
+               top: 14px;
+               width: 18px;
+               height: 15px;
+               background-size: 18px 15px;
+
+               &.arrow-lt {
+                  @extend %hoverTrans;
+                  left: 20px;
+                  background-image: url('../img/icons/arrow-sm-white-lt@2x.png');
+               }
+
+               &.arrow-rt {
+                  @extend %hoverTrans;
+                  right: 20px;
+                  background-image: url('../img/icons/arrow-sm-white-rt@2x.png');
+               }
+            }
+
             .prev,
             .next {
+               position: relative;
                @extend %bgCover--center;
                font-size: 14px;
                display: inline-block;
                vertical-align: top;
                width: 49%;
+               text-align: center;
 
                a {
                   display: block;
@@ -302,9 +355,28 @@
                   text-transform: uppercase;
                   @include letSpc(1px);
                }
+
+               &:hover {
+                  .darkOverlay {
+                     &.do50 {
+                        background-color: rgba($black, 0.35);
+                     }
+                  }
+
+                  .prev-next-arrow {
+                     &.arrow-lt {
+                        left: 10px;
+                     }
+
+                     &.arrow-rt {
+                        right: 10px;
+                     }
+                  }
+               }
             }
             .prev {
                margin-right: 1%;
+
             }
             .next {
                float: right;
@@ -319,9 +391,31 @@
 }
 
 // MENU PAGE BREAKPOINTS = = = = = = =
-@media only screen and (max-width:1280px) {
+@media only screen and (max-width:1024px) {
    .menu {
+      .menu-categories {
+         .menu-category-title {
+            h3 {
+               font-size: 24px;
+               line-height: 30px;
+               padding: 12px 26px;
+            }
+         }
+      }
+   }
+}
 
+@media only screen and (max-width:900px) {
+   .menu {
+      .menu-categories {
+         .menu-category-title {
+            h3 {
+               font-size: 20px;
+               line-height: 26px;
+               padding: 12px 24px;
+            }
+         }
+      }
    }
 }
 
@@ -338,10 +432,52 @@
             }
 
             .menu-items-box {
-               display: block;
+               display: block !important;
+
+               .menu-items-list {
+                  display: block;
+                  padding: 5%;
+               }
 
                .more-items {
                   display: none;
+               }
+            }
+         }
+      }
+   }
+}
+
+@media only screen and (max-width:520px) {
+   .menu {
+      .menu-categories {
+         .menu-items-box {
+            .menu-category-heading {
+               h3 {
+                  font-size: 24px;
+                  line-height: 30px;
+               }
+            }
+
+            .menu-items-list {
+               .menu-item-list {
+                  column-count: auto;
+                  column-gap: normal;
+               }
+            }
+         }
+      }
+   }
+}
+
+@media only screen and (max-width:400px) {
+   .menu {
+      .menu-categories {
+         .menu-items-box {
+            .menu-category-heading {
+               h3 {
+                  font-size: 22px;
+                  line-height: 26px;
                }
             }
          }

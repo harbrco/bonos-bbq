@@ -125,4 +125,17 @@
          background-color: $secondary;
       }
    }
+
+   &.close-menu-box {
+      margin-top: 0;
+      margin-left: -16px !important;
+      top: 22px !important;
+
+      span {
+         width: 30px;
+         top: 18px;
+         height: 2px;
+         background-color: $white;
+      }
+   }
 }

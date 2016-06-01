@@ -15,10 +15,12 @@
 
       <div class="fancy-positioner">
          <div id="fancyWrap" class="">
-            <a href="javascript:parent.$.fancybox.close();" class="close-modal close-btn modal-toggle">
-               <span></span>
-               <span></span>
-            </a>
+            <?php if ( !is_page('menu') ) { ?>
+               <a href="javascript:parent.$.fancybox.close();" class="close-modal close-btn modal-toggle">
+                  <span></span>
+                  <span></span>
+               </a>
+            <?php } ?>
          </div>
       </div>
 

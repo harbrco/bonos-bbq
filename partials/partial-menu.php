@@ -42,6 +42,14 @@
                      <div class="menu-category-heading isDarkGray hasOverlay" style="background-image: url('<?php the_sub_field('menu_category_image'); ?>');">
                         <div class="darkOverlay do50"></div>
                         <h3><?php the_sub_field('menu_category_title'); ?></h3>
+                        <span class="close-menu-modal">
+                           <a href="javascript:parent.$.fancybox.close();">
+                              <span class="close-modal close-menu-box close-btn modal-toggle">
+                                 <span></span>
+                                 <span></span>
+                              </span>
+                           </a>
+                        </span>
                      </div>
 
                      <?php if( have_rows('menu_item') ): ?>
@@ -71,11 +79,13 @@
 
                      <div class="prev hasOverlay" style="background-image: url('<?php the_sub_field('menu_category_image'); ?>');">
                         <div class="darkOverlay do50"></div>
+                        <span class="prev-next-arrow arrow-lt"></span>
                         <a href="javascript:parent.$.fancybox.prev();">prev</a>
                      </div>
 
                      <div class="next hasOverlay" style="background-image: url('<?php the_sub_field('menu_category_image'); ?>');">
                         <div class="darkOverlay do50"></div>
+                        <span class="prev-next-arrow arrow-rt"></span>
                         <a href="javascript:parent.$.fancybox.next();">next</a>
                      </div>
                   </div>
