@@ -1589,8 +1589,7 @@ body.modalOpen .mobile-menu-wrapper {
     left: 0;
     z-index: 0;
     width: 100%;
-    height: 100%;
-    background-image: url("http://img.youtube.com/vi/nZcejtAwxz4/maxresdefault.jpg"); }
+    height: 100%; }
     .home .home-lower-ctas .video video {
       position: absolute;
       top: 50%;
