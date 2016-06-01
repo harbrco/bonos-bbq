@@ -25,6 +25,8 @@
 
 .darkOverlay {
    @extend %absFill;
+   width: 101%;
+   height: 101%;
    @extend %hoverTrans;
    background-color: rgba($black, .5);
    z-index: 1;

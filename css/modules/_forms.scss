@@ -127,13 +127,6 @@
    }
 
 
-   // .gf_right_half {
-   //    &.select-style {
-   //       margin-top: -2px !important;
-   //    }
-   // }
-
-
    // custom select style
    .select-style {
       .ginput_container_select,
@@ -191,6 +184,10 @@
          &-default {
             color: $primary !important;
             font-size: 10px;
+         }
+
+         &::-ms-expand {
+            display: none;
          }
       }
    }

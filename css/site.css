@@ -605,14 +605,14 @@ th {
   display: block;
   cursor: pointer; }
 
-.home .home-about-slider .slide, .home .home-tagline-banner, .menu .menu-categories .menu-category, .menu .menu-categories .menu-items-box .menu-category-heading, .menu .fancybox-wrap .menu-items-box .menu-category-heading, .menu .fancybox-wrap .menu-items-box .next-prev-menu-category-links .prev,
+.home .home-about-slider .slide, .home .home-tagline-banner, .home .home-lower-ctas .video, .menu .menu-categories .menu-category, .menu .menu-categories .menu-items-box .menu-category-heading, .menu .fancybox-wrap .menu-items-box .menu-category-heading, .menu .fancybox-wrap .menu-items-box .next-prev-menu-category-links .prev,
 .menu .fancybox-wrap .menu-items-box .next-prev-menu-category-links .next, .leadership .team-member-block .member-photo,
 .employees .team-member-block .member-photo, .about-lower-cta, .hero, .page-intro-split-cols.split-50 .split-50-right, .layout-text-img-bg {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center top; }
 
-.home .home-about-slider .slide, .home .home-tagline-banner, .menu .menu-categories .menu-category, .menu .menu-categories .menu-items-box .menu-category-heading, .menu .fancybox-wrap .menu-items-box .menu-category-heading, .menu .fancybox-wrap .menu-items-box .next-prev-menu-category-links .prev,
+.home .home-about-slider .slide, .home .home-tagline-banner, .home .home-lower-ctas .video, .menu .menu-categories .menu-category, .menu .menu-categories .menu-items-box .menu-category-heading, .menu .fancybox-wrap .menu-items-box .menu-category-heading, .menu .fancybox-wrap .menu-items-box .next-prev-menu-category-links .prev,
 .menu .fancybox-wrap .menu-items-box .next-prev-menu-category-links .next, .leadership .team-member-block .member-photo,
 .employees .team-member-block .member-photo, .about-lower-cta, .hero, .page-intro-split-cols.split-50 .split-50-right, .layout-text-img-bg {
   background-position: center center; }
@@ -819,6 +819,8 @@ th {
     .gform_wrapper .select-style select-default {
       color: #C3502B !important;
       font-size: 10px; }
+    .gform_wrapper .select-style select::-ms-expand {
+      display: none; }
   .gform_wrapper .li.gfield.gfield_error {
     background-color: transparent !important;
     border: none !important; }
@@ -1543,7 +1545,10 @@ body.modalOpen .mobile-menu-wrapper {
         .home .home-about-slider .slide .slide-text:hover span {
           color: #fff; }
 .home .home-tagline-banner {
-  padding: 60px 30px; }
+  padding: 60px 30px;
+  margin-top: -1px;
+  position: relative;
+  z-index: 50; }
   .home .home-tagline-banner h3 {
     text-align: center;
     font-size: 40px;
@@ -1579,6 +1584,9 @@ body.modalOpen .mobile-menu-wrapper {
     text-align: center; }
     .home .home-lower-ctas .home-lower-cta .btn {
       margin-top: 50px; }
+    .home .home-lower-ctas .home-lower-cta .darkOverlay {
+      margin-left: -1px;
+      margin-top: -1px; }
   .home .home-lower-ctas .split-50-left {
     position: relative; }
   .home .home-lower-ctas .split-50-right {
@@ -2207,6 +2215,8 @@ body.modalOpen .mobile-menu-wrapper {
     z-index: 1; }
 
 .darkOverlay {
+  width: 101%;
+  height: 101%;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 1; }
   .darkOverlay.do20 {

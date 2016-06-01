@@ -110,6 +110,9 @@
    .home-tagline-banner {
       @extend %bgCover--center;
       padding: 60px 30px;
+      margin-top: -1px;
+      position: relative;
+      z-index: 50;
 
       h3 {
          text-align: center;
@@ -159,6 +162,11 @@
          .btn {
             margin-top: 50px;
          }
+
+         .darkOverlay {
+            margin-left: -1px;
+            margin-top: -1px;
+         }
       }
 
       .split-50-left {
@@ -170,6 +178,7 @@
       }
 
       .video {
+         @extend %bgCover--center;
          position: absolute;
          top: 0;
          left: 0;
