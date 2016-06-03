@@ -18,6 +18,7 @@
    line-height: 18px;
    @extend %hoverTrans;
    @extend %sansB;
+   text-align: center;
    text-transform: uppercase;
    @include letSpc(1px);
    min-width: 190px;

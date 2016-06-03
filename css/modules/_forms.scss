@@ -110,6 +110,8 @@
 
    .ginput_complex {
       &.ginput_container_address {
+         overflow: visible !important;
+
          input:first-child {
             //margin-top: 2px;
          }
@@ -123,72 +125,6 @@
    form .ginput_container_date {
       input.datepicker {
          width: 100% !important;
-      }
-   }
-
-
-   // custom select style
-   .select-style {
-      .ginput_container_select,
-      .address_state {
-         @extend %hoverTrans;
-         @extend %sansLt;
-         @include letSpc(1px);
-         text-transform: uppercase;
-         color: $medLtGray;
-         font-size: 18px;
-         line-height: 22px;
-
-         height: 54px;
-         position: relative;
-         padding: 0 0 0 11px;
-         margin: 0;
-         color: $medLtGray;
-         border: 1px solid $lightDkGray;
-         width: 100%;
-         overflow: hidden;
-         background-color: #fff;
-         background-image: url('../img/icons/select-down-arrow@2x.png');
-         background-repeat: no-repeat;
-         background-size: 36px 54px;
-         background-position: right 8px top;
-
-         &.hasFocus {
-            border-color: $primary;
-         }
-      }
-
-
-      select {
-         @extend %hoverTrans;
-         color: $medLtGray;
-         text-transform: uppercase;
-         width: 100% !important;
-         height: 54px;
-         margin-left: 10px;
-         padding: 5px 50px 5px 4px;
-         border: none;
-         box-shadow: none;
-         background-color: transparent;
-         background-image: none;
-         -webkit-appearance: none;
-         -moz-appearance: none;
-         appearance: none;
-
-         &:focus {
-            color: $primary;
-            outline: none;
-            border-color: $primary;
-         }
-
-         &-default {
-            color: $primary !important;
-            font-size: 10px;
-         }
-
-         &::-ms-expand {
-            display: none;
-         }
       }
    }
 
@@ -215,6 +151,105 @@
       }
    }
 }
+
+
+// custom select style
+.select-style {
+   & > .ginput_container_select,
+   .address_state {
+      @extend %hoverTrans;
+      @extend %sansLt;
+      @include letSpc(1px);
+      text-transform: uppercase;
+      color: $medLtGray;
+      font-size: 18px;
+      line-height: 22px;
+
+      height: 54px;
+      position: relative;
+      padding: 0 0 0 11px;
+      margin: 0;
+      color: $medLtGray;
+      border: 1px solid $lightDkGray;
+      width: 100%;
+      overflow: hidden;
+      background-color: #fff;
+      background-image: url('../img/icons/select-down-arrow@2x.png');
+      background-repeat: no-repeat;
+      background-size: 36px 54px;
+      background-position: right 8px top;
+
+      &.hasFocus {
+         border-color: $primary;
+      }
+   }
+
+   & > .inner {
+      @extend %hoverTrans;
+      @extend %sansLt;
+      @include letSpc(1px);
+      width: auto;
+      text-transform: uppercase;
+      color: $medLtGray;
+      font-size: 18px;
+      line-height: 22px;
+      position: relative;
+      padding: 0 0 0 11px;
+      margin: 0;
+      color: $medLtGray;
+      border: 1px solid $lightDkGray;
+      overflow: hidden;
+      background-color: #fff;
+      background-image: url('../img/icons/select-down-arrow@2x.png');
+      background-repeat: no-repeat;
+      background-size: 36px 54px;
+      background-position: right 8px top;
+
+      &.hasFocus {
+         border-color: $primary;
+      }
+
+      select {
+         margin-left: 0;
+         min-width: 240px;
+      }
+   }
+
+
+   select {
+      @extend %hoverTrans;
+      color: $medLtGray;
+      text-transform: uppercase;
+      width: 100% !important;
+      height: 54px;
+      margin-left: 10px;
+      padding: 5px 50px 5px 4px;
+      border: none;
+      box-shadow: none;
+      background-color: transparent;
+      background-image: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+
+      &:focus {
+         color: $primary;
+         outline: none;
+         border-color: $primary;
+      }
+
+      &-default {
+         color: $primary !important;
+         font-size: 10px;
+      }
+
+      &::-ms-expand {
+         display: none;
+      }
+   }
+}
+
+
 
 body img.gform_ajax_spinner {
    display: none !important;
@@ -452,15 +487,6 @@ body img.gform_ajax_spinner {
          }
       }
 
-      .select-style {
-         .ginput_container_select {
-            width: 100%;
-         }
-         select {
-            width: 100%;
-         }
-      }
-
       ul {
          li {
             textarea {
@@ -473,5 +499,14 @@ body img.gform_ajax_spinner {
    .gform_wrapper form .top_label li.gfield.gfield_error.gf_left_half,
    .gform_wrapper form .top_label li.gfield.gfield_error.gf_right_half {
       width: 100% !important;
+   }
+
+   .select-style {
+      .ginput_container_select {
+         width: 100%;
+      }
+      select {
+         width: 100%;
+      }
    }
 }

@@ -7,104 +7,6 @@
    }
 
    .menu-categories {
-      font-size: 0;
-
-      .menu-category-wrap {
-         width: 49%;
-         margin-bottom: 2%;
-         overflow: hidden;
-         font-size: 14px;
-         display: inline-block;
-
-         &:nth-child(odd) {
-            margin-right: 2%;
-         }
-
-         a {
-            @extend %linkblock;
-         }
-
-         &:hover {
-            .menu-category {
-               transform:scale(1.17)
-            }
-
-            .menu-category-title {
-               h3 {
-                  color: $darkGray;
-                  background-color: rgba($white, .9);
-
-                  &:before {
-                     left: -21px;
-                  }
-                  &:after {
-                     right: -21px;
-                  }
-               }
-            }
-         }
-      }
-
-      .menu-category {
-         @extend %bgCover--center;
-         width: 100%;
-         position: relative;
-         vertical-align: top;
-         padding-bottom: 63.8%;
-         transition: transform 4s cubic-bezier(.4,.09,.57,1);
-      }
-
-      .menu-category-title {
-         @extend %absFill;
-
-         .inner {
-            position: absolute;
-            z-index: 1;
-            width: 100%;
-            max-width: 90%;
-            text-align: center;
-            margin-left: 5%;
-         }
-
-         h3 {
-            @extend %hoverTrans;
-            position: relative;
-            display: inline-block;
-            width: auto;
-            color: $white;
-            font-size: 30px;
-            line-height: 36px;
-            @extend %sansB;
-            text-transform: uppercase;
-            @include letSpc(1px);
-            padding: 12px 30px;
-            border-color: $white;
-            border-width: 1px;
-            border-style: solid;
-            background-color: transparent;
-
-            &:before,
-            &:after {
-               content: '';
-               display: inline-block;
-               position: absolute;
-               top: 49.9%;
-               width: 21px;
-               height: 3px;
-               background-color: $white;
-               @extend %hoverTrans;
-            }
-
-            &:before {
-               left: -11px;
-            }
-            &:after {
-               right: -11px;
-            }
-         }
-      }
-
-
       .menu-items-box {
          display: none;
 
@@ -391,42 +293,10 @@
 }
 
 // MENU PAGE BREAKPOINTS = = = = = = =
-@media only screen and (max-width:1024px) {
-   .menu {
-      .menu-categories {
-         .menu-category-title {
-            h3 {
-               font-size: 24px;
-               line-height: 30px;
-               padding: 12px 26px;
-            }
-         }
-      }
-   }
-}
-
-@media only screen and (max-width:900px) {
-   .menu {
-      .menu-categories {
-         .menu-category-title {
-            h3 {
-               font-size: 20px;
-               line-height: 26px;
-               padding: 12px 24px;
-            }
-         }
-      }
-   }
-}
-
 @media only screen and (max-width:650px) {
    .menu {
       .menu-categories {
          .menu-category-wrap {
-            display: block;
-            width: 100%;
-            margin: 0 0 5%;
-
             a {
                display: none;
             }

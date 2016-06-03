@@ -10,6 +10,9 @@
    <?php } /* ABOUT */ elseif ( is_page( 'about' ) ) { ?>
       <?php get_template_part( 'partials/partial', 'about' ); ?>
 
+   <?php } /* LOCATIONS */ elseif ( is_page( 'locations' ) ) { ?>
+      <?php get_template_part( 'partials/partial', 'locations' ); ?>
+
    <?php } /* CATERING */ elseif ( is_page( 'catering' ) ) { ?>
       <?php get_template_part( 'partials/partial', 'catering' ); ?>
 

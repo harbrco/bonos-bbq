@@ -57,17 +57,19 @@
 }
 
 @media only screen and (max-width:1024px) {
-   .page-intro-split-cols {
-      &.split-50 {
-         display: block;
+   .catering {
+      .page-intro-split-cols {
+         &.split-50 {
+            display: block;
 
-         .split-50-left,
-         .split-50-right {
-            width: 100%;
-         }
+            .split-50-left,
+            .split-50-right {
+               width: 100%;
+            }
 
-         .split-50-right {
-            padding-bottom: 55%;
+            .split-50-right {
+               padding-bottom: 55%;
+            }
          }
       }
    }

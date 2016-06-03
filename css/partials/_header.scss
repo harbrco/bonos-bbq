@@ -69,11 +69,10 @@
             border-bottom: 4px solid $secondary;
 
             a {
-               cursor: default;
                color: $white;
 
                &:hover {
-                  color: $white;
+                  color: $secondary;
                }
             }
          }

@@ -275,6 +275,54 @@
 
 
 
+    // Locations page(s)
+    if ( $('body').hasClass('locations') || $('body').hasClass('tax-city') ) {
+      // Add button class to nearest location "get directions" button
+      $('.nearest-location-wrapper .info').find('a').addClass('btn btn--ghost');
+
+      // add wrapper around city filter select box
+      $('#ofcity').wrap('<div class="select-style"><div class="inner"></div></div>');
+
+      // remove default submit button, and make it so it triggers automatically when user changes selection
+      $(".city-filter input[type='submit']").each(function() {
+        $(this).remove();
+      });
+
+      // change default "search" function on "All Cities" choice - don't search, just go to "Locations" page
+      $('.city-filter').find('select').change(function(){
+        if (this.value === "0") {
+          window.location = "/locations/"; // redirect
+          return false;
+
+        } else {
+          $(this).closest('form').trigger('submit');
+        }
+      });
+
+      if ( $('body').hasClass('tax-city') ) {
+        $('.main-menu').find('.isLocations').addClass('current-menu-item');
+      }
+    }
+
+
+    // Single Location Page stuff
+    if ( $('body').hasClass('single-location') ) {
+      $('.main-menu').find('.isLocations').addClass('current-menu-item');
+
+      // remove (hide) extra stuff in this box
+      $('.location-intro .gmw-single-post-sc-wrapper').find('.map-wrapper, .distance-wrapper, .gmw-single-post-sc-additional-info').remove();
+
+      $(".gmw-single-post-sc-form").prepend("<h4>Get Directions:</h4>");
+
+      // Add button class to "get directions" GO button - and remove "input submit"
+      $(".gmw-single-post-sc-form input[type='submit']").each(function() {
+        $(this).remove();
+      });
+      $('<button type="submit" class="btn btn--ghost">Go</button>').appendTo(".gmw-single-post-sc-form form");
+    }
+
+
+
     // Force .middle-wrapper to have min-height to fill up space and push footer down (for short-content pages)
     if ( ! $('body').hasClass('touch') ) {
       var middleWrapperHeight;

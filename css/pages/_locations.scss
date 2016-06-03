@@ -1,0 +1,218 @@
+.location-navigate {
+   @extend %clear;
+   margin-bottom: 30px;
+
+   .city-filter {
+      display: inline-block;
+      vertical-align: bottom;
+      width: auto;
+      margin-right: 50px;
+
+      .label {
+         display: inline-block;
+         vertical-align: top;
+         @extend %sansB;
+         font-size: 20px;
+         line-height: 25px;
+         text-transform: uppercase;
+         @include letSpc(1px);
+         padding-top: 14px;
+         margin-right: 20px;
+         margin-bottom: 8px;
+      }
+
+      .searchandfilter {
+         display: inline-block;
+         vertical-align: top;
+
+         & > div {
+            line-height: 0px;
+         }
+
+         li {
+            padding-right: 0;
+         }
+      }
+   }
+
+   .all-locations {
+      margin-top: 20px;
+      margin-bottom: 5px;
+      width: auto;
+      display: inline-block;
+      vertical-align: bottom;
+   }
+}
+
+
+.location-map-info {
+   .map-wrapper {
+      @extend %clear;
+      height: auto !important;
+
+      .gmw-map {
+         padding-bottom: 50%;
+      }
+   }
+
+   .distance-wrapper,
+   .gmw-single-post-sc-additional-info {
+      display: none !important;
+   }
+
+   .directions-wrapper {
+      margin-top: 20px;
+
+      h4 {
+         @extend %sansB;
+         font-size: 20px;
+         line-height: 25px;
+         text-transform: uppercase;
+         @include letSpc(1px);
+         margin-bottom: 10px;
+      }
+
+      a {
+         display: none;
+      }
+   }
+
+   .gmw-single-post-sc-form {
+      margin-bottom: 10px;
+      display: block !important;
+
+      input[type=text] {
+         @extend %hoverTrans;
+         @extend %sansLt;
+         @include letSpc(1px);
+         width: 100% !important;
+         max-width: 400px;
+         text-transform: none;
+         color: $medLtGray;
+         font-size: 18px;
+         line-height: 22px;
+         height: 54px;
+         border: none;
+         border: 1px solid $lightDkGray;
+         border-radius: 0;
+         padding: 12px;
+         margin-bottom: 5px;
+         margin-right: 20px;
+         background-color: transparent;
+
+         &:focus {
+            color: $primary;
+            outline: none;
+            border-color: $primary;
+         }
+
+         &::-webkit-input-placeholder {
+            text-transform: uppercase;
+            transition: all 0.2s ease;
+            color: $medLtGray;
+         }
+         &:focus::-webkit-input-placeholder {
+            transition: all 0.2s ease;
+            color: $primary;
+         }
+         /* Firefox < 19 */
+         &:-moz-placeholder {
+            text-transform: uppercase;
+            transition: all 0.2s ease;
+            color: $medLtGray;
+         }
+         &:focus:-moz-placeholder {
+            transition: all 0.2s ease;
+            color: $primary;
+         }
+         /* Firefox > 19 */
+         &::-moz-placeholder {
+            text-transform: uppercase;
+            transition: all 0.2s ease;
+            color: $medLtGray;
+         }
+         &:focus::-moz-placeholder {
+            transition: all 0.2s ease;
+            color: $primary;
+         }
+         /* Internet Explorer 10 */
+         &:-ms-input-placeholder {
+            text-transform: uppercase;
+            transition: all 0.2s ease;
+            color: $medLtGray;
+         }
+         &:focus:-ms-input-placeholder {
+            transition: all 0.2s ease;
+            color: $primary;
+         }
+      }
+
+      button {
+         display: inline-block;
+         min-width: auto;
+         width: auto;
+         //max-width: 90px;
+
+         &:focus {
+            outline: none;
+         }
+      }
+   }
+}
+
+
+// LOCATIONS PAGE BREAKPOINTS = = = = = = =
+@media only screen and (max-width:1440px) {
+   .nearest-location-wrapper {
+      .page-intro-split-cols {
+         &.split-50 {
+            .split-50-left {
+               padding-right: 7%;
+               padding-left: 7%;
+            }
+         }
+      }
+   }
+}
+
+@media only screen and (max-width:1280px) {
+   .nearest-location-wrapper {
+      .page-intro-split-cols {
+         &.split-50 {
+            .split-50-left {
+               padding-right: 5%;
+               padding-left: 5%;
+            }
+         }
+      }
+   }
+}
+
+@media only screen and (max-width:768px) {
+   .nearest-location-wrapper {
+      .page-intro-split-cols {
+         &.split-50 {
+            display: block;
+
+            .split-50-left,
+            .split-50-right {
+               width: 100%;
+            }
+
+            .split-50-right {
+               padding-bottom: 55%;
+            }
+         }
+      }
+   }
+}
+
+@media only screen and (max-width:650px) {
+   .location-map-info {
+      .map-wrapper {
+         .gmw-map {
+            padding-bottom: 60%;
+         }
+      }
+   }
+}

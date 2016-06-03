@@ -21,16 +21,16 @@
       </div>
 
       <?php if( have_rows('menu_Category') ): ?>
-      <div class="menu-categories">
+      <div class="menu-categories image-box-links">
          <?php $menuCatIndex = 1; ?>
          <?php while( have_rows('menu_Category') ): the_row(); ?>
-            <div class="menu-category-wrap hasOverlay">
+            <div class="menu-category-wrap image-box-wrap hasOverlay">
                <a href="#menu-category-<?php echo $menuCatIndex; ?>" class="fancybox-menu-box" data-fancybox-group="menuCategories">
                   <div class="darkOverlay do50"></div>
-                  <div class="menu-category isDarkGray" style="background-image: url('<?php the_sub_field('menu_category_image'); ?>');">
+                  <div class="menu-category image-box isDarkGray" style="background-image: url('<?php the_sub_field('menu_category_image'); ?>');">
                   </div>
 
-                  <div class="menu-category-title">
+                  <div class="menu-category-title image-box-title">
                      <div class="inner vAlign vAlignAbs">
                         <h3><?php the_sub_field('menu_category_title'); ?></h3>
                      </div>
