@@ -27,9 +27,9 @@
             <?php echo do_shortcode('[searchandfilter taxonomies="city" types"select"]') ?>
          </div>
 
-         <div class="all-locations">
+         <!-- <div class="all-locations">
             <a href="/locations/" class="btn btn--ghost">View All</a>
-         </div>
+         </div> -->
       </div>
 
       <div class="image-box-links">
