@@ -21,21 +21,18 @@
 
     // Homepage Song Fade
     if( $('body').hasClass('home') ) {
-      var audioElm = $('#scrollaudio').get(0);
-      audioElm.play();
-
+      var maxVol = 40;
+      var minVol = 15;
       var elHeight = $('.hero').height();
-      var elHeightCalc = elHeight * 0.8;
+      var audioElm = $('#scrollaudio').get(0);
 
-      var maxVol = 1;
-      var minVol = 0.2;
+      audioElm.play();
+      audioElm.volume = maxVol/100;
 
       $(window).scroll(function() {
-        if( $(window).scrollTop() >= elHeightCalc ) {
-          audioElm.volume = minVol;
-        } else {
-          audioElm.volume = maxVol - $(window).scrollTop() / elHeight;
-        }
+        var positionPercent = Math.max(0, (100 - (($(window).scrollTop() / elHeight) * 100)));
+        var newVol = (((((maxVol - minVol) / 100) * positionPercent) + minVol) / 100);
+        audioElm.volume = newVol;
       });
 
       $('.audio-toggle').click(function() {
