@@ -304,6 +304,11 @@
 
     // Single Location Page stuff
     if ( $('body').hasClass('single-location') ) {
+      // start page scroll at top, then animate down using animateScroll below
+      $('html,body').animate({
+        scrollTop: 0
+      }, 1);
+
       $('.main-menu').find('.isLocations').addClass('current-menu-item');
 
       // remove (hide) extra stuff in this box
@@ -317,6 +322,38 @@
       });
       $('<button type="submit" class="btn btn--ghost">Go</button>').appendTo(".gmw-single-post-sc-form form");
     }
+
+
+    // Smooth scrolling for anchors on same page - via: https://css-tricks.com/snippets/jquery/smooth-scrolling/
+    setTimeout(function() {
+      $(function() {
+        $('a[href*=#]:not([href=#], .modalTrigger)').click(function() {
+          if (location.pathname.replace(/^\//,'') === this.pathname.replace(/^\//,'') && location.hostname === this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+              $('html,body').animate({
+                scrollTop: target.offset().top
+              }, 600);
+              return false;
+            }
+          }
+        });
+      });
+    }, 260);
+
+    var animateScroll = function () {
+      var urlHash = window.location.href.split("#")[1];
+      if (urlHash &&  $('#' + urlHash).length ) {
+        $('html,body').animate({
+          scrollTop: $('#' + urlHash).offset().top
+        }, 600);
+      }
+    console.log(urlHash);
+    };
+
+
+    $(window).on("load", animateScroll);
 
 
 

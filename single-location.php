@@ -44,7 +44,7 @@
    </div>
 
 
-   <div class="location-map-info wrapper isWhite well">
+   <div id="map-wrapper" class="location-map-info wrapper isWhite well">
       <div class="container narrowContentLg">
          <?php echo do_shortcode('[gmw_single_location map_width="100%" zoom_level="14" additional_info"0"]'); ?>
       </div>
