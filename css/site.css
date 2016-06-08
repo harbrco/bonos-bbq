@@ -2581,13 +2581,16 @@ body.modalOpen .mobile-menu-wrapper {
   .layout-text-img-bg .left-text-col {
     max-width: 100%; } }
 .image-box-links {
-  font-size: 0; }
+  font-size: 0;
+  text-align: center; }
   .image-box-links .image-box-wrap {
     width: 49%;
     margin-bottom: 2%;
     overflow: hidden;
     font-size: 14px;
     display: inline-block; }
+    .image-box-links .image-box-wrap:last-child {
+      margin-right: 0 !important; }
     .image-box-links .image-box-wrap:nth-child(odd) {
       margin-right: 2%; }
     .image-box-links .image-box-wrap:hover .image-box {

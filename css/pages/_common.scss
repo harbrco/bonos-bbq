@@ -520,6 +520,7 @@
 // Image Boxes
 .image-box-links {
    font-size: 0;
+   text-align: center;
 
    .image-box-wrap {
       width: 49%;
@@ -527,6 +528,10 @@
       overflow: hidden;
       font-size: 14px;
       display: inline-block;
+
+      &:last-child {
+         margin-right: 0 !important;
+      }
 
       &:nth-child(odd) {
          margin-right: 2%;

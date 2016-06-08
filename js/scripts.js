@@ -325,35 +325,36 @@
 
 
     // Smooth scrolling for anchors on same page - via: https://css-tricks.com/snippets/jquery/smooth-scrolling/
-    setTimeout(function() {
-      $(function() {
-        $('a[href*=#]:not([href=#], .modalTrigger)').click(function() {
-          if (location.pathname.replace(/^\//,'') === this.pathname.replace(/^\//,'') && location.hostname === this.hostname) {
-            var target = $(this.hash);
-            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-            if (target.length) {
-              $('html,body').animate({
-                scrollTop: target.offset().top
-              }, 600);
-              return false;
+    // don't include this script on "menu" page - it was breaking the menu popup
+    if ( ! $('body').hasClass('menu') ) {
+      setTimeout(function() {
+        $(function() {
+          $('a[href*=#]:not([href=#], .modalTrigger)').click(function() {
+            if (location.pathname.replace(/^\//,'') === this.pathname.replace(/^\//,'') && location.hostname === this.hostname) {
+              var target = $(this.hash);
+              target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+              if (target.length) {
+                $('html,body').animate({
+                  scrollTop: target.offset().top
+                }, 600);
+                return false;
+              }
             }
-          }
+          });
         });
-      });
-    }, 260);
+      }, 260);
 
-    var animateScroll = function () {
-      var urlHash = window.location.href.split("#")[1];
-      if (urlHash &&  $('#' + urlHash).length ) {
-        $('html,body').animate({
-          scrollTop: $('#' + urlHash).offset().top
-        }, 600);
-      }
-    console.log(urlHash);
-    };
+      var animateScroll = function () {
+        var urlHash = window.location.href.split("#")[1];
+        if (urlHash &&  $('#' + urlHash).length ) {
+          $('html,body').animate({
+            scrollTop: $('#' + urlHash).offset().top
+          }, 600);
+        }
+      };
 
-
-    $(window).on("load", animateScroll);
+      $(window).on("load", animateScroll);
+    }
 
 
 
