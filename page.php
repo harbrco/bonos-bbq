@@ -19,43 +19,58 @@
 
    <?php } /* GENERIC PAGES */ else { ?>
 
-      <!-- section -->
-      <section role="main">
+      <div class="hero hero--small" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/section-bgs/about-lower-cta-bg.jpg');">
+         <div class="push-down">
+         </div>
 
-         <h1><?php the_title(); ?></h1>
+         <div class="hero-content">
+            <div class="inner">
+               <div class="hero-heading container">
+                  <span class="top-accent"></span>
+                  <h2><?php the_title(); ?></h2>
+                  <span class="bottom-accent"></span>
+               </div>
+            </div>
+         </div>
+      </div>
 
-      <?php if (have_posts()): while (have_posts()) : the_post(); ?>
+      <div class="menu-section wrapper isWhite well">
+         <div class="container narrowContentLg">
+            <!-- section -->
+            <section role="main">
 
-         <!-- article -->
-         <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+            <?php if (have_posts()): while (have_posts()) : the_post(); ?>
 
-            <?php the_content(); ?>
+               <!-- article -->
+               <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-            <br class="clear">
+                  <?php the_content(); ?>
 
-            <?php edit_post_link(); ?>
+                  <br class="clear">
 
-         </article>
-         <!-- /article -->
+                  <?php edit_post_link(); ?>
 
-      <?php endwhile; ?>
+               </article>
+               <!-- /article -->
 
-      <?php else: ?>
+            <?php endwhile; ?>
 
-         <!-- article -->
-         <article>
+            <?php else: ?>
 
-            <h2><?php _e( 'Sorry, nothing to display.', 'html5blank' ); ?></h2>
+               <!-- article -->
+               <article>
 
-         </article>
-         <!-- /article -->
+                  <h2><?php _e( 'Sorry, nothing to display.', 'html5blank' ); ?></h2>
 
-      <?php endif; ?>
+               </article>
+               <!-- /article -->
 
-      </section>
-      <!-- /section -->
+            <?php endif; ?>
 
-      <?php get_sidebar(); ?>
+            </section>
+            <!-- /section -->
+         </div>
+      </div>
 
    <?php } ?>
 
