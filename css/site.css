@@ -1819,7 +1819,7 @@ body.modalOpen .mobile-menu-wrapper {
       -webkit-margin-before: 0;
       -webkit-margin-after: 0;
       vertical-align: top;
-      display: inline-block; }
+      display: block; }
       .menu .fancybox-wrap .menu-items-box .menu-items-list .menu-item h4 {
         color: #221E1F;
         font-size: 18px;
