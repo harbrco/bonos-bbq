@@ -5,13 +5,13 @@
       </div>
 
       <div class="intro-text">
-         <h3><a href="<?php the_permalink(); ?>"><?php echo stripslashes( the_title() ); ?></a></h3>
+         <h3><a href="<?php echo get_permalink($post->ID); ?>"><?php echo stripslashes( the_title() ); ?></a></h3>
 
          <div class="info">
             <p><?php the_field('location_address'); ?></p>
             <p><?php the_field('location_phone_numbers'); ?></p>
 
-            <a href="<?php the_permalink(); ?>#map-wrapper" class="btn btn--ghost">View On The Map</a>
+            <a href="<?php echo get_permalink($post->ID); ?>#map-wrapper" class="btn btn--ghost">View On The Map</a>
 
             <!-- directions -->
             <?php //if ( $directions ) : ?>

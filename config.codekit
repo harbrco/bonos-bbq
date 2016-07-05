@@ -590,6 +590,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/geo-my-wp\/current-location\/assets\/css\/gmw-cl-style.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/geo-my-wp\/current-location\/assets\/css\/gmw-cl-style.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/geo-my-wp\/nearby-locations\/posts\/lightcoral\/content-end.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -893,6 +902,17 @@
 		"initialSize": 307231,
 		"inputAbbreviatedPath": "\/img\/section-bgs\/home-hero-bg.jpg",
 		"outputAbbreviatedPath": "\/img\/section-bgs\/home-hero-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/section-bgs\/home-hero-bg2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 261850,
+		"inputAbbreviatedPath": "\/img\/section-bgs\/home-hero-bg2.jpg",
+		"outputAbbreviatedPath": "\/img\/section-bgs\/home-hero-bg2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

@@ -346,6 +346,7 @@
 
       var animateScroll = function () {
         var urlHash = window.location.href.split("#")[1];
+        $('html,body').scrollTop('0');
         if (urlHash &&  $('#' + urlHash).length ) {
           $('html,body').animate({
             scrollTop: $('#' + urlHash).offset().top

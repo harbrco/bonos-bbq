@@ -35,7 +35,8 @@
          input[type=tel],
          input[type=number],
          input[type=password],
-         textarea {
+         textarea,
+         input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]) {
             @extend %hoverTrans;
             @extend %sansLt;
             @include letSpc(1px);
@@ -109,6 +110,10 @@
    }
 
    .ginput_complex {
+      &.ginput_container span {
+         margin-bottom: 14px;
+      }
+
       &.ginput_container_address {
          overflow: visible !important;
 
@@ -117,7 +122,7 @@
          }
 
          label {
-            display: none;
+            display: none !important;
          }
       }
    }
@@ -136,6 +141,17 @@
       &.gfield_contains_required div.ginput_container {
          max-width: 100% !important;
       }
+   }
+
+
+   &.gf_browser_chrome input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=file]),
+   &.gf_browser_chrome textarea,
+   &.gf_browser_gecko input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=file]),
+   &.gf_browser_gecko textarea,
+   &.gf_browser_safari input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=file]),
+   &.gf_browser_safari textarea {
+      border: 1px solid $lightDkGray !important;
+      border-radius: 0 !important;
    }
 
 
@@ -357,19 +373,26 @@ body img.gform_ajax_spinner {
       }
    }
 
+   .ginput_left {
+      padding-right: 0;
+   }
+
    .ginput_left.address_city {
       width: 100% !important;
       margin-bottom: 5% !important;
       display: block;
+
    }
 
    .ginput_right.address_state {
       margin-left: 0;
-      margin-right: 3%;
+      //margin-right: 3%;
    }
 
-   .ginput_left .address_zip {
-      margin-left: 0;
+   .ginput_left.address_zip {
+      float: right;
+      margin-left: 4.5% !important;
+      margin-right: -8px !important;
    }
 }
 
@@ -431,6 +454,19 @@ body img.gform_ajax_spinner {
 }
 
 
+@media only screen and (max-width:640px) {
+   .gform_wrapper form .ginput_complex {
+      .ginput_left.address_zip {
+         float: none;
+         margin-left: 0 !important;
+         margin-right: 0 !important;
+      }
+   }
+
+   .catering-form_wrapper.gform_wrapper li.gfield.field_description_below+li.gsection {
+      margin: 0 !important;
+   }
+}
 
 @media only screen and (max-width:620px) {
    .gform_wrapper.two-column_wrapper {

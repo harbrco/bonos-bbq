@@ -193,6 +193,12 @@ input:focus {
    top: 80px !important; // positioning fix for mobile browsers.
 }
 
+.fancybox-inner {
+   img {
+      pointer-events: none;
+   }
+}
+
 
 
 // Reset bxSlider
