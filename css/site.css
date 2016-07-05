@@ -814,7 +814,7 @@ th {
   line-height: 22px;
   height: 54px;
   position: relative;
-  padding: 0 0 0 11px;
+  padding: 0;
   margin: 0;
   color: #9B9B9B;
   border: 1px solid #B2B2B2;
@@ -856,7 +856,7 @@ th {
   text-transform: uppercase;
   width: 100% !important;
   height: 54px;
-  margin-left: 10px;
+  margin-left: 10px !important;
   padding: 5px 50px 5px 4px;
   border: none;
   box-shadow: none;
