@@ -1,4 +1,4 @@
-<div class="hero hero--small" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/section-bgs/about-lower-cta-bg.jpg');">
+<div class="hero hero--small" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/section-bgs/menu-hero.jpg');">
    <div class="push-down">
    </div>
 

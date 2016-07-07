@@ -873,6 +873,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/section-bgs\/about-hero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 87126,
+		"inputAbbreviatedPath": "\/img\/section-bgs\/about-hero.jpg",
+		"outputAbbreviatedPath": "\/img\/section-bgs\/about-hero.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/section-bgs\/about-lower-cta-bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -891,6 +902,17 @@
 		"initialSize": 554969,
 		"inputAbbreviatedPath": "\/img\/section-bgs\/catering-hero-bg.jpg",
 		"outputAbbreviatedPath": "\/img\/section-bgs\/catering-hero-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/section-bgs\/catering-hero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 245894,
+		"inputAbbreviatedPath": "\/img\/section-bgs\/catering-hero.jpg",
+		"outputAbbreviatedPath": "\/img\/section-bgs\/catering-hero.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -946,6 +968,17 @@
 		"initialSize": 152914,
 		"inputAbbreviatedPath": "\/img\/section-bgs\/menu-family-feast-min.jpg",
 		"outputAbbreviatedPath": "\/img\/section-bgs\/menu-family-feast-min.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/section-bgs\/menu-hero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 205730,
+		"inputAbbreviatedPath": "\/img\/section-bgs\/menu-hero.jpg",
+		"outputAbbreviatedPath": "\/img\/section-bgs\/menu-hero.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
