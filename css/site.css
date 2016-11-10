@@ -805,6 +805,9 @@ th {
     .gform_wrapper .gform_footer button:focus {
       outline: none; }
 
+.form-section .gform_wrapper .gform_body {
+  width: 100% !important; }
+
 .select-style > .ginput_container_select,
 .select-style .address_state {
   letter-spacing: 1px;
@@ -998,6 +1001,10 @@ body img.gform_ajax_spinner {
   height: 272px; }
 
 @media only screen and (max-width: 640px) {
+  .gform_wrapper .top_label li.gfield.gf_left_half,
+  .gform_wrapper .top_label li.gfield.gf_right_half {
+    width: 100% !important; }
+
   .gform_wrapper form .ginput_complex .ginput_left.address_zip {
     float: none;
     margin-left: 0 !important;
@@ -2536,7 +2543,6 @@ body.modalOpen .mobile-menu-wrapper {
 
 .split-50 {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex; }
   .split-50:before, .split-50:after {

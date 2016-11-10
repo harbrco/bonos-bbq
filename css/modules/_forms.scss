@@ -168,6 +168,12 @@
    }
 }
 
+.form-section {
+   .gform_wrapper .gform_body {
+      width: 100% !important;
+   }
+}
+
 
 // custom select style
 .select-style {
@@ -455,6 +461,13 @@ body img.gform_ajax_spinner {
 
 
 @media only screen and (max-width:640px) {
+   .gform_wrapper .top_label {
+      li.gfield.gf_left_half,
+      li.gfield.gf_right_half {
+         width: 100% !important;
+      }
+   }
+
    .gform_wrapper form .ginput_complex {
       .ginput_left.address_zip {
          float: none;
