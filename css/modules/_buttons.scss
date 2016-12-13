@@ -82,6 +82,11 @@
       padding: 10px 26px;
       font-size: 17px;
       line-height: 17px;
+
+      &:before,
+      &:after {
+         top: 17px;
+      }
    }
 }
 @media only screen and (max-width:580px) {

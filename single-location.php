@@ -33,6 +33,10 @@
                   <p><?php the_field('location_address'); ?></p>
                   <p><?php the_field('location_phone_numbers'); ?></p>
 
+                  <?php if ( get_field('location_menu_pdf') ) { ?>
+                     <a href="<?php the_field('location_menu_pdf'); ?>" class="btn btn--ghost" target="_blank">View Menu</a>
+                  <?php } ?>
+
                   <a href="/catering/" class="btn btn--ghost">Get Catering</a>
                </div>
             </div>
