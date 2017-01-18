@@ -38,6 +38,10 @@
                   <?php } ?>
 
                   <a href="/catering/" class="btn btn--ghost">Get Catering</a>
+
+                  <?php if ( get_field('online_ordering_url') ) { ?>
+                     <a href="<?php the_field('online_ordering_url') ?>" class="btn btn--ghost" target="_blank">Order Online</a>
+                  <?php } ?>
                </div>
             </div>
          </div>
