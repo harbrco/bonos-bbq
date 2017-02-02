@@ -421,7 +421,7 @@ th {
   font-family: "Oswald", Helvetica, sans-serif;
   font-weight: 300; }
 
-.gform_confirmation_wrapper .gform_confirmation_message h3, .header .main-menu li, .mobile-menu-wrapper li, .home .home-about-slider .slide .slide-text h4, .home .home-about-slider .slide .slide-text span, .home .home-tagline-banner h3, .home .home-lower-ctas .or-box span, .menu .menu-categories .menu-items-box .menu-category-heading h3, .menu .menu-categories .menu-items-box .menu-items-list .menu-item h4, .menu .fancybox-wrap .menu-items-box .menu-category-heading h3, .menu .fancybox-wrap .menu-items-box .menu-items-list .menu-item h4, .menu .fancybox-wrap .menu-items-box .next-prev-menu-category-links .more-items h4, .menu .fancybox-wrap .menu-items-box .next-prev-menu-category-links .prev a,
+.gform_confirmation_wrapper .gform_confirmation_message h3, .header .main-menu li, .mobile-menu-wrapper li, .footer .subscribe-form-wrapper h3, .home .home-about-slider .slide .slide-text h4, .home .home-about-slider .slide .slide-text span, .home .home-tagline-banner h3, .home .home-lower-ctas .or-box span, .menu .menu-categories .menu-items-box .menu-category-heading h3, .menu .menu-categories .menu-items-box .menu-items-list .menu-item h4, .menu .fancybox-wrap .menu-items-box .menu-category-heading h3, .menu .fancybox-wrap .menu-items-box .menu-items-list .menu-item h4, .menu .fancybox-wrap .menu-items-box .next-prev-menu-category-links .more-items h4, .menu .fancybox-wrap .menu-items-box .next-prev-menu-category-links .prev a,
 .menu .fancybox-wrap .menu-items-box .next-prev-menu-category-links .next a, .leadership .team-member-block .member-details h3,
 .employees .team-member-block .member-details h3, .location-navigate .city-filter .label, .location-map-info .directions-wrapper h4, .hero .hero-heading h2,
 .hero .hero-heading h3, .page-intro-split-cols.split-50 .split-50-left .intro-text h3, .image-box-links .image-box-title h3, .section-heading h3, .section-heading.wBarsTextTop h2, .hasContent h4, .btn {
@@ -1508,12 +1508,27 @@ body.modalOpen .mobile-menu-wrapper {
     height: 190px;
     background-image: url("../img/locally-smoked@2x.png");
     background-size: 213px 190px; }
+  .footer .subscribe-form-wrapper {
+    margin-top: 190px; }
+    .footer .subscribe-form-wrapper h3 {
+      color: #fff;
+      font-size: 22px;
+      line-height: 24px;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 1px; }
+    .footer .subscribe-form-wrapper .gform_confirmation_wrapper {
+      color: #fff;
+      font-size: 18px;
+      line-height: 22px; }
+      .footer .subscribe-form-wrapper .gform_confirmation_wrapper .gform_confirmation_message {
+        border-top: none; }
 
 .footer-copyright {
   width: 100%;
   display: block;
   text-align: center;
-  margin-top: 160px;
+  margin-top: 40px;
   border-top: 1px solid #393435;
   padding: 20px; }
   .footer-copyright p {
@@ -1529,9 +1544,15 @@ body.modalOpen .mobile-menu-wrapper {
 @media only screen and (max-width: 768px) {
   .footer .smoked-badge {
     top: 30px; }
+  .footer .subscribe-form-wrapper {
+    margin-top: 280px; }
 
   .footer-copyright {
-    margin-top: 250px; } }
+    margin-top: 30px; } }
+@media only screen and (max-width: 580px) {
+  .footer .subscribe-form-wrapper h3 {
+    font-size: 19px;
+    line-height: 21px; } }
 @media only screen and (max-width: 420px) {
   .footer-copyright .copyright,
   .footer-copyright .harbr-credit {

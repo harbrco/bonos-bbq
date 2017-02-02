@@ -5,6 +5,13 @@
          <footer class="footer" role="contentinfo">
             <div class="smoked-badge"></div>
 
+            <div class="subscribe-form-wrapper">
+               <div class="container narrowContentMd form-section">
+                  <h3>Subscribe to our Newsletter</h3>
+                  <?php gravity_form(3, false, false, false, '', true, 20); ?>
+               </div>
+            </div>
+
             <div class="footer-copyright">
                <p><span class="copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?></span> <span class="footer-copyright-divider">&nbsp;&nbsp;•&nbsp;&nbsp;</span> <span class="harbr-credit"><a href="http://harbr.co/" target="_blank">Crafted by Harbr</a></span></p>
             </div>

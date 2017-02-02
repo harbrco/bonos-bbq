@@ -464,6 +464,12 @@ function form_submit_button( $button, $form ) {
     return "<button class='button btn btn--ghost' id='gform_submit_button_{$form['id']}'><span>Submit</span></button>";
 }
 
+// tweak the button text for newsletter subscribe form
+add_filter( 'gform_submit_button_3', 'subscribe_form_submit_button', 10, 2 );
+function subscribe_form_submit_button( $button, $form ) {
+    return "<button class='button btn btn--ghost' id='gform_submit_button_{$form['id']}'><span>Subscribe</span></button>";
+}
+
 
 
 /**

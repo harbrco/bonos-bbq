@@ -18,13 +18,37 @@
       background-image: url('../img/locally-smoked@2x.png');
       background-size: 213px 190px;
    }
+
+   .subscribe-form-wrapper {
+      margin-top: 190px;
+
+      h3 {
+         color: $white;
+         font-size: 22px;
+         line-height: 24px;
+         @extend %sansB;
+         text-align: center;
+         text-transform: uppercase;
+         @include letSpc(1px);
+      }
+
+      .gform_confirmation_wrapper {
+         color: $white;
+         font-size: 18px;
+         line-height: 22px;
+
+         .gform_confirmation_message {
+            border-top: none;
+         }
+      }
+   }
 }
 
 .footer-copyright {
    width: 100%;
    display: block;
    text-align: center;
-   margin-top: 160px;
+   margin-top: 40px;
    border-top: 1px solid $medDkGray;
    padding: 20px;
 
@@ -52,10 +76,25 @@
       .smoked-badge {
          top: 30px;
       }
+
+      .subscribe-form-wrapper {
+         margin-top: 280px;
+      }
    }
 
    .footer-copyright {
-      margin-top: 250px;
+      margin-top: 30px;
+   }
+}
+
+@media only screen and (max-width:580px) {
+   .footer {
+      .subscribe-form-wrapper {
+         h3 {
+            font-size: 19px;
+            line-height: 21px;
+         }
+      }
    }
 }
 
