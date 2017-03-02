@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
    <div class="hero" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/section-bgs/home-hero-bg2.jpg');">
-      <audio id="scrollaudio" src="<?php echo get_template_directory_uri(); ?>/media/jingle.mp3"></audio>
+      <audio id="scrollaudio" src="<?php echo get_template_directory_uri(); ?>/media/bonos-jingle.m4a"></audio>
 
       <div class="push-down">
       </div>

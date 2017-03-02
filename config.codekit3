@@ -1487,6 +1487,12 @@
 		"oAP": "\/loop.php",
 		"oF": 0
 		},
+	"\/media\/bonos-jingle.m4a": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/media\/bonos-jingle.m4a",
+		"oF": 0
+		},
 	"\/media\/jingle.mp3": {
 		"ft": 8192,
 		"oA": 2,
