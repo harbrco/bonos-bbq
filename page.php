@@ -4,6 +4,9 @@
    <?php /* CONTACT */ if ( is_page( 'contact' ) ) { ?>
       <?php get_template_part( 'partials/partial', 'contact' ); ?>
 
+   <?php } /* CAREERS */ elseif ( is_page( 'careers' ) ) { ?>
+      <?php get_template_part( 'partials/partial', 'careers' ); ?>
+
    <?php } /* MENU */ elseif ( is_page( 'menu' ) ) { ?>
       <?php get_template_part( 'partials/partial', 'menu' ); ?>
 

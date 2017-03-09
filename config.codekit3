@@ -7,7 +7,7 @@
 		"uuidString": "D9C93073-AE3A-418A-9505-30BB628C1CAA"
 		}
 	],
-"creatorBuild": "25504",
+"creatorBuild": "25568",
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
@@ -1523,6 +1523,12 @@
 		"oAP": "\/partials\/partial-about.php",
 		"oF": 0
 		},
+	"\/partials\/partial-careers.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/partials\/partial-careers.php",
+		"oF": 0
+		},
 	"\/partials\/partial-catering.php": {
 		"ft": 8192,
 		"oA": 0,
@@ -2494,6 +2500,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-multi-assign": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-multi-spaces": {
 			"active": 0,
 			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
@@ -2822,6 +2832,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
+			},
 		"prefer-rest-params": {
 			"active": 0,
 			"optionString": ""
@@ -2915,6 +2929,10 @@
 			"optionString": ""
 			},
 		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"template-tag-spacing": {
 			"active": 0,
 			"optionString": "'never'"
 			},

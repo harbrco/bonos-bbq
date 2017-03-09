@@ -547,4 +547,37 @@ function populate_posts( $form ) {
     return $form;
 }
 
+
+// Populate Careers form Locations field with dropdown of Location posts
+add_filter( 'gform_pre_render_5', 'populate_posts_careers' );
+add_filter( 'gform_pre_validation_5', 'populate_posts_careers' );
+add_filter( 'gform_pre_submission_filter_5', 'populate_posts_careers' );
+add_filter( 'gform_admin_pre_render_5', 'populate_posts_careers' );
+function populate_posts_careers( $form ) {
+
+    foreach ( $form['fields'] as &$field ) {
+
+        if ( $field->type != 'select' || strpos( $field->cssClass, 'populate-locations' ) === false ) {
+            continue;
+        }
+
+        // you can add additional parameters here to alter the posts that are retrieved
+        // more info: [http://codex.wordpress.org/Template_Tags/get_posts](http://codex.wordpress.org/Template_Tags/get_posts)
+        $posts = get_posts( 'post_type=location&numberposts=-1&post_status=publish' );
+
+        $choices = array();
+
+        foreach ( $posts as $post ) {
+            $choices[] = array( 'text' => $post->post_title, 'value' => $post->post_title );
+        }
+
+        // update 'Select a Post' to whatever you'd like the instructive option to be
+        $field->placeholder = '-- Location Desired --';
+        $field->choices = $choices;
+
+    }
+
+    return $form;
+}
+
 ?>
