@@ -881,9 +881,43 @@ th {
   .select-style select::-ms-expand {
     display: none; }
 
-body img.gform_ajax_spinner {
-  display: none !important; }
+.gform_footer {
+  position: relative; }
+  .gform_footer .btn {
+    position: relative; }
 
+.gform_ajax_spinner {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  padding: 0 !important;
+  display: block;
+  width: 40px;
+  /* match with height for a circle */
+  height: 40px;
+  border: 7px solid rgba(255, 255, 255, 0);
+  /* match with border-left */
+  border-left: 7px solid #9C1A1D;
+  border-radius: 50%;
+  margin: -20px 0 0 -20px;
+  -webkit-animation: spinner 1s infinite linear;
+          animation: spinner 1s infinite linear; }
+
+@-webkit-keyframes spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+@keyframes spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
 .gform_wrapper li.gfield_error input,
 .gform_wrapper li.gfield_error input[type=text],
 .gform_wrapper li.gfield_error input[type=url],

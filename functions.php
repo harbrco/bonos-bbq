@@ -580,4 +580,12 @@ function populate_posts_careers( $form ) {
     return $form;
 }
 
+
+// customize the AJAX spinner
+function gf_spinner_replace( $image_src, $form ) {
+    return  'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7';
+}
+add_filter( 'gform_ajax_spinner_url', 'gf_spinner_replace', 10, 2 );
+
+
 ?>

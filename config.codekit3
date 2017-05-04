@@ -7,7 +7,7 @@
 		"uuidString": "D9C93073-AE3A-418A-9505-30BB628C1CAA"
 		}
 	],
-"creatorBuild": "25568",
+"creatorBuild": "25813",
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
@@ -455,7 +455,10 @@
 		"oA": 0,
 		"oAP": "\/css\/libs\/fancybox-helpers\/fancybox_buttons.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/css\/libs\/fancybox-helpers\/fancybox_loading.gif": {
 		"ft": 4194304,
@@ -479,7 +482,10 @@
 		"oA": 0,
 		"oAP": "\/css\/libs\/fancybox-helpers\/fancybox_overlay.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/css\/libs\/fancybox-helpers\/fancybox_sprite.png": {
 		"ft": 32768,
@@ -487,7 +493,10 @@
 		"oA": 0,
 		"oAP": "\/css\/libs\/fancybox-helpers\/fancybox_sprite.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/css\/libs\/fancybox-helpers\/fancybox_sprite@2x.png": {
 		"ft": 32768,
@@ -495,7 +504,10 @@
 		"oA": 0,
 		"oAP": "\/css\/libs\/fancybox-helpers\/fancybox_sprite@2x.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/css\/libs\/fancybox-helpers\/jquery.fancybox-buttons.css": {
 		"aP": 0,
@@ -521,7 +533,10 @@
 		"oA": 0,
 		"oAP": "\/css\/libs\/images\/controls.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/css\/libs\/jquery.bxslider.css": {
 		"aP": 0,
@@ -977,7 +992,10 @@
 		"oA": 0,
 		"oAP": "\/img\/bonos-logo-white@2x.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/catering-intro-photo.jpg": {
 		"ft": 16384,
@@ -985,7 +1003,9 @@
 		"oA": 0,
 		"oAP": "\/img\/catering-intro-photo.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/contact-intro-photo.jpg": {
 		"ft": 16384,
@@ -993,7 +1013,9 @@
 		"oA": 0,
 		"oAP": "\/img\/contact-intro-photo.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/home-intro-slide-1.jpg": {
 		"ft": 16384,
@@ -1001,7 +1023,9 @@
 		"oA": 0,
 		"oAP": "\/img\/home-intro-slide-1.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/icons\/apple-touch-icon-114x114.png": {
 		"ft": 32768,
@@ -1009,7 +1033,10 @@
 		"oA": 0,
 		"oAP": "\/img\/icons\/apple-touch-icon-114x114.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/icons\/apple-touch-icon-144x144.png": {
 		"ft": 32768,
@@ -1017,7 +1044,10 @@
 		"oA": 0,
 		"oAP": "\/img\/icons\/apple-touch-icon-144x144.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/icons\/apple-touch-icon-152x152.png": {
 		"ft": 32768,
@@ -1025,7 +1055,10 @@
 		"oA": 0,
 		"oAP": "\/img\/icons\/apple-touch-icon-152x152.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/icons\/arrow-sm-white-lt@2x.png": {
 		"ft": 32768,
@@ -1033,7 +1066,10 @@
 		"oA": 0,
 		"oAP": "\/img\/icons\/arrow-sm-white-lt@2x.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/icons\/arrow-sm-white-rt@2x.png": {
 		"ft": 32768,
@@ -1041,7 +1077,10 @@
 		"oA": 0,
 		"oAP": "\/img\/icons\/arrow-sm-white-rt@2x.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/icons\/audio-pause@2x.png": {
 		"ft": 32768,
@@ -1049,7 +1088,10 @@
 		"oA": 0,
 		"oAP": "\/img\/icons\/audio-pause@2x.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/icons\/audio-play@2x.png": {
 		"ft": 32768,
@@ -1057,7 +1099,10 @@
 		"oA": 0,
 		"oAP": "\/img\/icons\/audio-play@2x.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/icons\/close-x-sprite.png": {
 		"ft": 32768,
@@ -1065,7 +1110,10 @@
 		"oA": 0,
 		"oAP": "\/img\/icons\/close-x-sprite.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/icons\/favicon-16x16.png": {
 		"ft": 32768,
@@ -1073,7 +1121,10 @@
 		"oA": 0,
 		"oAP": "\/img\/icons\/favicon-16x16.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/icons\/favicon-32x32.png": {
 		"ft": 32768,
@@ -1081,7 +1132,10 @@
 		"oA": 0,
 		"oAP": "\/img\/icons\/favicon-32x32.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/icons\/favicon.ico": {
 		"ft": 8192,
@@ -1095,7 +1149,10 @@
 		"oA": 0,
 		"oAP": "\/img\/icons\/mstile-144x144.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/icons\/select-down-arrow@2x.png": {
 		"ft": 32768,
@@ -1103,7 +1160,10 @@
 		"oA": 0,
 		"oAP": "\/img\/icons\/select-down-arrow@2x.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/locally-smoked@2x.png": {
 		"ft": 32768,
@@ -1111,7 +1171,10 @@
 		"oA": 0,
 		"oAP": "\/img\/locally-smoked@2x.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/location-photo-temp.jpg": {
 		"ft": 16384,
@@ -1119,7 +1182,9 @@
 		"oA": 0,
 		"oAP": "\/img\/location-photo-temp.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/section-bgs\/about-harvey-bg.jpg": {
 		"ft": 16384,
@@ -1127,7 +1192,9 @@
 		"oA": 0,
 		"oAP": "\/img\/section-bgs\/about-harvey-bg.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/section-bgs\/about-hero-bg.jpg": {
 		"ft": 16384,
@@ -1135,7 +1202,9 @@
 		"oA": 0,
 		"oAP": "\/img\/section-bgs\/about-hero-bg.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/section-bgs\/about-hero.jpg": {
 		"ft": 16384,
@@ -1143,7 +1212,9 @@
 		"oA": 0,
 		"oAP": "\/img\/section-bgs\/about-hero.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/section-bgs\/about-lower-cta-bg.jpg": {
 		"ft": 16384,
@@ -1151,7 +1222,9 @@
 		"oA": 0,
 		"oAP": "\/img\/section-bgs\/about-lower-cta-bg.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/section-bgs\/catering-hero-bg.jpg": {
 		"ft": 16384,
@@ -1159,7 +1232,9 @@
 		"oA": 0,
 		"oAP": "\/img\/section-bgs\/catering-hero-bg.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/section-bgs\/catering-hero.jpg": {
 		"ft": 16384,
@@ -1167,7 +1242,9 @@
 		"oA": 0,
 		"oAP": "\/img\/section-bgs\/catering-hero.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/section-bgs\/home-hero-bg.jpg": {
 		"ft": 16384,
@@ -1175,7 +1252,9 @@
 		"oA": 0,
 		"oAP": "\/img\/section-bgs\/home-hero-bg.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/section-bgs\/home-hero-bg2.jpg": {
 		"ft": 16384,
@@ -1183,7 +1262,9 @@
 		"oA": 0,
 		"oAP": "\/img\/section-bgs\/home-hero-bg2.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/section-bgs\/home-tagline-bg.jpg": {
 		"ft": 16384,
@@ -1191,7 +1272,9 @@
 		"oA": 0,
 		"oAP": "\/img\/section-bgs\/home-tagline-bg.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/section-bgs\/lower-cta-bg-temp.jpg": {
 		"ft": 16384,
@@ -1199,7 +1282,9 @@
 		"oA": 0,
 		"oAP": "\/img\/section-bgs\/lower-cta-bg-temp.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/section-bgs\/menu-family-feast-min.jpg": {
 		"ft": 16384,
@@ -1207,7 +1292,9 @@
 		"oA": 0,
 		"oAP": "\/img\/section-bgs\/menu-family-feast-min.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/section-bgs\/menu-hero.jpg": {
 		"ft": 16384,
@@ -1215,7 +1302,9 @@
 		"oA": 0,
 		"oAP": "\/img\/section-bgs\/menu-hero.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/section-bgs\/menu-platters-min.jpg": {
 		"ft": 16384,
@@ -1223,7 +1312,9 @@
 		"oA": 0,
 		"oAP": "\/img\/section-bgs\/menu-platters-min.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/section-bgs\/menu-salads-min.jpg": {
 		"ft": 16384,
@@ -1231,7 +1322,9 @@
 		"oA": 0,
 		"oAP": "\/img\/section-bgs\/menu-salads-min.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/section-bgs\/menu-sandwiches-min.jpg": {
 		"ft": 16384,
@@ -1239,7 +1332,9 @@
 		"oA": 0,
 		"oAP": "\/img\/section-bgs\/menu-sandwiches-min.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/section-bgs\/menu-smokehouse-stackers-min.jpg": {
 		"ft": 16384,
@@ -1247,7 +1342,9 @@
 		"oA": 0,
 		"oAP": "\/img\/section-bgs\/menu-smokehouse-stackers-min.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/section-bgs\/menu-smokin-snacks-min.jpg": {
 		"ft": 16384,
@@ -1255,7 +1352,9 @@
 		"oA": 0,
 		"oAP": "\/img\/section-bgs\/menu-smokin-snacks-min.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/team-harvey-green.jpg": {
 		"ft": 16384,
@@ -1263,7 +1362,9 @@
 		"oA": 0,
 		"oAP": "\/img\/team-harvey-green.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/index.php": {
 		"ft": 8192,
@@ -1559,7 +1660,10 @@
 		"oA": 0,
 		"oAP": "\/screenshot.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/search.php": {
 		"ft": 8192,
@@ -2300,6 +2404,10 @@
 			"active": 1,
 			"optionString": ""
 			},
+		"no-compare-neg-zero": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-cond-assign": {
 			"active": 1,
 			"optionString": "'except-parens'"
@@ -2584,6 +2692,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-prototype-builtins": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-redeclare": {
 			"active": 1,
 			"optionString": "{'builtinGlobals': false}"
@@ -2779,6 +2891,10 @@
 		"no-with": {
 			"active": 0,
 			"optionString": ""
+			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"object-curly-newline": {
 			"active": 0,
@@ -3379,7 +3495,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"quality": 100
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -3402,14 +3519,6 @@
 		"autoOutputPathStyle": 0,
 		"orderOutput": 0,
 		"outputStyle": 1
-		},
-	"languageDefaultsJSX": {
-		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "",
-		"autoOutputPathReplace1": "jsx",
-		"autoOutputPathReplace2": "js",
-		"autoOutputPathStyle": 0
 		},
 	"languageDefaultsKIT": {
 		"autoOutputAction": 0,
@@ -3472,7 +3581,9 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"optimizerType": 1,
+		"quality": 100
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,

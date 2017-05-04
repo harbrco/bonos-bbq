@@ -278,9 +278,38 @@
 
 
 
-body img.gform_ajax_spinner {
-   display: none !important;
+// Custom spinner from:  https://mattrad.uk/gravity-forms-css-spinner/
+.gform_footer {
+   position: relative;
+
+   .btn {
+      position: relative;
+   }
 }
+
+.gform_ajax_spinner {
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   padding: 0 !important;
+   display: block;
+   width: 40px;               /* match with height for a circle */
+   height: 40px;
+   border: 7px solid rgba(255, 255, 255, 0);  /* match with border-left */
+   border-left: 7px solid $secondary;
+   border-radius: 50%;
+   margin: -20px 0 0 -20px;
+   animation: spinner 1s infinite linear;
+}
+@keyframes spinner {
+   0% {
+      transform: rotate(0deg);
+   }
+   100% {
+      transform: rotate(360deg);
+   }
+}
+
 
 .gform_wrapper li.gfield_error {
    input,
