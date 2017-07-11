@@ -600,6 +600,10 @@ th {
 
   .span_1_of_12 {
     width: 100%; } }
+#zuppler-menu {
+  position: relative;
+  z-index: 90; }
+
 .header .logo a, .menu .fancybox-wrap .menu-items-box .menu-category-heading .close-menu-modal a, .image-box-links .image-box-wrap a {
   width: 100%;
   height: 100%;
@@ -687,7 +691,6 @@ th {
         .gform_wrapper ul li textarea::-webkit-input-placeholder,
         .gform_wrapper ul li input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file])::-webkit-input-placeholder {
           text-transform: uppercase;
-          -webkit-transition: all 0.2s ease;
           transition: all 0.2s ease;
           color: #9B9B9B; }
         .gform_wrapper ul li input:focus::-webkit-input-placeholder,
@@ -699,7 +702,6 @@ th {
         .gform_wrapper ul li input[type=password]:focus::-webkit-input-placeholder,
         .gform_wrapper ul li textarea:focus::-webkit-input-placeholder,
         .gform_wrapper ul li input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]):focus::-webkit-input-placeholder {
-          -webkit-transition: all 0.2s ease;
           transition: all 0.2s ease;
           color: #C3502B; }
         .gform_wrapper ul li input:-moz-placeholder,
@@ -712,7 +714,6 @@ th {
         .gform_wrapper ul li textarea:-moz-placeholder,
         .gform_wrapper ul li input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]):-moz-placeholder {
           text-transform: uppercase;
-          -webkit-transition: all 0.2s ease;
           transition: all 0.2s ease;
           color: #9B9B9B; }
         .gform_wrapper ul li input:focus:-moz-placeholder,
@@ -724,7 +725,6 @@ th {
         .gform_wrapper ul li input[type=password]:focus:-moz-placeholder,
         .gform_wrapper ul li textarea:focus:-moz-placeholder,
         .gform_wrapper ul li input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]):focus:-moz-placeholder {
-          -webkit-transition: all 0.2s ease;
           transition: all 0.2s ease;
           color: #C3502B; }
         .gform_wrapper ul li input::-moz-placeholder,
@@ -737,7 +737,6 @@ th {
         .gform_wrapper ul li textarea::-moz-placeholder,
         .gform_wrapper ul li input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file])::-moz-placeholder {
           text-transform: uppercase;
-          -webkit-transition: all 0.2s ease;
           transition: all 0.2s ease;
           color: #9B9B9B; }
         .gform_wrapper ul li input:focus::-moz-placeholder,
@@ -749,7 +748,6 @@ th {
         .gform_wrapper ul li input[type=password]:focus::-moz-placeholder,
         .gform_wrapper ul li textarea:focus::-moz-placeholder,
         .gform_wrapper ul li input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]):focus::-moz-placeholder {
-          -webkit-transition: all 0.2s ease;
           transition: all 0.2s ease;
           color: #C3502B; }
         .gform_wrapper ul li input:-ms-input-placeholder,
@@ -762,7 +760,6 @@ th {
         .gform_wrapper ul li textarea:-ms-input-placeholder,
         .gform_wrapper ul li input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]):-ms-input-placeholder {
           text-transform: uppercase;
-          -webkit-transition: all 0.2s ease;
           transition: all 0.2s ease;
           color: #9B9B9B; }
         .gform_wrapper ul li input:focus:-ms-input-placeholder,
@@ -774,7 +771,6 @@ th {
         .gform_wrapper ul li input[type=password]:focus:-ms-input-placeholder,
         .gform_wrapper ul li textarea:focus:-ms-input-placeholder,
         .gform_wrapper ul li input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]):focus:-ms-input-placeholder {
-          -webkit-transition: all 0.2s ease;
           transition: all 0.2s ease;
           color: #C3502B; }
       .gform_wrapper ul li textarea {
@@ -1154,7 +1150,6 @@ body {
 .gform_wrapper ul li textarea,
 .gform_wrapper ul li input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]), .select-style > .ginput_container_select,
 .select-style .address_state, .select-style > .inner, .select-style select, a, .header .logo, .home .hero .audio-toggle, .home .home-about-slider .slide .slide-text span, .menu .fancybox-wrap .menu-items-box .menu-category-heading .close-menu-modal, .menu .fancybox-wrap .menu-items-box .next-prev-menu-category-links .prev-next-arrow.arrow-lt, .menu .fancybox-wrap .menu-items-box .next-prev-menu-category-links .prev-next-arrow.arrow-rt, .location-map-info .gmw-single-post-sc-form input[type=text], .darkOverlay, .image-box-links .image-box-title h3, .image-box-links .image-box-title h3:before, .image-box-links .image-box-title h3:after, .btn, .btn:before, .btn:after {
-  -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease; }
 
 .header .logo:hover {
@@ -1216,12 +1211,10 @@ input:focus {
   z-index: -1;
   top: 0;
   height: 0;
-  -webkit-transition: z-index 0.8s step-end, height 1.2s cubic-bezier(0.666, 0, 0.333, 1);
   transition: z-index 0.8s step-end, height 1.2s cubic-bezier(0.666, 0, 0.333, 1); }
   .fancy-positioner.isOpen {
     z-index: 999;
     height: 100%;
-    -webkit-transition: z-index 0.6s step-start, height 0.1s cubic-bezier(0.666, 0, 0.333, 1);
     transition: z-index 0.6s step-start, height 0.1s cubic-bezier(0.666, 0, 0.333, 1); }
 
 #fancyWrap {
@@ -1233,12 +1226,10 @@ input:focus {
   left: 0;
   opacity: 0;
   overflow: hidden;
-  -webkit-transition: z-index 0.2s, step-end 0.3s, opacity 0.2s linear;
   transition: z-index 0.2s, step-end 0.3s, opacity 0.2s linear; }
   #fancyWrap.isOpen {
     z-index: 98;
     opacity: 1;
-    -webkit-transition: z-index 0.3s, step-start, opacity 0.3s linear;
     transition: z-index 0.3s, step-start, opacity 0.3s linear; }
   #fancyWrap .close-btn {
     z-index: 9999;
@@ -1400,7 +1391,6 @@ input:focus {
           color: #9C1A1D; }
       .header .main-menu > ul > li.menu-item-has-children:hover .sub-menu {
         max-height: 500px;
-        -webkit-transition: max-height 0.75s ease;
         transition: max-height 0.75s ease; }
     .header .main-menu .sub-menu {
       position: absolute;
@@ -1408,7 +1398,6 @@ input:focus {
       background-color: #9C1A1D;
       text-align: left;
       max-height: 0;
-      -webkit-transition: max-height 0.3s ease;
       transition: max-height 0.3s ease;
       overflow: hidden; }
       .header .main-menu .sub-menu li {
@@ -1432,7 +1421,6 @@ input:focus {
   height: 35px;
   -webkit-transform: rotate(0deg);
           transform: rotate(0deg);
-  -webkit-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
   cursor: pointer;
   position: absolute;
@@ -1450,7 +1438,6 @@ input:focus {
     left: 0;
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg);
-    -webkit-transition: background-color 0.2s ease, top .3s ease-in-out, width .3s ease-in-out, left .3s ease-in-out, -webkit-transform .3s ease-in-out;
     transition: background-color 0.2s ease, top .3s ease-in-out, width .3s ease-in-out, left .3s ease-in-out, -webkit-transform .3s ease-in-out;
     transition: background-color 0.2s ease, transform .3s ease-in-out, top .3s ease-in-out, width .3s ease-in-out, left .3s ease-in-out;
     transition: background-color 0.2s ease, transform .3s ease-in-out, top .3s ease-in-out, width .3s ease-in-out, left .3s ease-in-out, -webkit-transform .3s ease-in-out; }
@@ -1486,11 +1473,9 @@ input:focus {
   position: fixed;
   background-color: rgba(255, 255, 255, 0.97);
   z-index: -1;
-  -webkit-transition: z-index 0.2s, step-end 0.3s, opacity 0.2s linear;
   transition: z-index 0.2s, step-end 0.3s, opacity 0.2s linear; }
   .mobile-menu-wrapper .mobile-menu {
     margin-top: -10%;
-    -webkit-transition: margin-top 0.5s ease 0.3s;
     transition: margin-top 0.5s ease 0.3s;
     overflow-y: scroll; }
   .mobile-menu-wrapper ul {
@@ -1541,11 +1526,9 @@ body.modalOpen .mobile-menu-icon {
 body.modalOpen .mobile-menu-wrapper {
   z-index: 98;
   opacity: 1;
-  -webkit-transition: z-index 0.3s, step-start, opacity 0.3s linear;
   transition: z-index 0.3s, step-start, opacity 0.3s linear; }
   body.modalOpen .mobile-menu-wrapper .mobile-menu {
     margin-top: 0;
-    -webkit-transition: margin-top 0.5s ease-in-out 0.1s;
     transition: margin-top 0.5s ease-in-out 0.1s; }
 
 .middle-wrapper {
@@ -1906,10 +1889,8 @@ body.modalOpen .mobile-menu-wrapper {
     padding: 5% 10%; }
     .menu .menu-categories .menu-items-box .menu-items-list .menu-item-list {
       -webkit-column-count: 2;
-         -moz-column-count: 2;
               column-count: 2;
       -webkit-column-gap: 60px;
-         -moz-column-gap: 60px;
               column-gap: 60px; }
     .menu .menu-categories .menu-items-box .menu-items-list .menu-item {
       vertical-align: top;
@@ -1966,13 +1947,10 @@ body.modalOpen .mobile-menu-wrapper {
     overflow-y: scroll; }
     .menu .fancybox-wrap .menu-items-box .menu-items-list .menu-item-list {
       -webkit-column-count: 2;
-         -moz-column-count: 2;
               column-count: 2;
       -webkit-column-gap: 60px;
-         -moz-column-gap: 60px;
               column-gap: 60px;
       -webkit-column-fill: balance;
-         -moz-column-fill: balance;
               column-fill: balance; }
     .menu .fancybox-wrap .menu-items-box .menu-items-list .menu-item {
       -webkit-margin-before: 0;
@@ -2084,10 +2062,8 @@ body.modalOpen .mobile-menu-wrapper {
     line-height: 30px; }
   .menu .menu-categories .menu-items-box .menu-items-list .menu-item-list {
     -webkit-column-count: auto;
-       -moz-column-count: auto;
             column-count: auto;
     -webkit-column-gap: normal;
-       -moz-column-gap: normal;
             column-gap: normal; } }
 @media only screen and (max-width: 400px) {
   .menu .menu-categories .menu-items-box .menu-category-heading h3 {
@@ -2382,38 +2358,30 @@ body.modalOpen .mobile-menu-wrapper {
       border-color: #C3502B; }
     .location-map-info .gmw-single-post-sc-form input[type=text]::-webkit-input-placeholder {
       text-transform: uppercase;
-      -webkit-transition: all 0.2s ease;
       transition: all 0.2s ease;
       color: #9B9B9B; }
     .location-map-info .gmw-single-post-sc-form input[type=text]:focus::-webkit-input-placeholder {
-      -webkit-transition: all 0.2s ease;
       transition: all 0.2s ease;
       color: #C3502B; }
     .location-map-info .gmw-single-post-sc-form input[type=text]:-moz-placeholder {
       text-transform: uppercase;
-      -webkit-transition: all 0.2s ease;
       transition: all 0.2s ease;
       color: #9B9B9B; }
     .location-map-info .gmw-single-post-sc-form input[type=text]:focus:-moz-placeholder {
-      -webkit-transition: all 0.2s ease;
       transition: all 0.2s ease;
       color: #C3502B; }
     .location-map-info .gmw-single-post-sc-form input[type=text]::-moz-placeholder {
       text-transform: uppercase;
-      -webkit-transition: all 0.2s ease;
       transition: all 0.2s ease;
       color: #9B9B9B; }
     .location-map-info .gmw-single-post-sc-form input[type=text]:focus::-moz-placeholder {
-      -webkit-transition: all 0.2s ease;
       transition: all 0.2s ease;
       color: #C3502B; }
     .location-map-info .gmw-single-post-sc-form input[type=text]:-ms-input-placeholder {
       text-transform: uppercase;
-      -webkit-transition: all 0.2s ease;
       transition: all 0.2s ease;
       color: #9B9B9B; }
     .location-map-info .gmw-single-post-sc-form input[type=text]:focus:-ms-input-placeholder {
-      -webkit-transition: all 0.2s ease;
       transition: all 0.2s ease;
       color: #C3502B; }
   .location-map-info .gmw-single-post-sc-form button {
@@ -2780,7 +2748,6 @@ body.modalOpen .mobile-menu-wrapper {
     position: relative;
     vertical-align: top;
     padding-bottom: 63.8%;
-    -webkit-transition: -webkit-transform 4s cubic-bezier(0.4, 0.09, 0.57, 1);
     transition: -webkit-transform 4s cubic-bezier(0.4, 0.09, 0.57, 1);
     transition: transform 4s cubic-bezier(0.4, 0.09, 0.57, 1);
     transition: transform 4s cubic-bezier(0.4, 0.09, 0.57, 1), -webkit-transform 4s cubic-bezier(0.4, 0.09, 0.57, 1); }
@@ -3196,7 +3163,6 @@ body.modalOpen .mobile-menu-wrapper {
     left: 0;
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg);
-    -webkit-transition: background-color 0.2s ease, top .3s ease-in-out, width .3s ease-in-out, left .3s ease-in-out, -webkit-transform .3s ease-in-out;
     transition: background-color 0.2s ease, top .3s ease-in-out, width .3s ease-in-out, left .3s ease-in-out, -webkit-transform .3s ease-in-out;
     transition: background-color 0.2s ease, transform .3s ease-in-out, top .3s ease-in-out, width .3s ease-in-out, left .3s ease-in-out;
     transition: background-color 0.2s ease, transform .3s ease-in-out, top .3s ease-in-out, width .3s ease-in-out, left .3s ease-in-out, -webkit-transform .3s ease-in-out; }

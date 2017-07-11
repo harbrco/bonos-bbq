@@ -19,6 +19,9 @@
    <?php } /* CATERING */ elseif ( is_page( 'catering' ) ) { ?>
       <?php get_template_part( 'partials/partial', 'catering' ); ?>
 
+   <?php } /* ORDER ONLINE */ elseif ( is_page( 'order-online' ) ) { ?>
+      <?php get_template_part( 'partials/partial', 'order-online' ); ?>
+
 
    <?php } /* GENERIC PAGES */ else { ?>
 
