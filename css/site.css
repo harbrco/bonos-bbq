@@ -1403,7 +1403,8 @@ input:focus {
       .header .main-menu .sub-menu li {
         margin: 2px 0;
         display: block;
-        line-height: 22px; }
+        line-height: 22px;
+        white-space: nowrap; }
         .header .main-menu .sub-menu li a {
           color: #fff;
           padding: 2px 16px;
