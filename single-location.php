@@ -27,7 +27,6 @@
                <h3><?php the_title(); ?></h3>
             </div>
 
-
             <div class="intro-text">
                <div class="info">
                   <p><?php the_field('location_address'); ?></p>
