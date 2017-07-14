@@ -36,7 +36,9 @@
                      <a href="<?php the_field('location_menu_pdf'); ?>" class="btn btn--ghost" target="_blank">View Menu</a>
                   <?php } ?>
 
-                  <a href="#order-online" class="btn btn--ghost" target="_blank">Order Online</a>
+                  <?php if ( get_field('location_online_order_code') ) { ?>
+                     <a href="#order-online" class="btn btn--ghost" target="_blank">Order Online</a>
+                  <?php } ?>
 
                   <a href="/catering/" class="btn btn--ghost">Get Catering</a>
 
@@ -59,12 +61,14 @@
       </div>
    </div>
 
-   <div id="order-online" class="order-online-wrapper well">
-      <div class="container narrowContentLg">
-         <h3 class="section-title">Order Online</h3>
-         <?php the_field('location_online_order_code'); ?>
+   <?php if ( get_field('location_online_order_code') ) { ?>
+      <div id="order-online" class="order-online-wrapper well">
+         <div class="container narrowContentLg">
+            <h3 class="section-title">Order Online</h3>
+            <?php the_field('location_online_order_code'); ?>
+         </div>
       </div>
-   </div>
+   <?php } ?>
 
 <?php endwhile; ?>
 <?php else: ?>
