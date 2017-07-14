@@ -177,6 +177,21 @@
    }
 }
 
+.order-online-wrapper {
+   &.well {
+      padding-top: 0;
+   }
+
+   h3.section-title {
+      @extend %sansB;
+      font-size: 20px;
+      line-height: 25px;
+      text-transform: uppercase;
+      @include letSpc(1px);
+      margin-bottom: 20px;
+   }
+}
+
 
 // LOCATIONS PAGE BREAKPOINTS = = = = = = =
 @media only screen and (max-width:1440px) {
