@@ -26,10 +26,6 @@
             <h4 class="label">Find Your City:</h4>
             <?php echo do_shortcode('[searchandfilter taxonomies="city" types"select"]') ?>
          </div>
-
-         <!-- <div class="all-locations">
-            <a href="/locations/" class="btn btn--ghost">View All</a>
-         </div> -->
       </div>
 
       <div class="image-box-links">
@@ -46,9 +42,6 @@
 
          <?php if ( $locationsQuery->have_posts() ) : ?>
 
-            <!-- pagination here -->
-
-            <!-- the loop -->
             <?php while ( $locationsQuery->have_posts() ) : $locationsQuery->the_post(); ?>
 
                <?php $featImg = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), array( 5600,1000 ), false, '' ); ?>
@@ -68,9 +61,6 @@
                </div>
 
             <?php endwhile; ?>
-            <!-- end of the loop -->
-
-            <!-- pagination here -->
 
             <?php wp_reset_postdata(); ?>
 

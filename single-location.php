@@ -36,15 +36,11 @@
                      <a href="<?php the_field('location_menu_pdf'); ?>" class="btn btn--ghost" target="_blank">View Menu</a>
                   <?php } ?>
 
-                  <?php if ( get_field('location_online_order_code') ) { ?>
-                     <a href="#order-online" class="btn btn--ghost" target="_blank">Order Online</a>
+                  <?php if ( get_field('online_ordering_url') ) { ?>
+                     <a href="<?php the_field('online_ordering_url') ?>" class="btn btn--ghost">Order Online</a>
                   <?php } ?>
 
                   <a href="/catering/" class="btn btn--ghost">Get Catering</a>
-
-                  <?php //if ( get_field('online_ordering_url') ) { ?>
-                     <!-- <a href="<?php //the_field('online_ordering_url') ?>" class="btn btn--ghost" target="_blank">Order Online</a> -->
-                  <?php //} ?>
                </div>
             </div>
          </div>
@@ -55,7 +51,7 @@
    </div>
 
 
-   <div id="map-wrapper" class="location-map-info wrapper isWhite well">
+   <div id="location-map" class="location-map-info wrapper isWhite well">
       <div class="container narrowContentLg">
          <?php echo do_shortcode('[gmw_single_location map_width="100%" zoom_level="14" additional_info"0"]'); ?>
       </div>

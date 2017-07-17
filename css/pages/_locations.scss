@@ -178,10 +178,6 @@
 }
 
 .order-online-wrapper {
-   &.well {
-      padding-top: 0;
-   }
-
    h3.section-title {
       @extend %sansB;
       font-size: 20px;

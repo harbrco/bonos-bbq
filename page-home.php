@@ -25,6 +25,7 @@
 
             <div class="centerBtn container">
                <a href="/menu/" class="btn wAccents">See Our Menu</a>
+               <a href="/order-online/" class="btn wAccents">Order Online</a>
             </div>
          </div>
       </div>

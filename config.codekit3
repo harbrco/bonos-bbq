@@ -21,12 +21,6 @@
 		"oAP": "\/404.php",
 		"oF": 0
 		},
-	"\/archive-location.php": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/archive-location.php",
-		"oF": 0
-		},
 	"\/archive.php": {
 		"ft": 8192,
 		"oA": 0,
@@ -1654,6 +1648,12 @@
 		"oAP": "\/partials\/partial-menu.php",
 		"oF": 0
 		},
+	"\/partials\/partial-order-online.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/partials\/partial-order-online.php",
+		"oF": 0
+		},
 	"\/screenshot.png": {
 		"ft": 32768,
 		"iS": 0,
@@ -1687,6 +1687,12 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/single-location.php",
+		"oF": 0
+		},
+	"\/single-order_online.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/single-order_online.php",
 		"oF": 0
 		},
 	"\/single.php": {

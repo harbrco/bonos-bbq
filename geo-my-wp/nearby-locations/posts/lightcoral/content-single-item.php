@@ -11,7 +11,7 @@
             <p><?php the_field('location_address'); ?></p>
             <p><?php the_field('location_phone_numbers'); ?></p>
 
-            <a href="<?php echo get_permalink($post->ID); ?>#map-wrapper" class="btn btn--ghost">View On The Map</a>
+            <a href="<?php echo get_permalink($post->ID); ?>#location-map" class="btn btn--ghost">View On The Map</a>
 
             <!-- directions -->
             <?php //if ( $directions ) : ?>

@@ -1673,6 +1673,12 @@ body.modalOpen .mobile-menu-wrapper {
             transform: translate(-36%, -50%); }
   .home .hero .audio-toggle:hover {
     background-color: rgba(195, 80, 43, 0.6); }
+.home .hero .btn {
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-bottom: 10px; }
+  .home .hero .btn:last-child {
+    margin-bottom: 0; }
 .home .home-about-intro-slider {
   font-size: 0; }
   .home .home-about-intro-slider .left-col,
@@ -2402,8 +2408,6 @@ body.modalOpen .mobile-menu-wrapper {
     padding-left: 0;
     padding-right: 0; }
 
-.order-online-wrapper.well {
-  padding-top: 0; }
 .order-online-wrapper h3.section-title {
   font-size: 20px;
   line-height: 25px;

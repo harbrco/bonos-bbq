@@ -16,6 +16,9 @@
    <?php } /* LOCATIONS */ elseif ( is_page( 'locations' ) ) { ?>
       <?php get_template_part( 'partials/partial', 'locations' ); ?>
 
+   <?php } /* ORDER ONLINE */ elseif ( is_page( 'order-online' ) ) { ?>
+      <?php get_template_part( 'partials/partial', 'order-online' ); ?>
+
    <?php } /* CATERING */ elseif ( is_page( 'catering' ) ) { ?>
       <?php get_template_part( 'partials/partial', 'catering' ); ?>
 

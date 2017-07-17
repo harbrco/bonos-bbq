@@ -48,6 +48,16 @@
             background-color: rgba($primary, .6);
          }
       }
+
+      .btn {
+         margin-right: 15px;
+         margin-left: 15px;
+         margin-bottom: 10px;
+
+         &:last-child {
+            margin-bottom: 0;
+         }
+      }
    }
 
    .home-about-intro-slider {
