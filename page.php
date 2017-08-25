@@ -22,6 +22,12 @@
    <?php } /* CATERING */ elseif ( is_page( 'catering' ) ) { ?>
       <?php get_template_part( 'partials/partial', 'catering' ); ?>
 
+   <?php } /* FUNDRAISING */ elseif ( is_page( 'fundraising' ) ) { ?>
+      <?php get_template_part( 'partials/partial', 'fundraising' ); ?>
+
+   <?php } /* DONATION REQUESTS */ elseif ( is_page( 'donation-requests' ) ) { ?>
+      <?php get_template_part( 'partials/partial', 'donation-requests' ); ?>
+
 
    <?php } /* GENERIC PAGES */ else { ?>
 
@@ -40,7 +46,7 @@
          </div>
       </div>
 
-      <div class="menu-section wrapper isWhite well">
+      <div class="wrapper isWhite well">
          <div class="container narrowContentLg">
             <!-- section -->
             <section role="main">

@@ -220,7 +220,8 @@ figure {
  * Address differences between Firefox and other browsers.
  */
 hr {
-  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
   height: 0; }
 
 /**
@@ -326,7 +327,8 @@ input {
  */
 input[type="checkbox"],
 input[type="radio"] {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   /* 1 */
   padding: 0;
   /* 2 */ }
@@ -348,6 +350,7 @@ input[type="number"]::-webkit-outer-spin-button {
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
+  -webkit-box-sizing: content-box;
   /* 2 */
   box-sizing: content-box; }
 
@@ -691,6 +694,7 @@ th {
         .gform_wrapper ul li textarea::-webkit-input-placeholder,
         .gform_wrapper ul li input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file])::-webkit-input-placeholder {
           text-transform: uppercase;
+          -webkit-transition: all 0.2s ease;
           transition: all 0.2s ease;
           color: #9B9B9B; }
         .gform_wrapper ul li input:focus::-webkit-input-placeholder,
@@ -702,6 +706,7 @@ th {
         .gform_wrapper ul li input[type=password]:focus::-webkit-input-placeholder,
         .gform_wrapper ul li textarea:focus::-webkit-input-placeholder,
         .gform_wrapper ul li input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]):focus::-webkit-input-placeholder {
+          -webkit-transition: all 0.2s ease;
           transition: all 0.2s ease;
           color: #C3502B; }
         .gform_wrapper ul li input:-moz-placeholder,
@@ -714,6 +719,7 @@ th {
         .gform_wrapper ul li textarea:-moz-placeholder,
         .gform_wrapper ul li input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]):-moz-placeholder {
           text-transform: uppercase;
+          -webkit-transition: all 0.2s ease;
           transition: all 0.2s ease;
           color: #9B9B9B; }
         .gform_wrapper ul li input:focus:-moz-placeholder,
@@ -725,6 +731,7 @@ th {
         .gform_wrapper ul li input[type=password]:focus:-moz-placeholder,
         .gform_wrapper ul li textarea:focus:-moz-placeholder,
         .gform_wrapper ul li input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]):focus:-moz-placeholder {
+          -webkit-transition: all 0.2s ease;
           transition: all 0.2s ease;
           color: #C3502B; }
         .gform_wrapper ul li input::-moz-placeholder,
@@ -737,6 +744,7 @@ th {
         .gform_wrapper ul li textarea::-moz-placeholder,
         .gform_wrapper ul li input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file])::-moz-placeholder {
           text-transform: uppercase;
+          -webkit-transition: all 0.2s ease;
           transition: all 0.2s ease;
           color: #9B9B9B; }
         .gform_wrapper ul li input:focus::-moz-placeholder,
@@ -748,6 +756,7 @@ th {
         .gform_wrapper ul li input[type=password]:focus::-moz-placeholder,
         .gform_wrapper ul li textarea:focus::-moz-placeholder,
         .gform_wrapper ul li input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]):focus::-moz-placeholder {
+          -webkit-transition: all 0.2s ease;
           transition: all 0.2s ease;
           color: #C3502B; }
         .gform_wrapper ul li input:-ms-input-placeholder,
@@ -760,6 +769,7 @@ th {
         .gform_wrapper ul li textarea:-ms-input-placeholder,
         .gform_wrapper ul li input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]):-ms-input-placeholder {
           text-transform: uppercase;
+          -webkit-transition: all 0.2s ease;
           transition: all 0.2s ease;
           color: #9B9B9B; }
         .gform_wrapper ul li input:focus:-ms-input-placeholder,
@@ -771,6 +781,7 @@ th {
         .gform_wrapper ul li input[type=password]:focus:-ms-input-placeholder,
         .gform_wrapper ul li textarea:focus:-ms-input-placeholder,
         .gform_wrapper ul li input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]):focus:-ms-input-placeholder {
+          -webkit-transition: all 0.2s ease;
           transition: all 0.2s ease;
           color: #C3502B; }
       .gform_wrapper ul li textarea {
@@ -861,7 +872,8 @@ th {
   margin-left: 10px !important;
   padding: 5px 50px 5px 4px;
   border: none;
-  box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
   background-color: transparent;
   background-image: none;
   -webkit-appearance: none;
@@ -1116,7 +1128,8 @@ th {
     clear: both; }
 
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility; }
 
@@ -1150,6 +1163,7 @@ body {
 .gform_wrapper ul li textarea,
 .gform_wrapper ul li input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]), .select-style > .ginput_container_select,
 .select-style .address_state, .select-style > .inner, .select-style select, a, .header .logo, .home .hero .audio-toggle, .home .home-about-slider .slide .slide-text span, .menu .fancybox-wrap .menu-items-box .menu-category-heading .close-menu-modal, .menu .fancybox-wrap .menu-items-box .next-prev-menu-category-links .prev-next-arrow.arrow-lt, .menu .fancybox-wrap .menu-items-box .next-prev-menu-category-links .prev-next-arrow.arrow-rt, .location-map-info .gmw-single-post-sc-form input[type=text], .darkOverlay, .image-box-links .image-box-title h3, .image-box-links .image-box-title h3:before, .image-box-links .image-box-title h3:after, .btn, .btn:before, .btn:after {
+  -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease; }
 
 .header .logo:hover {
@@ -1162,7 +1176,7 @@ img {
 a {
   color: #C3502B;
   text-decoration: none;
-  -webkit-tap-highlight-color: transparent; }
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
 a:hover {
   color: #221E1F; }
@@ -1211,10 +1225,12 @@ input:focus {
   z-index: -1;
   top: 0;
   height: 0;
+  -webkit-transition: z-index 0.8s step-end, height 1.2s cubic-bezier(0.666, 0, 0.333, 1);
   transition: z-index 0.8s step-end, height 1.2s cubic-bezier(0.666, 0, 0.333, 1); }
   .fancy-positioner.isOpen {
     z-index: 999;
     height: 100%;
+    -webkit-transition: z-index 0.6s step-start, height 0.1s cubic-bezier(0.666, 0, 0.333, 1);
     transition: z-index 0.6s step-start, height 0.1s cubic-bezier(0.666, 0, 0.333, 1); }
 
 #fancyWrap {
@@ -1226,10 +1242,12 @@ input:focus {
   left: 0;
   opacity: 0;
   overflow: hidden;
+  -webkit-transition: z-index 0.2s, step-end 0.3s, opacity 0.2s linear;
   transition: z-index 0.2s, step-end 0.3s, opacity 0.2s linear; }
   #fancyWrap.isOpen {
     z-index: 98;
     opacity: 1;
+    -webkit-transition: z-index 0.3s, step-start, opacity 0.3s linear;
     transition: z-index 0.3s, step-start, opacity 0.3s linear; }
   #fancyWrap .close-btn {
     z-index: 9999;
@@ -1272,7 +1290,8 @@ input:focus {
   text-shadow: none; }
 
 .fancybox-opened .fancybox-skin {
-  box-shadow: none; }
+  -webkit-box-shadow: none;
+          box-shadow: none; }
 
 .fancybox-mobile {
   top: 80px !important; }
@@ -1283,6 +1302,7 @@ input:focus {
 .bx-wrapper {
   margin-bottom: 0; }
   .bx-wrapper .bx-viewport {
+    -webkit-box-shadow: none;
     box-shadow: none;
     border: none;
     left: 0;
@@ -1391,6 +1411,7 @@ input:focus {
           color: #9C1A1D; }
       .header .main-menu > ul > li.menu-item-has-children:hover .sub-menu {
         max-height: 500px;
+        -webkit-transition: max-height 0.75s ease;
         transition: max-height 0.75s ease; }
     .header .main-menu .sub-menu {
       position: absolute;
@@ -1398,6 +1419,7 @@ input:focus {
       background-color: #9C1A1D;
       text-align: left;
       max-height: 0;
+      -webkit-transition: max-height 0.3s ease;
       transition: max-height 0.3s ease;
       overflow: hidden; }
       .header .main-menu .sub-menu li {
@@ -1422,6 +1444,7 @@ input:focus {
   height: 35px;
   -webkit-transform: rotate(0deg);
           transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
   cursor: pointer;
   position: absolute;
@@ -1439,6 +1462,7 @@ input:focus {
     left: 0;
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg);
+    -webkit-transition: background-color 0.2s ease, top .3s ease-in-out, width .3s ease-in-out, left .3s ease-in-out, -webkit-transform .3s ease-in-out;
     transition: background-color 0.2s ease, top .3s ease-in-out, width .3s ease-in-out, left .3s ease-in-out, -webkit-transform .3s ease-in-out;
     transition: background-color 0.2s ease, transform .3s ease-in-out, top .3s ease-in-out, width .3s ease-in-out, left .3s ease-in-out;
     transition: background-color 0.2s ease, transform .3s ease-in-out, top .3s ease-in-out, width .3s ease-in-out, left .3s ease-in-out, -webkit-transform .3s ease-in-out; }
@@ -1474,9 +1498,11 @@ input:focus {
   position: fixed;
   background-color: rgba(255, 255, 255, 0.97);
   z-index: -1;
+  -webkit-transition: z-index 0.2s, step-end 0.3s, opacity 0.2s linear;
   transition: z-index 0.2s, step-end 0.3s, opacity 0.2s linear; }
   .mobile-menu-wrapper .mobile-menu {
     margin-top: -10%;
+    -webkit-transition: margin-top 0.5s ease 0.3s;
     transition: margin-top 0.5s ease 0.3s;
     overflow-y: scroll; }
   .mobile-menu-wrapper ul {
@@ -1527,9 +1553,11 @@ body.modalOpen .mobile-menu-icon {
 body.modalOpen .mobile-menu-wrapper {
   z-index: 98;
   opacity: 1;
+  -webkit-transition: z-index 0.3s, step-start, opacity 0.3s linear;
   transition: z-index 0.3s, step-start, opacity 0.3s linear; }
   body.modalOpen .mobile-menu-wrapper .mobile-menu {
     margin-top: 0;
+    -webkit-transition: margin-top 0.5s ease-in-out 0.1s;
     transition: margin-top 0.5s ease-in-out 0.1s; }
 
 .middle-wrapper {
@@ -1922,7 +1950,8 @@ body.modalOpen .mobile-menu-wrapper {
   .menu .fancybox-wrap .fancybox-inner {
     max-width: 720px; }
   .menu .fancybox-wrap .menu-items-box .menu-category-box-shadow {
-    box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.1); }
+    -webkit-box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.1); }
   .menu .fancybox-wrap .menu-items-box .menu-category-heading {
     width: 100%;
     padding: 22px 30px;
@@ -2365,30 +2394,38 @@ body.modalOpen .mobile-menu-wrapper {
       border-color: #C3502B; }
     .location-map-info .gmw-single-post-sc-form input[type=text]::-webkit-input-placeholder {
       text-transform: uppercase;
+      -webkit-transition: all 0.2s ease;
       transition: all 0.2s ease;
       color: #9B9B9B; }
     .location-map-info .gmw-single-post-sc-form input[type=text]:focus::-webkit-input-placeholder {
+      -webkit-transition: all 0.2s ease;
       transition: all 0.2s ease;
       color: #C3502B; }
     .location-map-info .gmw-single-post-sc-form input[type=text]:-moz-placeholder {
       text-transform: uppercase;
+      -webkit-transition: all 0.2s ease;
       transition: all 0.2s ease;
       color: #9B9B9B; }
     .location-map-info .gmw-single-post-sc-form input[type=text]:focus:-moz-placeholder {
+      -webkit-transition: all 0.2s ease;
       transition: all 0.2s ease;
       color: #C3502B; }
     .location-map-info .gmw-single-post-sc-form input[type=text]::-moz-placeholder {
       text-transform: uppercase;
+      -webkit-transition: all 0.2s ease;
       transition: all 0.2s ease;
       color: #9B9B9B; }
     .location-map-info .gmw-single-post-sc-form input[type=text]:focus::-moz-placeholder {
+      -webkit-transition: all 0.2s ease;
       transition: all 0.2s ease;
       color: #C3502B; }
     .location-map-info .gmw-single-post-sc-form input[type=text]:-ms-input-placeholder {
       text-transform: uppercase;
+      -webkit-transition: all 0.2s ease;
       transition: all 0.2s ease;
       color: #9B9B9B; }
     .location-map-info .gmw-single-post-sc-form input[type=text]:focus:-ms-input-placeholder {
+      -webkit-transition: all 0.2s ease;
       transition: all 0.2s ease;
       color: #C3502B; }
   .location-map-info .gmw-single-post-sc-form button {
@@ -2762,6 +2799,7 @@ body.modalOpen .mobile-menu-wrapper {
     position: relative;
     vertical-align: top;
     padding-bottom: 63.8%;
+    -webkit-transition: -webkit-transform 4s cubic-bezier(0.4, 0.09, 0.57, 1);
     transition: -webkit-transform 4s cubic-bezier(0.4, 0.09, 0.57, 1);
     transition: transform 4s cubic-bezier(0.4, 0.09, 0.57, 1);
     transition: transform 4s cubic-bezier(0.4, 0.09, 0.57, 1), -webkit-transform 4s cubic-bezier(0.4, 0.09, 0.57, 1); }
@@ -2969,6 +3007,22 @@ body.modalOpen .mobile-menu-wrapper {
   font-size: 16px;
   line-height: 23px;
   margin-bottom: 20px; }
+.hasContent ul,
+.hasContent ol {
+  font-size: 16px;
+  line-height: 23px;
+  margin-bottom: 20px;
+  margin-left: 30px; }
+  .hasContent ul li,
+  .hasContent ol li {
+    margin-bottom: 14px; }
+    .hasContent ul li:last-child,
+    .hasContent ol li:last-child {
+      margin-bottom: 0; }
+.hasContent ul li {
+  list-style-type: disc; }
+.hasContent ol li {
+  list-style-type: decimal; }
 .hasContent .btn {
   margin-top: 10px; }
 
@@ -3177,6 +3231,7 @@ body.modalOpen .mobile-menu-wrapper {
     left: 0;
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg);
+    -webkit-transition: background-color 0.2s ease, top .3s ease-in-out, width .3s ease-in-out, left .3s ease-in-out, -webkit-transform .3s ease-in-out;
     transition: background-color 0.2s ease, top .3s ease-in-out, width .3s ease-in-out, left .3s ease-in-out, -webkit-transform .3s ease-in-out;
     transition: background-color 0.2s ease, transform .3s ease-in-out, top .3s ease-in-out, width .3s ease-in-out, left .3s ease-in-out;
     transition: background-color 0.2s ease, transform .3s ease-in-out, top .3s ease-in-out, width .3s ease-in-out, left .3s ease-in-out, -webkit-transform .3s ease-in-out; }
@@ -3202,7 +3257,8 @@ body.modalOpen .mobile-menu-wrapper {
   * {
     background: transparent !important;
     color: #000 !important;
-    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
     text-shadow: none !important; }
 
   a,
