@@ -184,8 +184,9 @@ function html5wp_pagination()
         'format' => '?paged=%#%',
         'current' => max(1, get_query_var('paged')),
         'total' => $wp_query->max_num_pages,
-        'prev_text' => 'Newer Posts',
-        'next_text' => 'Older Posts'
+        'mid_size' => '1',
+        'prev_text' => 'Newer',
+        'next_text' => 'Older'
     ));
 }
 
@@ -222,7 +223,8 @@ function html5wp_excerpt($length_callback = '', $more_callback = '')
 function html5_blank_view_article($more)
 {
     global $post;
-    return '... <a class="view-article" href="' . get_permalink($post->ID) . '">' . __('View Article', 'html5blank') . '</a>';
+    //return '... <a class="view-article" href="' . get_permalink($post->ID) . '">' . __('View Article', 'html5blank') . '</a>';
+    return ' ...';
 }
 
 // Remove Admin bar

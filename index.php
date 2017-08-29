@@ -1,16 +1,27 @@
 <?php get_header(); ?>
 
-<div class="post-feed-wrapper">
+<div class="hero hero--small" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/section-bgs/about-lower-cta-bg.jpg');">
+   <div class="push-down">
+   </div>
 
-	<!-- section -->
-	<section role="main">
-		<?php get_template_part('loop'); ?>
-	</section>
-	<!-- /section -->
+   <div class="hero-content">
+      <div class="inner">
+         <div class="hero-heading container">
+            <span class="top-accent"></span>
+            <h2>Bono's News</h2>
+            <span class="bottom-accent"></span>
+         </div>
+      </div>
+   </div>
+</div>
 
-</div><!-- /.post-feed-wrapper -->
 
+<section role="main" class="post-feed-wrapper wrapper isWhite well well--noBottom">
+   <div class="container narrowContentLg">
+      <?php get_template_part('loop'); ?>
+   </div>
+</section>
 
 <?php get_template_part('pagination'); ?>
-	
+
 <?php get_footer(); ?>

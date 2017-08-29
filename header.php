@@ -20,6 +20,7 @@
       <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
       <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic|Oswald:400,300,700' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/fonts/font-awesome/css/font-awesome.min.css">
 
       <?php wp_head(); ?>
 

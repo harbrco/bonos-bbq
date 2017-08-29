@@ -912,6 +912,354 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/fonts\/font-awesome\/css\/font-awesome.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/font-awesome\/css\/font-awesome-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/fonts\/font-awesome\/css\/font-awesome.min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/font-awesome\/css\/font-awesome.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/fonts\/font-awesome\/fonts\/fontawesome-webfont.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/font-awesome\/fonts\/fontawesome-webfont.eot",
+		"oF": 0
+		},
+	"\/fonts\/font-awesome\/fonts\/fontawesome-webfont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/font-awesome\/fonts\/fontawesome-webfont.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/font-awesome\/fonts\/fontawesome-webfont.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/font-awesome\/fonts\/fontawesome-webfont.ttf",
+		"oF": 0
+		},
+	"\/fonts\/font-awesome\/fonts\/fontawesome-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/font-awesome\/fonts\/fontawesome-webfont.woff",
+		"oF": 0
+		},
+	"\/fonts\/font-awesome\/fonts\/fontawesome-webfont.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/font-awesome\/fonts\/fontawesome-webfont.woff2",
+		"oF": 0
+		},
+	"\/fonts\/font-awesome\/fonts\/FontAwesome.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/font-awesome\/fonts\/FontAwesome.otf",
+		"oF": 0
+		},
+	"\/fonts\/font-awesome\/HELP-US-OUT.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/font-awesome\/HELP-US-OUT.txt",
+		"oF": 0
+		},
+	"\/fonts\/font-awesome\/scss\/.sass-cache\/fb4e24fa24f96e27c38b580e42d54aad94683f33\/_animated.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/fonts\/font-awesome\/scss\/.sass-cache\/fb4e24fa24f96e27c38b580e42d54aad94683f33\/_animated.scssc",
+		"oF": 0
+		},
+	"\/fonts\/font-awesome\/scss\/.sass-cache\/fb4e24fa24f96e27c38b580e42d54aad94683f33\/_bordered-pulled.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/fonts\/font-awesome\/scss\/.sass-cache\/fb4e24fa24f96e27c38b580e42d54aad94683f33\/_bordered-pulled.scssc",
+		"oF": 0
+		},
+	"\/fonts\/font-awesome\/scss\/.sass-cache\/fb4e24fa24f96e27c38b580e42d54aad94683f33\/_core.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/fonts\/font-awesome\/scss\/.sass-cache\/fb4e24fa24f96e27c38b580e42d54aad94683f33\/_core.scssc",
+		"oF": 0
+		},
+	"\/fonts\/font-awesome\/scss\/.sass-cache\/fb4e24fa24f96e27c38b580e42d54aad94683f33\/_fixed-width.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/fonts\/font-awesome\/scss\/.sass-cache\/fb4e24fa24f96e27c38b580e42d54aad94683f33\/_fixed-width.scssc",
+		"oF": 0
+		},
+	"\/fonts\/font-awesome\/scss\/.sass-cache\/fb4e24fa24f96e27c38b580e42d54aad94683f33\/_icons.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/fonts\/font-awesome\/scss\/.sass-cache\/fb4e24fa24f96e27c38b580e42d54aad94683f33\/_icons.scssc",
+		"oF": 0
+		},
+	"\/fonts\/font-awesome\/scss\/.sass-cache\/fb4e24fa24f96e27c38b580e42d54aad94683f33\/_larger.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/fonts\/font-awesome\/scss\/.sass-cache\/fb4e24fa24f96e27c38b580e42d54aad94683f33\/_larger.scssc",
+		"oF": 0
+		},
+	"\/fonts\/font-awesome\/scss\/.sass-cache\/fb4e24fa24f96e27c38b580e42d54aad94683f33\/_list.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/fonts\/font-awesome\/scss\/.sass-cache\/fb4e24fa24f96e27c38b580e42d54aad94683f33\/_list.scssc",
+		"oF": 0
+		},
+	"\/fonts\/font-awesome\/scss\/.sass-cache\/fb4e24fa24f96e27c38b580e42d54aad94683f33\/_mixins.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/fonts\/font-awesome\/scss\/.sass-cache\/fb4e24fa24f96e27c38b580e42d54aad94683f33\/_mixins.scssc",
+		"oF": 0
+		},
+	"\/fonts\/font-awesome\/scss\/.sass-cache\/fb4e24fa24f96e27c38b580e42d54aad94683f33\/_path.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/fonts\/font-awesome\/scss\/.sass-cache\/fb4e24fa24f96e27c38b580e42d54aad94683f33\/_path.scssc",
+		"oF": 0
+		},
+	"\/fonts\/font-awesome\/scss\/.sass-cache\/fb4e24fa24f96e27c38b580e42d54aad94683f33\/_rotated-flipped.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/fonts\/font-awesome\/scss\/.sass-cache\/fb4e24fa24f96e27c38b580e42d54aad94683f33\/_rotated-flipped.scssc",
+		"oF": 0
+		},
+	"\/fonts\/font-awesome\/scss\/.sass-cache\/fb4e24fa24f96e27c38b580e42d54aad94683f33\/_screen-reader.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/fonts\/font-awesome\/scss\/.sass-cache\/fb4e24fa24f96e27c38b580e42d54aad94683f33\/_screen-reader.scssc",
+		"oF": 0
+		},
+	"\/fonts\/font-awesome\/scss\/.sass-cache\/fb4e24fa24f96e27c38b580e42d54aad94683f33\/_stacked.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/fonts\/font-awesome\/scss\/.sass-cache\/fb4e24fa24f96e27c38b580e42d54aad94683f33\/_stacked.scssc",
+		"oF": 0
+		},
+	"\/fonts\/font-awesome\/scss\/.sass-cache\/fb4e24fa24f96e27c38b580e42d54aad94683f33\/_variables.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/fonts\/font-awesome\/scss\/.sass-cache\/fb4e24fa24f96e27c38b580e42d54aad94683f33\/_variables.scssc",
+		"oF": 0
+		},
+	"\/fonts\/font-awesome\/scss\/.sass-cache\/fb4e24fa24f96e27c38b580e42d54aad94683f33\/font-awesome.scssc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/font-awesome\/scss\/.sass-cache\/fb4e24fa24f96e27c38b580e42d54aad94683f33\/font-awesome.scssc",
+		"oF": 0
+		},
+	"\/fonts\/font-awesome\/scss\/_animated.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/fonts\/font-awesome\/css\/_animated.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/fonts\/font-awesome\/scss\/_bordered-pulled.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/fonts\/font-awesome\/css\/_bordered-pulled.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/fonts\/font-awesome\/scss\/_core.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/fonts\/font-awesome\/css\/_core.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/fonts\/font-awesome\/scss\/_fixed-width.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/fonts\/font-awesome\/css\/_fixed-width.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/fonts\/font-awesome\/scss\/_icons.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/fonts\/font-awesome\/css\/_icons.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/fonts\/font-awesome\/scss\/_larger.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/fonts\/font-awesome\/css\/_larger.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/fonts\/font-awesome\/scss\/_list.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/fonts\/font-awesome\/css\/_list.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/fonts\/font-awesome\/scss\/_mixins.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/fonts\/font-awesome\/css\/_mixins.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/fonts\/font-awesome\/scss\/_path.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/fonts\/font-awesome\/css\/_path.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/fonts\/font-awesome\/scss\/_rotated-flipped.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/fonts\/font-awesome\/css\/_rotated-flipped.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/fonts\/font-awesome\/scss\/_screen-reader.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/fonts\/font-awesome\/css\/_screen-reader.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/fonts\/font-awesome\/scss\/_stacked.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/fonts\/font-awesome\/css\/_stacked.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/fonts\/font-awesome\/scss\/_variables.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/fonts\/font-awesome\/css\/_variables.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/fonts\/font-awesome\/scss\/font-awesome.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/font-awesome\/scss\/font-awesome-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/fonts\/font-awesome\/scss\/font-awesome.css.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/font-awesome\/scss\/font-awesome.css.map",
+		"oF": 0
+		},
+	"\/fonts\/font-awesome\/scss\/font-awesome.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fonts\/font-awesome\/css\/font-awesome.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/fonts\/readme.txt": {
 		"ft": 8192,
 		"oA": 2,

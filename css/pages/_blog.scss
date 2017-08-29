@@ -1,15 +1,458 @@
-// add blog specific styles here:
+.blog,
+.archive {
+   .hero {
+      background-position: center top;
+   }
+
+   .blog-heading {
+      h1 {
+         font-size: 34px;
+         line-height: 40px;
+         @extend %sansB;
+         text-transform: uppercase;
+         @include letSpc(1px);
+      }
+
+      &:after {
+         display: inline-block;
+         content: "";
+         width: 25px;
+         height: 4px;
+         background-color: #9C1A1D;
+      }
+   }
+}
+
+.post-feed-wrapper {
+   article {
+      .article-teaser-text {
+         h2 {
+            font-size: 28px;
+            line-height: 36px;
+            @extend %sansB;
+            text-transform: uppercase;
+            @include letSpc(1px);
+            margin-bottom: 14px;
+         }
+
+         span {
+            font-size: 16px;
+            line-height: 18px;
+            @extend %sansB;
+            text-transform: uppercase;
+            @include letSpc(1px);
+            margin-bottom: 14px;
+         }
+
+         p {
+            font-size: 16px;
+            line-height: 26px;
+            margin-top: 14px;
+         }
+      }
+   }
+
+   .article-divider {
+      width: 100%;
+      margin: 7% auto;
+      height: 1px;
+      background-color: lighten($lightDkGray, 10%);
+
+      &:last-child {
+         margin-bottom: 0;
+      }
+   }
+
+   .article-teaser-columns {
+      .feat-img-col {
+         display: inline-block;
+         width: 50%;
+         max-width: 300px;
+         vertical-align: top;
+         margin-right: 46px;
+
+         img {
+            @extend %hoverTrans;
+
+            &:hover {
+               @extend %hoverFade;
+            }
+         }
+      }
+
+      .article-info-col {
+         width: calc(100% - 350px);
+         display: inline-block;
+         vertical-align: top;
+      }
+   }
+}
 
 
+.pagination {
+   text-align: center;
 
+   .page-numbers {
+      color: $black;
+      margin-right: 20px;
+      font-size: 18px;
+      line-height: 18px;
+      @extend %hoverTrans;
+      @extend %sansB;
+      text-transform: uppercase;
+      @include letSpc(1px);
 
-// BLOG PAGE TYPOGRAPHY = = = = = = =
+      &:last-child {
+         margin-right: 0;
+      }
 
+      &.dots {
+         margin-right: 10px;
+         margin-left: -10px;
+      }
 
-
-// Single Post Typography -------
-
+      &:hover,
+      &.current {
+         color: $primary;
+      }
+   }
+}
 
 
 // BLOG PAGE BREAKPOINTS = = = = = = =
 
+@media only screen and (max-width:1140px) {
+   .blog,
+   .archive {
+      .blog-heading {
+         h1 {
+            font-size: 30px;
+            line-height: 36px;
+         }
+      }
+   }
+
+   .post-feed-wrapper {
+      article {
+         .article-teaser-text {
+            h2 {
+               font-size: 24px;
+               line-height: 32px;
+            }
+         }
+      }
+   }
+}
+
+@media only screen and (max-width:900px) {
+   .blog,
+   .archive {
+      .blog-heading {
+         h1 {
+            font-size: 26px;
+            line-height: 32px;
+         }
+      }
+   }
+
+   .post-feed-wrapper {
+      article {
+         .article-teaser-text {
+            h2 {
+               font-size: 22px;
+               line-height: 30px;
+               margin-bottom: 12px;
+            }
+
+            p {
+               font-size: 14px;
+               line-height: 24px;
+               margin-top: 12px;
+            }
+         }
+      }
+
+      .article-divider {
+         margin: 9% auto;
+
+         &:last-child {
+            margin-bottom: 0;
+         }
+      }
+   }
+}
+
+@media only screen and (max-width:680px) {
+   .post-feed-wrapper {
+      .article-teaser-columns {
+         .feat-img-col {
+            display: block;
+            width: 100%;
+            max-width: 400px;
+            margin-right: 0;
+            margin-bottom: 30px;
+         }
+
+         .article-info-col {
+            width: 100%;
+            display: block;
+         }
+      }
+   }
+}
+
+@media only screen and (max-width:580px) {
+   .blog,
+   .archive {
+      .blog-heading {
+         h1 {
+            font-size: 24px;
+            line-height: 30px;
+         }
+      }
+   }
+
+   .post-feed-wrapper {
+      .article-divider {
+         margin: 13% auto;
+
+         &:last-child {
+            margin-bottom: 0;
+         }
+      }
+   }
+
+   .pagination {
+      .page-numbers {
+         font-size: 16px;
+         line-height: 16px;
+         margin-right: 12px;
+
+         &:last-child {
+            margin-right: 0;
+         }
+
+         &.dots {
+            margin-right: 6px;
+            margin-left: -6px;
+         }
+      }
+   }
+}
+
+@media only screen and (max-width:480px) {
+   .blog,
+   .archive {
+      .blog-heading {
+         h1 {
+            font-size: 22px;
+            line-height: 28px;
+         }
+      }
+   }
+
+   .post-feed-wrapper {
+      article {
+         .article-teaser-text {
+            h2 {
+               font-size: 20px;
+               line-height: 28px;
+               margin-bottom: 10px;
+            }
+
+            span {
+               font-size: 15px;
+               line-height: 17px;
+               margin-bottom: 10px;
+            }
+
+            p {
+               font-size: 13px;
+               line-height: 23px;
+               margin-top: 10px;
+            }
+         }
+      }
+   }
+}
+
+@media only screen and (max-width:380px) {
+   .blog,
+   .archive {
+      .blog-heading {
+         h1 {
+            font-size: 20px;
+            line-height: 26px;
+         }
+      }
+   }
+
+   .post-feed-wrapper {
+      article {
+         .article-teaser-text {
+            h2 {
+               font-size: 18px;
+               line-height: 26px;
+               margin-bottom: 10px;
+            }
+
+            span {
+               font-size: 14px;
+               line-height: 17px;
+               margin-bottom: 10px;
+            }
+         }
+      }
+   }
+
+   .pagination {
+      .page-numbers {
+         font-size: 15px;
+         line-height: 15px;
+         margin-right: 10px;
+         letter-spacing: 0;
+
+         &:last-child {
+            margin-right: 0;
+         }
+
+         &.dots {
+            margin-right: 5px;
+            margin-left: -5px;
+         }
+
+         &.prev {
+            margin-right: 8px;
+         }
+
+         &.next {
+            margin-left: -2px;
+         }
+      }
+   }
+}
+
+
+// SINGLE POST STYLES = = = = = = =
+
+.single-post {
+   .article-nav {
+      margin-top: 50px;
+
+      a {
+         font-size: 16px;
+         line-height: 16px;
+         @extend %sansB;
+         text-transform: uppercase;
+         @include letSpc(1px);
+
+         &.article-back {
+            float: left;
+         }
+
+         &.article-next {
+            float: right;
+         }
+      }
+   }
+
+   .featured-image {
+      margin-bottom: 50px;
+   }
+
+   article {
+      img {
+         width: 100%;
+         height: auto;
+      }
+
+      .social-sharing {
+         text-align: center;
+         margin: 10% 0 5%;
+
+         h3 {
+            font-size: 20px;
+            line-height: 22px;
+            @extend %sansB;
+            text-transform: uppercase;
+            @include letSpc(1px);
+            margin-bottom: 20px;
+         }
+      }
+
+      .social-links {
+         list-style: none;
+         text-align: center;
+         margin: 0;
+
+         li {
+            display: inline-block;
+            margin-right: 30px;
+
+            &:last-child {
+               margin-right: 0;
+            }
+
+            a {
+               font-size: 22px;
+            }
+         }
+      }
+   }
+}
+
+
+// SINGLE POST BREAKPOINTS = = = = = = =
+
+@media only screen and (max-width:768px) {
+   .single-post {
+      .article-nav {
+         margin-top: 40px;
+      }
+   }
+}
+
+@media only screen and (max-width:580px) {
+   .single-post {
+      .featured-image {
+         margin-bottom: 40px;
+      }
+   }
+}
+
+@media only screen and (max-width:480px) {
+   .single-post {
+      article {
+         .social-sharing {
+            margin: 16% 0 8%;
+
+            h3 {
+               font-size: 17px;
+               line-height: 20px;
+            }
+         }
+
+         .social-links {
+            li {
+               a {
+                  font-size: 20px;
+               }
+            }
+         }
+      }
+   }
+}
+
+@media only screen and (max-width:380px) {
+   .single-post {
+      .article-nav {
+         margin-top: 30px;
+
+         a {
+            font-size: 14px;
+            line-height: 14px;
+            letter-spacing: 0;
+         }
+      }
+   }
+}
