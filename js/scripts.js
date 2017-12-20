@@ -271,7 +271,6 @@
     });
 
 
-
     // Locations page(s)
     if ( $('body').hasClass('locations') || $('body').hasClass('tax-city') ) {
       // Add button class to nearest location "get directions" button
