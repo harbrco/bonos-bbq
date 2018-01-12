@@ -2153,11 +2153,25 @@
 		"oAP": "\/partials\/partial-careers.php",
 		"oF": 0
 		},
+	"\/partials\/partial-cart.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/partials\/partial-cart.php",
+		"oF": 0
+		},
 	"\/partials\/partial-catering.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/partials\/partial-catering.php",
+		"oF": 0
+		},
+	"\/partials\/partial-checkout.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/partials\/partial-checkout.php",
 		"oF": 0
 		},
 	"\/partials\/partial-contact.php": {
