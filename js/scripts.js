@@ -136,6 +136,8 @@
 
 
 
+
+
     // Fancybox - Modal popup
     // video modal
     $('body').on('click', '.video-play-btn', function(){
@@ -392,6 +394,99 @@
       });
     };
     $(".clearit input, .clearit textarea").cleardefault();
+
+
+
+    if (shopBool) {
+      $('.shopItem').addClass('current-menu-item');
+    }
+
+    /*------------------------------------*\
+    	Variants
+    \*------------------------------------*/
+    //pop the "choose from list" option
+    $('.variations_form table td.value select').find("option").eq(0).remove();
+
+    //show first variant on load
+    $('.isVarianted .variantWrapper').addClass('isHidden');
+    $('.isVarianted .variant-0').removeClass('isHidden');
+
+    $('.variations_form table td.value select').on('change', function(e){
+      $this = $(this);
+      var options = $this.find('option');
+      var idx = options.index(options.filter(":selected"));
+      $('.isVarianted .variantWrapper').addClass('isHidden');
+      $('.isVarianted .variant-'+idx).removeClass('isHidden');
+    });
+
+    $( ".isVarianted .variantWrapper" ).each(function() {
+      var $this = undefined;
+      var $featContainer = undefined;
+      var $galleryContainer = undefined;
+      var $innerFeatContainer = undefined;
+      var lastClass = undefined;
+      var finalLast = undefined;
+
+      $this = $(this);
+      //show first slide
+      $featContainer = $this.children('.selected-image');
+      $featContainer.children('.slide-1').addClass('selected');
+
+      //change slide on click
+      $galleryContainer = $this.children('.inner-gallery');
+
+      $galleryContainer.children('.slide').click(function() {
+        var lastClass = $(this).attr('class').split(' ').pop();
+        var finalLast = '.' + lastClass;
+
+        var $innerFeatContainer = $(this).parents('.inner-gallery').siblings('.selected-image');
+        if (!$innerFeatContainer.children(finalLast).hasClass('selected')) {
+          $innerFeatContainer.children('.featured').removeClass('selected');
+          $innerFeatContainer.children(finalLast).addClass('selected');
+        }
+  		});
+    });
+
+    /*------------------------------------*\
+    Base Gallery
+    \*------------------------------------*/
+    $featContainer = $('.selected-image.baseGallery');
+    $featContainer.children('.slide-1').addClass('selected');
+
+    //change slide on click
+    $galleryContainer = $('.inner-gallery.baseGallery');
+
+    $galleryContainer.children('.slide').click(function() {
+      var lastClass = $(this).attr('class').split(' ').pop();
+      var finalLast = '.' + lastClass;
+
+      var $innerFeatContainer = $(this).parents('.inner-gallery').siblings('.selected-image');
+      if (!$innerFeatContainer.children(finalLast).hasClass('selected')) {
+        $innerFeatContainer.children('.featured').removeClass('selected');
+        $innerFeatContainer.children(finalLast).addClass('selected');
+      }
+    });
+
+    /*------------------------------------*\
+    Cart Related things
+    \*------------------------------------*/
+    var $cartCount = $('.cartCount span').html();
+    console.log($cartCount);
+    if ($cartCount === "0") {
+      $('.cartCount').addClass('isHidden');
+    } else {
+      $('.cartCount').appendTo('.main-menu .shopItem');
+      $('.cartCount').removeClass('isHidden');
+    }
+    $( ".woocommerce-cart .woocommerce-cart-form__cart-item" ).each(function() {
+      var $nameCol = $(this).children('.product-name').children('a');
+      var $nameString = $nameCol.html().split(" - ");
+      var $finalString = $nameString[0] + "</br><span>" + $nameString[1] + "</span>";
+      console.log($finalString);
+      $nameCol.html($finalString);
+    });
+
+
 
   });
 
