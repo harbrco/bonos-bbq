@@ -99,36 +99,44 @@
       <!-- ENDS FLEXIBLE / CUSTOMIZABLE CONTENT LAYOUT SECTION -->
 
 
-      <!-- <div class="wrapper isWhite well">
+      <?php
+      $hasWell = '';
+      if (!empty_content($post->post_content)) {
+         $hasWell = 'well';
+      } else {
+         $hasWell = '';
+      } ?>
+
+      <div class="wrapper isWhite <?php echo $hasWell; ?>">
          <div class="container narrowContentLg">
             <section role="main">
 
-            <?php //if (have_posts()): while (have_posts()) : the_post(); ?>
+            <?php if (have_posts()): while (have_posts()) : the_post(); ?>
 
-               <article id="post-<?php //the_ID(); ?>" <?php //post_class(); ?>>
+               <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-                  <?php //the_content(); ?>
+                  <?php the_content(); ?>
 
 
-                  <?php //edit_post_link(); ?>
+                  <?php edit_post_link(); ?>
 
                </article>
 
-            <?php //endwhile; ?>
+            <?php endwhile; ?>
 
-            <?php //else: ?>
+            <?php else: ?>
 
                <article>
 
-                  <h2><?php //_e( 'Sorry, nothing to display.', 'html5blank' ); ?></h2>
+                  <h2><?php _e( 'Sorry, nothing to display.', 'html5blank' ); ?></h2>
 
                </article>
 
-            <?php //endif; ?>
+            <?php endif; ?>
 
             </section>
          </div>
-      </div> -->
+      </div>
 
    <?php } ?>
 

@@ -334,6 +334,7 @@ add_action('init', 'register_html5_menu'); // Add HTML5 Blank Menu
 //add_action('init', 'create_post_type_locations'); // Add our HTML5 Blank Custom Post Type
 add_action('widgets_init', 'my_remove_recent_comments_style'); // Remove inline Recent Comment Styles from wp_head()
 add_action('init', 'html5wp_pagination'); // Add our HTML5 Pagination
+add_action( 'after_setup_theme', 'woocommerce_support' );
 
 // Remove Actions
 remove_action('wp_head', 'feed_links_extra', 3); // Display the links to the extra feeds such as category feeds
@@ -367,6 +368,7 @@ add_filter('show_admin_bar', 'remove_admin_bar'); // Remove Admin bar
 add_filter('style_loader_tag', 'html5_style_remove'); // Remove 'text/css' from enqueued stylesheet
 add_filter('post_thumbnail_html', 'remove_thumbnail_dimensions', 10); // Remove width and height dynamic attributes to thumbnails
 add_filter('image_send_to_editor', 'remove_thumbnail_dimensions', 10); // Remove width and height dynamic attributes to post images
+add_filter( 'woocommerce_show_page_title' , 'woo_hide_page_title' );
 
 // Remove Filters
 remove_filter('the_excerpt', 'wpautop'); // Remove <p> tags from Excerpt altogether
@@ -441,6 +443,90 @@ add_filter( 'nav_menu_css_class', 'fix_blog_link_on_cpt', 10, 3 );
 
 
 
+/*------------------------------------*\
+    Woocommerce Functions
+\*------------------------------------*/
+// Fix Woo saying Your theme does not declare WooCommerce support
+function woocommerce_support() {
+    add_theme_support( 'woocommerce' );
+}
+//Removes the "shop" title on the main shop page
+function woo_hide_page_title() {
+    return false;
+}
+//archive
+remove_action( 'woocommerce_before_shop_loop', 'woocommerce_result_count', 20 );
+remove_action( 'woocommerce_before_shop_loop', 'woocommerce_catalog_ordering', 30 );
+// Change number or products per row to 3
+if (!function_exists('loop_columns')) {
+    function loop_columns() {
+        return 3; // 3 products per row
+    }
+}
+
+//products
+remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_title', 5);
+remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_rating', 10);
+remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_price', 10);
+remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_excerpt', 20);
+remove_action( 'woocommerce_single_product_summary', 'remove_short_description', 30 );
+remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_meta', 40);
+
+add_action('woocommerce_single_product_summary', 'woocommerce_template_single_price', 5);
+function show_content() {
+    return the_content();
+}
+
+add_filter( 'woocommerce_product_tabs', 'woo_remove_product_tabs', 98 );
+function woo_remove_product_tabs( $tabs ) {
+
+    unset( $tabs['description'] );          // Remove the description tab
+    unset( $tabs['additional_information'] );   // Remove the additional information tab
+
+    return $tabs;
+
+}
+
+add_filter( 'wc_add_to_cart_message_html', 'bbloomer_custom_add_to_cart_message' );
+
+function bbloomer_custom_add_to_cart_message() {
+
+global $woocommerce;
+$return_to  = get_permalink(woocommerce_get_page_id('shop'));
+$message    = sprintf('<a href="%s" class="button wc-forwards">%s</a> %s', $return_to, __('Continue Shopping', 'woocommerce'), __('Product successfully added to your cart.', 'woocommerce') );
+return $message;
+}
+
+
+
+/*------------------------------------*\
+    ACF Custom and Global Theme Options
+\*------------------------------------*/
+
+if(function_exists('acf_add_options_page')) {
+   acf_add_options_page(array(
+      'page_title'   => 'Theme Options',
+      'menu_title'   => 'Theme Options',
+      'menu_slug'    => 'theme-options',
+      'capability'   => 'edit_posts',
+      'parent_slug'  => '',
+      'position'     => false,
+      'icon_url'     => false
+   ));
+
+   acf_add_options_sub_page(array(
+      'page_title'   => 'Shop Options',
+      'menu_title'   => 'Shop Options',
+      'menu_slug'    => 'theme-options-global-options',
+      'capability'   => 'edit_posts',
+      'parent_slug'  => 'theme-options',
+      'position'     => false,
+      'icon_url'     => false
+   ));
+}
+
+
+
 
 /*------------------------------------*\
 	ShortCode Functions
@@ -460,16 +546,9 @@ function html5_shortcode_demo_2($atts, $content = null) // Demo Heading H2 short
 
 
 
-// filter the Gravity Forms button type
-add_filter( 'gform_submit_button', 'form_submit_button', 10, 2 );
-function form_submit_button( $button, $form ) {
-    return "<button class='button btn btn--ghost' id='gform_submit_button_{$form['id']}'><span>Submit</span></button>";
-}
-
-// tweak the button text for newsletter subscribe form
-add_filter( 'gform_submit_button_3', 'subscribe_form_submit_button', 10, 2 );
-function subscribe_form_submit_button( $button, $form ) {
-    return "<button class='button btn btn--ghost' id='gform_submit_button_{$form['id']}'><span>Subscribe</span></button>";
+// Check if there's no content in "the_content()"
+function empty_content($str) {
+   return trim(str_replace('&nbsp;','',strip_tags($str))) == '';
 }
 
 
@@ -514,6 +593,20 @@ return $content;
 }
 
 add_filter('gform_field_content', 'gform_column_splits', 100, 5);
+
+
+
+// filter the Gravity Forms button type
+add_filter( 'gform_submit_button', 'form_submit_button', 10, 2 );
+function form_submit_button( $button, $form ) {
+    return "<button class='button btn btn--ghost' id='gform_submit_button_{$form['id']}'><span>Submit</span></button>";
+}
+
+// tweak the button text for newsletter subscribe form
+add_filter( 'gform_submit_button_3', 'subscribe_form_submit_button', 10, 2 );
+function subscribe_form_submit_button( $button, $form ) {
+    return "<button class='button btn btn--ghost' id='gform_submit_button_{$form['id']}'><span>Subscribe</span></button>";
+}
 
 
 
