@@ -14,7 +14,7 @@
 </div>
 
 
-<div class="menu-section wrapper isWhite well">
+<div class="menu-section wrapper isWhite well well--noBottom">
    <div class="container narrowContentLg">
       <div class="section-heading">
          <h3>What Are You in the Mood For?</h3>
@@ -96,5 +96,19 @@
       <?php endwhile; ?>
       </div>
       <?php endif; ?>
+   </div>
+</div>
+
+<div class="layout-single-centered-col wrapper isWhite well">
+   <div class="container narrowContent hasContent">
+      <div class="section-heading">
+         <h3>Looking for prices?</h3>
+      </div>
+
+      <p style="text-align: center;">Some of our locations have different pricing on items.  Please find your location, and view the menu (PDF) for that location for current pricing.</p>
+
+      <div class="centerBtn" style="margin-bottom: 20px;">
+         <a href="/locations/" class="btn btn--ghost">View Locations</a>
+      </div>
    </div>
 </div>
