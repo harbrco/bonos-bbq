@@ -7,7 +7,7 @@
 		"uuidString": "D9C93073-AE3A-418A-9505-30BB628C1CAA"
 		}
 	],
-"creatorBuild": "26148",
+"creatorBuild": "26268",
 "files": {
 	"\/.gitignore": {
 		"cB": 0,
@@ -280,6 +280,20 @@
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/885a627dfc1bddefb07aecb75aab5bcefce28ddf\/_menu.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/885a627dfc1bddefb07aecb75aab5bcefce28ddf\/_shop-archive.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/885a627dfc1bddefb07aecb75aab5bcefce28ddf\/_shop-archive.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/885a627dfc1bddefb07aecb75aab5bcefce28ddf\/_shop-checkout.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/885a627dfc1bddefb07aecb75aab5bcefce28ddf\/_shop-checkout.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/8de209130588a38deb788e6e5411350ffae847aa\/_external.scssc": {
@@ -2483,6 +2497,7 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,
@@ -3046,6 +3061,10 @@
 		"id-match": {
 			"active": 0,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"indent": {
 			"active": 0,
