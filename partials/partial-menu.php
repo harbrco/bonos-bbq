@@ -105,7 +105,7 @@
          <h3>Looking for prices?</h3>
       </div>
 
-      <p style="text-align: center;">Some of our locations have different pricing on items.  Please find your location, and view the menu (PDF) for that location for current pricing.</p>
+      <p style="text-align: center;">Occasionally, some of our locations have different pricing on specific items.  Please find your location, and view the menu (PDF) for that location for current pricing.</p>
 
       <div class="centerBtn" style="margin-bottom: 20px;">
          <a href="/locations/" class="btn btn--ghost">View Locations</a>

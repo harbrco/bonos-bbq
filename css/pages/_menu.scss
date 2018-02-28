@@ -144,7 +144,8 @@
                -webkit-margin-before: 0;
                -webkit-margin-after: 0;
                vertical-align: top;
-               display: block;
+               display: inline-block;
+               width: 100%;
 
                h4 {
                   color: $darkGray;

@@ -38,3 +38,6 @@ _forms.scssc
 _menu.scssc
 _locations.scssc
 fonts/font-awesome/scss/.sass-cache
+css/.sass-cache/
+/css/.sass-cache/885a627dfc1bddefb07aecb75aab5bcefce28ddf/_shop-checkout.scssc
+/css/.sass-cache/885a627dfc1bddefb07aecb75aab5bcefce28ddf/_shop-archive.scssc
