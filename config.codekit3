@@ -7,415 +7,507 @@
 		"uuidString": "D9C93073-AE3A-418A-9505-30BB628C1CAA"
 		}
 	],
-"creatorBuild": "25900",
+"creatorBuild": "26268",
 "files": {
 	"\/.gitignore": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
 	"\/404.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/404.php",
 		"oF": 0
 		},
 	"\/archive.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/archive.php",
 		"oF": 0
 		},
 	"\/author.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/author.php",
 		"oF": 0
 		},
 	"\/category.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/category.php",
 		"oF": 0
 		},
 	"\/comments.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/comments.php",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/018ae8ff61843b003062597ec0bfbfb2df6c5cde\/_position.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/018ae8ff61843b003062597ec0bfbfb2df6c5cde\/_position.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/018ae8ff61843b003062597ec0bfbfb2df6c5cde\/_selection.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/018ae8ff61843b003062597ec0bfbfb2df6c5cde\/_selection.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/2719a277eeea41678d25e3d630593798649b5f4c\/normalize.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/css\/.sass-cache\/2719a277eeea41678d25e3d630593798649b5f4c\/normalize.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/2719a277eeea41678d25e3d630593798649b5f4c\/responsivegridsystem.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/css\/.sass-cache\/2719a277eeea41678d25e3d630593798649b5f4c\/responsivegridsystem.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/3ed861e1d415821db2a234053c8faafc013c2883\/_breakpoints.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/3ed861e1d415821db2a234053c8faafc013c2883\/_breakpoints.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/3ed861e1d415821db2a234053c8faafc013c2883\/_buttons.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/3ed861e1d415821db2a234053c8faafc013c2883\/_buttons.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/3ed861e1d415821db2a234053c8faafc013c2883\/_clearfix.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/3ed861e1d415821db2a234053c8faafc013c2883\/_clearfix.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/3ed861e1d415821db2a234053c8faafc013c2883\/_common.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/3ed861e1d415821db2a234053c8faafc013c2883\/_common.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/3ed861e1d415821db2a234053c8faafc013c2883\/_defaults.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/3ed861e1d415821db2a234053c8faafc013c2883\/_defaults.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/3ed861e1d415821db2a234053c8faafc013c2883\/_grid.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/3ed861e1d415821db2a234053c8faafc013c2883\/_grid.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/3ed861e1d415821db2a234053c8faafc013c2883\/_inputs.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/3ed861e1d415821db2a234053c8faafc013c2883\/_inputs.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/3ed861e1d415821db2a234053c8faafc013c2883\/_lists.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/3ed861e1d415821db2a234053c8faafc013c2883\/_lists.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/3ed861e1d415821db2a234053c8faafc013c2883\/_misc.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/3ed861e1d415821db2a234053c8faafc013c2883\/_misc.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/3ed861e1d415821db2a234053c8faafc013c2883\/_print.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/3ed861e1d415821db2a234053c8faafc013c2883\/_print.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/3ed861e1d415821db2a234053c8faafc013c2883\/_retina-images.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/3ed861e1d415821db2a234053c8faafc013c2883\/_retina-images.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/3ed861e1d415821db2a234053c8faafc013c2883\/_typography.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/3ed861e1d415821db2a234053c8faafc013c2883\/_typography.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/3ed861e1d415821db2a234053c8faafc013c2883\/_vars.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/3ed861e1d415821db2a234053c8faafc013c2883\/_vars.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/40c7960e6f4611f09524cb38d7a9bc526b2e71fa\/site.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/css\/.sass-cache\/40c7960e6f4611f09524cb38d7a9bc526b2e71fa\/site.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/5a06b32ae1e05fa4cee110bf82f503676f3a62d9\/_external.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/5a06b32ae1e05fa4cee110bf82f503676f3a62d9\/_external.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/64b645de09fcc1d52130d561cf5cbcfc9c81b8bc\/_footer.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/64b645de09fcc1d52130d561cf5cbcfc9c81b8bc\/_footer.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/64b645de09fcc1d52130d561cf5cbcfc9c81b8bc\/_header.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/64b645de09fcc1d52130d561cf5cbcfc9c81b8bc\/_header.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/64b645de09fcc1d52130d561cf5cbcfc9c81b8bc\/_main.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/64b645de09fcc1d52130d561cf5cbcfc9c81b8bc\/_main.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/64b645de09fcc1d52130d561cf5cbcfc9c81b8bc\/_nav.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/64b645de09fcc1d52130d561cf5cbcfc9c81b8bc\/_nav.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/64b645de09fcc1d52130d561cf5cbcfc9c81b8bc\/_sidebar.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/64b645de09fcc1d52130d561cf5cbcfc9c81b8bc\/_sidebar.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/8750a1a583d0d3bf9cc261cd3d89e22ce9ed7d6f\/_position.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/8750a1a583d0d3bf9cc261cd3d89e22ce9ed7d6f\/_position.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/8750a1a583d0d3bf9cc261cd3d89e22ce9ed7d6f\/_selection.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/8750a1a583d0d3bf9cc261cd3d89e22ce9ed7d6f\/_selection.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/885a627dfc1bddefb07aecb75aab5bcefce28ddf\/_about.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/885a627dfc1bddefb07aecb75aab5bcefce28ddf\/_about.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/885a627dfc1bddefb07aecb75aab5bcefce28ddf\/_blog.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/885a627dfc1bddefb07aecb75aab5bcefce28ddf\/_blog.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/885a627dfc1bddefb07aecb75aab5bcefce28ddf\/_common.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/885a627dfc1bddefb07aecb75aab5bcefce28ddf\/_common.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/885a627dfc1bddefb07aecb75aab5bcefce28ddf\/_contact.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/885a627dfc1bddefb07aecb75aab5bcefce28ddf\/_contact.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/885a627dfc1bddefb07aecb75aab5bcefce28ddf\/_home.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/885a627dfc1bddefb07aecb75aab5bcefce28ddf\/_home.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/885a627dfc1bddefb07aecb75aab5bcefce28ddf\/_locations.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/885a627dfc1bddefb07aecb75aab5bcefce28ddf\/_locations.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/885a627dfc1bddefb07aecb75aab5bcefce28ddf\/_menu.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/885a627dfc1bddefb07aecb75aab5bcefce28ddf\/_menu.scssc",
 		"oF": 0
 		},
+	"\/css\/.sass-cache\/885a627dfc1bddefb07aecb75aab5bcefce28ddf\/_shop-archive.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/885a627dfc1bddefb07aecb75aab5bcefce28ddf\/_shop-archive.scssc",
+		"oF": 0
+		},
+	"\/css\/.sass-cache\/885a627dfc1bddefb07aecb75aab5bcefce28ddf\/_shop-checkout.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/css\/.sass-cache\/885a627dfc1bddefb07aecb75aab5bcefce28ddf\/_shop-checkout.scssc",
+		"oF": 0
+		},
 	"\/css\/.sass-cache\/8de209130588a38deb788e6e5411350ffae847aa\/_external.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/8de209130588a38deb788e6e5411350ffae847aa\/_external.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/8e5d429afce1ecd7b754ac504a148c1ea2fb160c\/normalize.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/css\/.sass-cache\/8e5d429afce1ecd7b754ac504a148c1ea2fb160c\/normalize.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/8e5d429afce1ecd7b754ac504a148c1ea2fb160c\/responsivegridsystem.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/css\/.sass-cache\/8e5d429afce1ecd7b754ac504a148c1ea2fb160c\/responsivegridsystem.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/b1fe934bcc380f93b9e2831c4e775931ae165cd7\/_breakpoints.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/b1fe934bcc380f93b9e2831c4e775931ae165cd7\/_breakpoints.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/b1fe934bcc380f93b9e2831c4e775931ae165cd7\/_buttons.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/b1fe934bcc380f93b9e2831c4e775931ae165cd7\/_buttons.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/b1fe934bcc380f93b9e2831c4e775931ae165cd7\/_clearfix.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/b1fe934bcc380f93b9e2831c4e775931ae165cd7\/_clearfix.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/b1fe934bcc380f93b9e2831c4e775931ae165cd7\/_defaults.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/b1fe934bcc380f93b9e2831c4e775931ae165cd7\/_defaults.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/b1fe934bcc380f93b9e2831c4e775931ae165cd7\/_forms.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/b1fe934bcc380f93b9e2831c4e775931ae165cd7\/_forms.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/b1fe934bcc380f93b9e2831c4e775931ae165cd7\/_grid.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/b1fe934bcc380f93b9e2831c4e775931ae165cd7\/_grid.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/b1fe934bcc380f93b9e2831c4e775931ae165cd7\/_misc.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/b1fe934bcc380f93b9e2831c4e775931ae165cd7\/_misc.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/b1fe934bcc380f93b9e2831c4e775931ae165cd7\/_print.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/b1fe934bcc380f93b9e2831c4e775931ae165cd7\/_print.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/b1fe934bcc380f93b9e2831c4e775931ae165cd7\/_retina-images.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/b1fe934bcc380f93b9e2831c4e775931ae165cd7\/_retina-images.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/b1fe934bcc380f93b9e2831c4e775931ae165cd7\/_vars.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/b1fe934bcc380f93b9e2831c4e775931ae165cd7\/_vars.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/c4a9fb98e24cb3739dbba4e31a95a1556633d14d\/_footer.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/c4a9fb98e24cb3739dbba4e31a95a1556633d14d\/_footer.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/c4a9fb98e24cb3739dbba4e31a95a1556633d14d\/_header.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/c4a9fb98e24cb3739dbba4e31a95a1556633d14d\/_header.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/c4a9fb98e24cb3739dbba4e31a95a1556633d14d\/_sidebar.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/c4a9fb98e24cb3739dbba4e31a95a1556633d14d\/_sidebar.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/d578b06a978edca041d25e4bdcc0d3d75cb84584\/site.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/css\/.sass-cache\/d578b06a978edca041d25e4bdcc0d3d75cb84584\/site.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/e7c1df23294949b25d8b7add1c7f4ae25c0361e0\/_about.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/e7c1df23294949b25d8b7add1c7f4ae25c0361e0\/_about.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/e7c1df23294949b25d8b7add1c7f4ae25c0361e0\/_blog-post.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/e7c1df23294949b25d8b7add1c7f4ae25c0361e0\/_blog-post.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/e7c1df23294949b25d8b7add1c7f4ae25c0361e0\/_blog.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/e7c1df23294949b25d8b7add1c7f4ae25c0361e0\/_blog.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/e7c1df23294949b25d8b7add1c7f4ae25c0361e0\/_capabilites.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/e7c1df23294949b25d8b7add1c7f4ae25c0361e0\/_capabilites.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/e7c1df23294949b25d8b7add1c7f4ae25c0361e0\/_capabilities-single.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/e7c1df23294949b25d8b7add1c7f4ae25c0361e0\/_capabilities-single.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/e7c1df23294949b25d8b7add1c7f4ae25c0361e0\/_capabilities.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/e7c1df23294949b25d8b7add1c7f4ae25c0361e0\/_capabilities.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/e7c1df23294949b25d8b7add1c7f4ae25c0361e0\/_case-study-examples.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/e7c1df23294949b25d8b7add1c7f4ae25c0361e0\/_case-study-examples.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/e7c1df23294949b25d8b7add1c7f4ae25c0361e0\/_case-study-single.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/e7c1df23294949b25d8b7add1c7f4ae25c0361e0\/_case-study-single.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/e7c1df23294949b25d8b7add1c7f4ae25c0361e0\/_common.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/e7c1df23294949b25d8b7add1c7f4ae25c0361e0\/_common.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/e7c1df23294949b25d8b7add1c7f4ae25c0361e0\/_contact.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/e7c1df23294949b25d8b7add1c7f4ae25c0361e0\/_contact.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/e7c1df23294949b25d8b7add1c7f4ae25c0361e0\/_home.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/e7c1df23294949b25d8b7add1c7f4ae25c0361e0\/_home.scssc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/e7c1df23294949b25d8b7add1c7f4ae25c0361e0\/_our-capabilities.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/.sass-cache\/e7c1df23294949b25d8b7add1c7f4ae25c0361e0\/_our-capabilities.scssc",
 		"oF": 0
+		},
+	"\/css\/css\/responsivegridsystem.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/css\/responsivegridsystem-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"\/css\/fancybox-helpers\/blank.gif": {
 		"ft": 4194304,
@@ -423,7 +515,17 @@
 		"oA": 0,
 		"oAP": "\/css\/fancybox-helpers\/blank.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
+		},
+	"\/css\/html5blank-min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/html5blank-min-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"\/css\/html5blank.css": {
 		"aP": 0,
@@ -449,8 +551,8 @@
 		"oA": 0,
 		"oAP": "\/css\/libs\/fancybox-helpers\/fancybox_buttons.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -460,7 +562,7 @@
 		"oA": 0,
 		"oAP": "\/css\/libs\/fancybox-helpers\/fancybox_loading.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/css\/libs\/fancybox-helpers\/fancybox_loading@2x.gif": {
 		"ft": 4194304,
@@ -468,7 +570,7 @@
 		"oA": 0,
 		"oAP": "\/css\/libs\/fancybox-helpers\/fancybox_loading@2x.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/css\/libs\/fancybox-helpers\/fancybox_overlay.png": {
 		"ft": 32768,
@@ -476,8 +578,8 @@
 		"oA": 0,
 		"oAP": "\/css\/libs\/fancybox-helpers\/fancybox_overlay.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -487,8 +589,8 @@
 		"oA": 0,
 		"oAP": "\/css\/libs\/fancybox-helpers\/fancybox_sprite.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -498,10 +600,20 @@
 		"oA": 0,
 		"oAP": "\/css\/libs\/fancybox-helpers\/fancybox_sprite@2x.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
+		},
+	"\/css\/libs\/fancybox-helpers\/jquery.fancybox-buttons-min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/libs\/fancybox-helpers\/jquery.fancybox-buttons-min-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"\/css\/libs\/fancybox-helpers\/jquery.fancybox-buttons.css": {
 		"aP": 0,
@@ -532,6 +644,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/css\/libs\/jquery.bxslider-min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/libs\/jquery.bxslider-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/css\/libs\/jquery.bxslider.css": {
 		"aP": 0,
 		"bl": 0,
@@ -541,6 +663,16 @@
 		"oAP": "\/css\/libs\/jquery.bxslider-min.css",
 		"oF": 0,
 		"oS": 0
+		},
+	"\/css\/libs\/jquery.fancybox-min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/libs\/jquery.fancybox-min-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"\/css\/libs\/jquery.fancybox.css": {
 		"aP": 0,
@@ -735,6 +867,7 @@
 		"uL": 1
 		},
 	"\/css\/pages\/.sass-cache\/e7c1df23294949b25d8b7add1c7f4ae25c0361e0\/_our-capabilities.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/pages\/.sass-cache\/e7c1df23294949b25d8b7add1c7f4ae25c0361e0\/_our-capabilities.scssc",
@@ -831,6 +964,32 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/pages\/_shop-archive.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/css\/_shop-archive.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/pages\/_shop-checkout.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/css\/_shop-checkout.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/partials\/_footer.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -881,6 +1040,7 @@
 		"oS": 0
 		},
 	"\/css\/site.css.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/css\/site.css.map",
@@ -933,6 +1093,7 @@
 		"oS": 3
 		},
 	"\/fonts\/font-awesome\/fonts\/fontawesome-webfont.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/font-awesome\/fonts\/fontawesome-webfont.eot",
@@ -949,114 +1110,133 @@
 		"prP": 0
 		},
 	"\/fonts\/font-awesome\/fonts\/fontawesome-webfont.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/font-awesome\/fonts\/fontawesome-webfont.ttf",
 		"oF": 0
 		},
 	"\/fonts\/font-awesome\/fonts\/fontawesome-webfont.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/font-awesome\/fonts\/fontawesome-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts\/font-awesome\/fonts\/fontawesome-webfont.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/font-awesome\/fonts\/fontawesome-webfont.woff2",
 		"oF": 0
 		},
 	"\/fonts\/font-awesome\/fonts\/FontAwesome.otf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/font-awesome\/fonts\/FontAwesome.otf",
 		"oF": 0
 		},
 	"\/fonts\/font-awesome\/HELP-US-OUT.txt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/font-awesome\/HELP-US-OUT.txt",
 		"oF": 0
 		},
 	"\/fonts\/font-awesome\/scss\/.sass-cache\/fb4e24fa24f96e27c38b580e42d54aad94683f33\/_animated.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/fonts\/font-awesome\/scss\/.sass-cache\/fb4e24fa24f96e27c38b580e42d54aad94683f33\/_animated.scssc",
 		"oF": 0
 		},
 	"\/fonts\/font-awesome\/scss\/.sass-cache\/fb4e24fa24f96e27c38b580e42d54aad94683f33\/_bordered-pulled.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/fonts\/font-awesome\/scss\/.sass-cache\/fb4e24fa24f96e27c38b580e42d54aad94683f33\/_bordered-pulled.scssc",
 		"oF": 0
 		},
 	"\/fonts\/font-awesome\/scss\/.sass-cache\/fb4e24fa24f96e27c38b580e42d54aad94683f33\/_core.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/fonts\/font-awesome\/scss\/.sass-cache\/fb4e24fa24f96e27c38b580e42d54aad94683f33\/_core.scssc",
 		"oF": 0
 		},
 	"\/fonts\/font-awesome\/scss\/.sass-cache\/fb4e24fa24f96e27c38b580e42d54aad94683f33\/_fixed-width.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/fonts\/font-awesome\/scss\/.sass-cache\/fb4e24fa24f96e27c38b580e42d54aad94683f33\/_fixed-width.scssc",
 		"oF": 0
 		},
 	"\/fonts\/font-awesome\/scss\/.sass-cache\/fb4e24fa24f96e27c38b580e42d54aad94683f33\/_icons.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/fonts\/font-awesome\/scss\/.sass-cache\/fb4e24fa24f96e27c38b580e42d54aad94683f33\/_icons.scssc",
 		"oF": 0
 		},
 	"\/fonts\/font-awesome\/scss\/.sass-cache\/fb4e24fa24f96e27c38b580e42d54aad94683f33\/_larger.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/fonts\/font-awesome\/scss\/.sass-cache\/fb4e24fa24f96e27c38b580e42d54aad94683f33\/_larger.scssc",
 		"oF": 0
 		},
 	"\/fonts\/font-awesome\/scss\/.sass-cache\/fb4e24fa24f96e27c38b580e42d54aad94683f33\/_list.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/fonts\/font-awesome\/scss\/.sass-cache\/fb4e24fa24f96e27c38b580e42d54aad94683f33\/_list.scssc",
 		"oF": 0
 		},
 	"\/fonts\/font-awesome\/scss\/.sass-cache\/fb4e24fa24f96e27c38b580e42d54aad94683f33\/_mixins.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/fonts\/font-awesome\/scss\/.sass-cache\/fb4e24fa24f96e27c38b580e42d54aad94683f33\/_mixins.scssc",
 		"oF": 0
 		},
 	"\/fonts\/font-awesome\/scss\/.sass-cache\/fb4e24fa24f96e27c38b580e42d54aad94683f33\/_path.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/fonts\/font-awesome\/scss\/.sass-cache\/fb4e24fa24f96e27c38b580e42d54aad94683f33\/_path.scssc",
 		"oF": 0
 		},
 	"\/fonts\/font-awesome\/scss\/.sass-cache\/fb4e24fa24f96e27c38b580e42d54aad94683f33\/_rotated-flipped.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/fonts\/font-awesome\/scss\/.sass-cache\/fb4e24fa24f96e27c38b580e42d54aad94683f33\/_rotated-flipped.scssc",
 		"oF": 0
 		},
 	"\/fonts\/font-awesome\/scss\/.sass-cache\/fb4e24fa24f96e27c38b580e42d54aad94683f33\/_screen-reader.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/fonts\/font-awesome\/scss\/.sass-cache\/fb4e24fa24f96e27c38b580e42d54aad94683f33\/_screen-reader.scssc",
 		"oF": 0
 		},
 	"\/fonts\/font-awesome\/scss\/.sass-cache\/fb4e24fa24f96e27c38b580e42d54aad94683f33\/_stacked.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/fonts\/font-awesome\/scss\/.sass-cache\/fb4e24fa24f96e27c38b580e42d54aad94683f33\/_stacked.scssc",
 		"oF": 0
 		},
 	"\/fonts\/font-awesome\/scss\/.sass-cache\/fb4e24fa24f96e27c38b580e42d54aad94683f33\/_variables.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/fonts\/font-awesome\/scss\/.sass-cache\/fb4e24fa24f96e27c38b580e42d54aad94683f33\/_variables.scssc",
 		"oF": 0
 		},
 	"\/fonts\/font-awesome\/scss\/.sass-cache\/fb4e24fa24f96e27c38b580e42d54aad94683f33\/font-awesome.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/font-awesome\/scss\/.sass-cache\/fb4e24fa24f96e27c38b580e42d54aad94683f33\/font-awesome.scssc",
@@ -1242,6 +1422,7 @@
 		"oS": 3
 		},
 	"\/fonts\/font-awesome\/scss\/font-awesome.css.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/font-awesome\/scss\/font-awesome.css.map",
@@ -1261,18 +1442,21 @@
 		"uL": 1
 		},
 	"\/fonts\/readme.txt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/readme.txt",
 		"oF": 0
 		},
 	"\/footer.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/footer.php",
 		"oF": 0
 		},
 	"\/functions.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/functions.php",
@@ -1289,18 +1473,21 @@
 		"oS": 0
 		},
 	"\/geo-my-wp\/nearby-locations\/posts\/lightcoral\/content-end.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/geo-my-wp\/nearby-locations\/posts\/lightcoral\/content-end.php",
 		"oF": 0
 		},
 	"\/geo-my-wp\/nearby-locations\/posts\/lightcoral\/content-single-item.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/geo-my-wp\/nearby-locations\/posts\/lightcoral\/content-single-item.php",
 		"oF": 0
 		},
 	"\/geo-my-wp\/nearby-locations\/posts\/lightcoral\/content-start.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/geo-my-wp\/nearby-locations\/posts\/lightcoral\/content-start.php",
@@ -1317,12 +1504,14 @@
 		"oS": 0
 		},
 	"\/geo-my-wp\/nearby-locations\/posts\/lightcoral\/no-results.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/geo-my-wp\/nearby-locations\/posts\/lightcoral\/no-results.php",
 		"oF": 0
 		},
 	"\/header.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/header.php",
@@ -1480,6 +1669,7 @@
 		"q": 100
 		},
 	"\/img\/icons\/favicon.ico": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/img\/icons\/favicon.ico",
@@ -1709,6 +1899,7 @@
 		"q": 100
 		},
 	"\/index.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/index.php",
@@ -1825,6 +2016,7 @@
 		"tS": 0
 		},
 	"\/js\/min\/scripts-min.js.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/js\/min\/scripts-min.js.map",
@@ -1841,186 +2033,238 @@
 		"tS": 0
 		},
 	"\/languages\/de_DE.mo": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/languages\/de_DE.mo",
 		"oF": 0
 		},
 	"\/languages\/de_DE.po": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/languages\/de_DE.po",
 		"oF": 0
 		},
 	"\/languages\/es_ES.mo": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/languages\/es_ES.mo",
 		"oF": 0
 		},
 	"\/languages\/es_ES.po": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/languages\/es_ES.po",
 		"oF": 0
 		},
 	"\/languages\/fr_FR.mo": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/languages\/fr_FR.mo",
 		"oF": 0
 		},
 	"\/languages\/fr_FR.po": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/languages\/fr_FR.po",
 		"oF": 0
 		},
 	"\/languages\/HTML5Blank.pot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/languages\/HTML5Blank.pot",
 		"oF": 0
 		},
 	"\/languages\/it_IT.mo": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/languages\/it_IT.mo",
 		"oF": 0
 		},
 	"\/languages\/it_IT.po": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/languages\/it_IT.po",
 		"oF": 0
 		},
 	"\/languages\/nl_NL.mo": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/languages\/nl_NL.mo",
 		"oF": 0
 		},
 	"\/languages\/nl_NL.po": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/languages\/nl_NL.po",
 		"oF": 0
 		},
 	"\/languages\/pt_BR.mo": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/languages\/pt_BR.mo",
 		"oF": 0
 		},
 	"\/languages\/pt_BR.po": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/languages\/pt_BR.po",
 		"oF": 0
 		},
 	"\/languages\/ro_RO.mo": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/languages\/ro_RO.mo",
 		"oF": 0
 		},
 	"\/languages\/ro_RO.po": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/languages\/ro_RO.po",
 		"oF": 0
 		},
 	"\/loop-locations.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/loop-locations.php",
 		"oF": 0
 		},
 	"\/loop.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/loop.php",
 		"oF": 0
 		},
 	"\/media\/bonos-jingle.m4a": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/media\/bonos-jingle.m4a",
 		"oF": 0
 		},
 	"\/media\/jingle.mp3": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/media\/jingle.mp3",
 		"oF": 0
 		},
 	"\/page-home.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/page-home.php",
 		"oF": 0
 		},
+	"\/page-shop.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/page-shop.php",
+		"oF": 0
+		},
 	"\/page.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/page.php",
 		"oF": 0
 		},
 	"\/pagination.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/pagination.php",
 		"oF": 0
 		},
 	"\/partials\/partial-about.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/partials\/partial-about.php",
 		"oF": 0
 		},
 	"\/partials\/partial-careers.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/partials\/partial-careers.php",
 		"oF": 0
 		},
+	"\/partials\/partial-cart.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/partials\/partial-cart.php",
+		"oF": 0
+		},
 	"\/partials\/partial-catering.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/partials\/partial-catering.php",
 		"oF": 0
 		},
+	"\/partials\/partial-checkout.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/partials\/partial-checkout.php",
+		"oF": 0
+		},
 	"\/partials\/partial-contact.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/partials\/partial-contact.php",
 		"oF": 0
 		},
 	"\/partials\/partial-donation-requests.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/partials\/partial-donation-requests.php",
 		"oF": 0
 		},
 	"\/partials\/partial-fundraising.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/partials\/partial-fundraising.php",
 		"oF": 0
 		},
 	"\/partials\/partial-locations.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/partials\/partial-locations.php",
 		"oF": 0
 		},
 	"\/partials\/partial-menu.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/partials\/partial-menu.php",
 		"oF": 0
 		},
 	"\/partials\/partial-order-online.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/partials\/partial-order-online.php",
@@ -2038,36 +2282,42 @@
 		"q": 100
 		},
 	"\/search.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/search.php",
 		"oF": 0
 		},
 	"\/searchform.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/searchform.php",
 		"oF": 0
 		},
 	"\/sidebar.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/sidebar.php",
 		"oF": 0
 		},
 	"\/single-location.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/single-location.php",
 		"oF": 0
 		},
 	"\/single-order_online.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/single-order_online.php",
 		"oF": 0
 		},
 	"\/single.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/single.php",
@@ -2084,21 +2334,150 @@
 		"oS": 0
 		},
 	"\/tag.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/tag.php",
 		"oF": 0
 		},
 	"\/taxonomy-city.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/taxonomy-city.php",
 		"oF": 0
 		},
 	"\/template-demo.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/template-demo.php",
+		"oF": 0
+		},
+	"\/woocommerce.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/woocommerce.php",
+		"oF": 0
+		},
+	"\/woocommerce\/archive-product.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/woocommerce\/archive-product.php",
+		"oF": 0
+		},
+	"\/woocommerce\/cart\/cart-empty.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/woocommerce\/cart\/cart-empty.php",
+		"oF": 0
+		},
+	"\/woocommerce\/cart\/cart-shipping.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/woocommerce\/cart\/cart-shipping.php",
+		"oF": 0
+		},
+	"\/woocommerce\/cart\/cart-totals.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/woocommerce\/cart\/cart-totals.php",
+		"oF": 0
+		},
+	"\/woocommerce\/cart\/cart.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/woocommerce\/cart\/cart.php",
+		"oF": 0
+		},
+	"\/woocommerce\/cart\/mini-cart.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/woocommerce\/cart\/mini-cart.php",
+		"oF": 0
+		},
+	"\/woocommerce\/cart\/shipping-calculator.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/woocommerce\/cart\/shipping-calculator.php",
+		"oF": 0
+		},
+	"\/woocommerce\/checkout\/form-billing.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/woocommerce\/checkout\/form-billing.php",
+		"oF": 0
+		},
+	"\/woocommerce\/checkout\/form-checkout.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/woocommerce\/checkout\/form-checkout.php",
+		"oF": 0
+		},
+	"\/woocommerce\/checkout\/form-shipping.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/woocommerce\/checkout\/form-shipping.php",
+		"oF": 0
+		},
+	"\/woocommerce\/checkout\/review-order.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/woocommerce\/checkout\/review-order.php",
+		"oF": 0
+		},
+	"\/woocommerce\/content-single-product.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/woocommerce\/content-single-product.php",
+		"oF": 0
+		},
+	"\/woocommerce\/notices\/error.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/woocommerce\/notices\/error.php",
+		"oF": 0
+		},
+	"\/woocommerce\/notices\/notice.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/woocommerce\/notices\/notice.php",
+		"oF": 0
+		},
+	"\/woocommerce\/notices\/success.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/woocommerce\/notices\/success.php",
+		"oF": 0
+		},
+	"\/woocommerce\/single-product.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/woocommerce\/single-product.php",
+		"oF": 0
+		},
+	"\/woocommerce\/single-product\/price.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/woocommerce\/single-product\/price.php",
 		"oF": 0
 		}
 	},
@@ -2118,6 +2497,7 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,
@@ -2646,6 +3026,10 @@
 			"active": 0,
 			"optionString": "'expression'"
 			},
+		"function-paren-newline": {
+			"active": 0,
+			"optionString": "'multiline'"
+			},
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
@@ -2677,6 +3061,10 @@
 		"id-match": {
 			"active": 0,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"indent": {
 			"active": 0,
@@ -2710,9 +3098,9 @@
 			"active": 0,
 			"optionString": "{'beforeBlockComment': true}"
 			},
-		"lines-around-directive": {
+		"lines-between-class-members": {
 			"active": 0,
-			"optionString": "{'before': 'always', 'after': 'always'}"
+			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
 		"max-depth": {
 			"active": 0,
@@ -2742,6 +3130,10 @@
 			"active": 0,
 			"optionString": "{'max': 1}"
 			},
+		"multiline-comment-style": {
+			"active": 0,
+			"optionString": "'starred-block'"
+			},
 		"multiline-ternary": {
 			"active": 0,
 			"optionString": "'always'"
@@ -2751,14 +3143,6 @@
 			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
 			},
 		"new-parens": {
-			"active": 0,
-			"optionString": ""
-			},
-		"newline-after-var": {
-			"active": 0,
-			"optionString": "'always'"
-			},
-		"newline-before-return": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -3862,7 +4246,8 @@
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 1
 		},
 	"languageDefaultsCSS": {
 		"autoOutputAction": 2,
@@ -3895,6 +4280,7 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"outputStyle": 0,
+		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -3936,7 +4322,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -3968,13 +4355,13 @@
 		"enableFootnotes": 1,
 		"enableLabels": 1,
 		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
 		"maskEmailAddresses": 1,
 		"outputFormat": 0,
 		"outputStyle": 0,
 		"parseMetadata": 1,
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
+		"shouldRunCacheBuster": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -3983,7 +4370,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -4003,7 +4391,8 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
-		"outputStyle": 0
+		"outputStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -4031,7 +4420,8 @@
 		"logicless": 0,
 		"outputFormat": 0,
 		"outputStyle": 1,
-		"railsCompatible": 0
+		"railsCompatible": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,

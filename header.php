@@ -25,7 +25,10 @@
       <?php wp_head(); ?>
 
    </head>
-   <body <?php body_class(); ?>>
+   <body <?php body_class('menu'); ?>>
+      <script type="text/javascript">
+        var shopBool = false;
+      </script>
 
       <a href="" class="mobile-menu-icon mobile-menu-toggle">
          <span></span>
@@ -53,8 +56,12 @@
 
             <!-- <a class="menu-button">Menu</a> -->
             <nav class="nav main-menu" role="navigation">
+               <a href="/cart" class="cartCount isHidden">
+                  <span><?php echo sprintf ( _n( '%d', '%d', WC()->cart->get_cart_contents_count() ), WC()->cart->get_cart_contents_count() ); ?></span>
+               </a>
                <?php html5blank_nav(); ?>
             </nav>
+
 
          </header>
       </div><!-- /.header-wrapper -->

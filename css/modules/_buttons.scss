@@ -11,7 +11,7 @@
    margin-top: 24px;
 }
 
-.btn {
+.btn, .woocommerce .btn, .woocommerce button.btn {
    display: inline-block;
    color: $white;
    background-color: rgba($primary, 0.55);
@@ -27,6 +27,7 @@
    text-transform: uppercase;
    @include letSpc(1px);
    min-width: 190px;
+   border-radius: 0;
    position: relative;
 
    &:before,
