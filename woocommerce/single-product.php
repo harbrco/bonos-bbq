@@ -1,7 +1,5 @@
 <?php get_header(); ?>
 
-sex
-
 	<?php
 		/**
 		 * woocommerce_before_main_content hook.
@@ -36,10 +34,6 @@ sex
 		 */
 		do_action( 'woocommerce_sidebar' );
 	?>
-
-
-
-
 
 
 <?php get_footer(); ?>
