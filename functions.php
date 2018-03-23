@@ -497,6 +497,9 @@ $message    = sprintf('<a href="%s" class="button wc-forwards">%s</a> %s', $retu
 return $message;
 }
 
+// checkout
+add_filter( 'woocommerce_cart_needs_shipping_address', '__return_true', 50 );
+
 
 
 /*------------------------------------*\
