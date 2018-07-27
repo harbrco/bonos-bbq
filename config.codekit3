@@ -7,7 +7,7 @@
 		"uuidString": "D9C93073-AE3A-418A-9505-30BB628C1CAA"
 		}
 	],
-"creatorBuild": "26330",
+"creatorBuild": "26680",
 "files": {
 	"\/.gitignore": {
 		"cB": 0,
@@ -1467,47 +1467,47 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/geo-my-wp\/current-location\/assets\/css\/gmw-cl-style-min.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
-	"\/geo-my-wp\/nearby-locations\/posts\/lightcoral\/content-end.php": {
+	"\/geo-my-wp\/posts-locator\/nearby-locations\/lightcoral\/content-end.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/geo-my-wp\/nearby-locations\/posts\/lightcoral\/content-end.php",
+		"oA": 2,
+		"oAP": "\/geo-my-wp\/posts-locator\/nearby-locations\/lightcoral\/content-end.php",
 		"oF": 0
 		},
-	"\/geo-my-wp\/nearby-locations\/posts\/lightcoral\/content-single-item.php": {
+	"\/geo-my-wp\/posts-locator\/nearby-locations\/lightcoral\/content-single-item.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/geo-my-wp\/nearby-locations\/posts\/lightcoral\/content-single-item.php",
+		"oA": 2,
+		"oAP": "\/geo-my-wp\/posts-locator\/nearby-locations\/lightcoral\/content-single-item.php",
 		"oF": 0
 		},
-	"\/geo-my-wp\/nearby-locations\/posts\/lightcoral\/content-start.php": {
+	"\/geo-my-wp\/posts-locator\/nearby-locations\/lightcoral\/content-start.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/geo-my-wp\/nearby-locations\/posts\/lightcoral\/content-start.php",
+		"oA": 2,
+		"oAP": "\/geo-my-wp\/posts-locator\/nearby-locations\/lightcoral\/content-start.php",
 		"oF": 0
 		},
-	"\/geo-my-wp\/nearby-locations\/posts\/lightcoral\/css\/style.css": {
+	"\/geo-my-wp\/posts-locator\/nearby-locations\/lightcoral\/css\/style.css": {
 		"aP": 0,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
-		"oAP": "\/geo-my-wp\/nearby-locations\/posts\/lightcoral\/css\/style-min.css",
+		"oA": 2,
+		"oAP": "\/geo-my-wp\/posts-locator\/nearby-locations\/lightcoral\/css\/style-min.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
-	"\/geo-my-wp\/nearby-locations\/posts\/lightcoral\/no-results.php": {
+	"\/geo-my-wp\/posts-locator\/nearby-locations\/lightcoral\/no-results.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/geo-my-wp\/nearby-locations\/posts\/lightcoral\/no-results.php",
+		"oA": 2,
+		"oAP": "\/geo-my-wp\/posts-locator\/nearby-locations\/lightcoral\/no-results.php",
 		"oF": 0
 		},
 	"\/header.php": {
@@ -1531,6 +1531,7 @@
 	"\/img\/catering-intro-photo.jpg": {
 		"ft": 16384,
 		"iS": 42111,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/catering-intro-photo.jpg",
 		"oF": 0,
@@ -1541,6 +1542,7 @@
 	"\/img\/contact-intro-photo.jpg": {
 		"ft": 16384,
 		"iS": 103210,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/contact-intro-photo.jpg",
 		"oF": 0,
@@ -1551,6 +1553,7 @@
 	"\/img\/home-intro-slide-1.jpg": {
 		"ft": 16384,
 		"iS": 83102,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/home-intro-slide-1.jpg",
 		"oF": 0,
@@ -1711,6 +1714,7 @@
 	"\/img\/location-photo-temp.jpg": {
 		"ft": 16384,
 		"iS": 201478,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/location-photo-temp.jpg",
 		"oF": 0,
@@ -1721,6 +1725,7 @@
 	"\/img\/section-bgs\/about-harvey-bg.jpg": {
 		"ft": 16384,
 		"iS": 135400,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/section-bgs\/about-harvey-bg.jpg",
 		"oF": 0,
@@ -1731,6 +1736,7 @@
 	"\/img\/section-bgs\/about-hero-bg.jpg": {
 		"ft": 16384,
 		"iS": 81833,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/section-bgs\/about-hero-bg.jpg",
 		"oF": 0,
@@ -1741,6 +1747,7 @@
 	"\/img\/section-bgs\/about-hero.jpg": {
 		"ft": 16384,
 		"iS": 87126,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/section-bgs\/about-hero.jpg",
 		"oF": 0,
@@ -1751,6 +1758,7 @@
 	"\/img\/section-bgs\/about-lower-cta-bg.jpg": {
 		"ft": 16384,
 		"iS": 372042,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/section-bgs\/about-lower-cta-bg.jpg",
 		"oF": 0,
@@ -1761,6 +1769,7 @@
 	"\/img\/section-bgs\/catering-hero-bg.jpg": {
 		"ft": 16384,
 		"iS": 554969,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/section-bgs\/catering-hero-bg.jpg",
 		"oF": 0,
@@ -1771,6 +1780,7 @@
 	"\/img\/section-bgs\/catering-hero.jpg": {
 		"ft": 16384,
 		"iS": 245894,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/section-bgs\/catering-hero.jpg",
 		"oF": 0,
@@ -1781,6 +1791,7 @@
 	"\/img\/section-bgs\/home-hero-bg.jpg": {
 		"ft": 16384,
 		"iS": 307231,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/section-bgs\/home-hero-bg.jpg",
 		"oF": 0,
@@ -1791,6 +1802,7 @@
 	"\/img\/section-bgs\/home-hero-bg2.jpg": {
 		"ft": 16384,
 		"iS": 261850,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/section-bgs\/home-hero-bg2.jpg",
 		"oF": 0,
@@ -1801,6 +1813,7 @@
 	"\/img\/section-bgs\/home-tagline-bg.jpg": {
 		"ft": 16384,
 		"iS": 54303,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/section-bgs\/home-tagline-bg.jpg",
 		"oF": 0,
@@ -1811,6 +1824,7 @@
 	"\/img\/section-bgs\/lower-cta-bg-temp.jpg": {
 		"ft": 16384,
 		"iS": 512358,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/section-bgs\/lower-cta-bg-temp.jpg",
 		"oF": 0,
@@ -1821,6 +1835,7 @@
 	"\/img\/section-bgs\/menu-family-feast-min.jpg": {
 		"ft": 16384,
 		"iS": 152914,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/section-bgs\/menu-family-feast-min.jpg",
 		"oF": 0,
@@ -1831,6 +1846,7 @@
 	"\/img\/section-bgs\/menu-hero.jpg": {
 		"ft": 16384,
 		"iS": 205730,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/section-bgs\/menu-hero.jpg",
 		"oF": 0,
@@ -1841,6 +1857,7 @@
 	"\/img\/section-bgs\/menu-platters-min.jpg": {
 		"ft": 16384,
 		"iS": 112185,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/section-bgs\/menu-platters-min.jpg",
 		"oF": 0,
@@ -1851,6 +1868,7 @@
 	"\/img\/section-bgs\/menu-salads-min.jpg": {
 		"ft": 16384,
 		"iS": 103111,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/section-bgs\/menu-salads-min.jpg",
 		"oF": 0,
@@ -1861,6 +1879,7 @@
 	"\/img\/section-bgs\/menu-sandwiches-min.jpg": {
 		"ft": 16384,
 		"iS": 122587,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/section-bgs\/menu-sandwiches-min.jpg",
 		"oF": 0,
@@ -1871,6 +1890,7 @@
 	"\/img\/section-bgs\/menu-smokehouse-stackers-min.jpg": {
 		"ft": 16384,
 		"iS": 154628,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/section-bgs\/menu-smokehouse-stackers-min.jpg",
 		"oF": 0,
@@ -1881,6 +1901,7 @@
 	"\/img\/section-bgs\/menu-smokin-snacks-min.jpg": {
 		"ft": 16384,
 		"iS": 176744,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/section-bgs\/menu-smokin-snacks-min.jpg",
 		"oF": 0,
@@ -1891,6 +1912,7 @@
 	"\/img\/team-harvey-green.jpg": {
 		"ft": 16384,
 		"iS": 13540,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/team-harvey-green.jpg",
 		"oF": 0,
@@ -2489,7 +2511,8 @@
 	"creationDate": 506445977,
 	"displayValue": "Bono's BBQ",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "meme-ron"
+	"iconImageName": "\/img\/icons\/apple-touch-icon-152x152.png",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -4292,6 +4315,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {

@@ -3708,7 +3708,34 @@ body.modalOpen .mobile-menu-wrapper {
       font-size: 18px;
       margin: 0;
       color: #C3502B; }
+.woocommerce.archive .section-heading {
+  margin-bottom: 70px; }
+.woocommerce.archive .gift-cards-promo {
+  margin-bottom: 70px; }
+  .woocommerce.archive .gift-cards-promo .section-heading {
+    text-align: left;
+    margin-bottom: 30px; }
+    .woocommerce.archive .gift-cards-promo .section-heading h3 {
+      font-size: 30px;
+      line-height: 36px;
+      padding: 0; }
 
+@media only screen and (max-width: 1024px) {
+  .woocommerce.archive .gift-cards-promo .section-heading h3 {
+    font-size: 24px;
+    line-height: 30px; } }
+@media only screen and (max-width: 768px) {
+  .woocommerce.archive .section-heading {
+    margin-bottom: 50px; }
+  .woocommerce.archive .gift-cards-promo {
+    text-align: center;
+    margin-bottom: 50px; }
+    .woocommerce.archive .gift-cards-promo .section-heading {
+      text-align: center;
+      margin-bottom: 20px; }
+      .woocommerce.archive .gift-cards-promo .section-heading h3 {
+        font-size: 20px;
+        line-height: 26px; } }
 .woocommerce.single-product .woocommerce-message {
   position: absolute;
   left: 50%;

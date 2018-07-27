@@ -15,7 +15,7 @@
 
 
 <div class="nearest-location-wrapper wrapper isLightGray">
-   <?php echo do_shortcode('[gmw_nearby_locations show_random_locations="false" item_type="posts" post_types="location" show_map="false" nearby="user" radius="999" results_count="1"]'); ?>
+   <?php echo do_shortcode('[gmw_nearby_locations results_template="custom_lightcoral" show_random_locations="false" item_type="posts" post_types="location" show_map="false" nearby="user" radius="999" results_count="1"]'); ?>
 </div>
 
 

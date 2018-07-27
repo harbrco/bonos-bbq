@@ -43,11 +43,29 @@ global $product;
    </div>
 
    <div id="shop">
-      <div class="leadership shopArchive isWhite well--s">
+      <div class="layout-single-centered-col shopArchive isWhite well--s">
          <div class="section-heading">
             <h3>What can we get for you?</h3>
          </div>
+
+         <div class="layout-2-text-col wrapper isWhite">
+            <div class="gift-cards-promo container narrowContentLg split-50 hasContent">
+               <div class="split-50-left">
+                  <div class="section-heading">
+                     <h3>Looking for Bono's Gift Cards?</h3>
+                  </div>
+               </div>
+
+               <div class="split-50-right">
+                  <p>Look no further! You can purchase gift cards starting at $20.</p>
+                  <a href="https://onelink.quickgifts.com/merchant/bonos-pit-bar-b-q/" target="_blank" class="btn btn--ghost">Purchase Gift Cards Now</a>
+               </div>
+            </div>
+         </div>
+
+
          <div class="container">
+
             <?php woocommerce_content(); ?>
          </div>
       </div>
