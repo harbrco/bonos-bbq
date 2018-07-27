@@ -3736,6 +3736,10 @@ body.modalOpen .mobile-menu-wrapper {
       .woocommerce.archive .gift-cards-promo .section-heading h3 {
         font-size: 20px;
         line-height: 26px; } }
+@media only screen and (max-width: 460px) {
+  .woocommerce.archive .gift-cards-promo .section-heading h3 {
+    font-size: 17px;
+    line-height: 23px; } }
 .woocommerce.single-product .woocommerce-message {
   position: absolute;
   left: 50%;

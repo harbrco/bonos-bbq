@@ -83,6 +83,18 @@
     }
   }
 }
+@media only screen and (max-width: 460px) {
+  .woocommerce.archive {
+    .gift-cards-promo {
+      .section-heading {
+        h3 {
+          font-size: 17px;
+          line-height: 23px;
+        }
+      }
+    }
+  }
+}
 
 
 .woocommerce.single-product {
