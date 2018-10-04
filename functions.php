@@ -602,13 +602,13 @@ add_filter('gform_field_content', 'gform_column_splits', 100, 5);
 // filter the Gravity Forms button type
 add_filter( 'gform_submit_button', 'form_submit_button', 10, 2 );
 function form_submit_button( $button, $form ) {
-    return "<button class='button btn btn--ghost' id='gform_submit_button_{$form['id']}'><span>Submit</span></button>";
+    return "<button class='button btn btn--ghost gform_button' id='gform_submit_button_{$form['id']}'><span>Submit</span></button>";
 }
 
 // tweak the button text for newsletter subscribe form
 add_filter( 'gform_submit_button_3', 'subscribe_form_submit_button', 10, 2 );
 function subscribe_form_submit_button( $button, $form ) {
-    return "<button class='button btn btn--ghost' id='gform_submit_button_{$form['id']}'><span>Subscribe</span></button>";
+    return "<button class='button btn btn--ghost gform_button' id='gform_submit_button_{$form['id']}'><span>Subscribe</span></button>";
 }
 
 
