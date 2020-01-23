@@ -6,7 +6,7 @@
       <div class="inner">
          <div class="hero-heading container">
             <span class="top-accent"></span>
-            <h2>Our Menu</h2>
+            <h1>Our Menu</h1>
             <span class="bottom-accent"></span>
          </div>
       </div>
@@ -45,6 +45,7 @@
                         <span class="close-menu-modal">
                            <a href="javascript:parent.$.fancybox.close();">
                               <span class="close-modal close-menu-box close-btn modal-toggle">
+                                 <span style="display:none;">Close Menu Modal</span>
                                  <span></span>
                                  <span></span>
                               </span>
@@ -70,6 +71,8 @@
                         </ul>
                      </div>
                      <?php endif; ?>
+
+                     <div class="location-link-cta"><span>Looking for Prices?</span> <a href="/locations/">View location-specific menu pricing HERE</a></div>
                   </div>
 
                   <div class="next-prev-menu-category-links">

@@ -6,7 +6,7 @@
       <div class="inner">
          <div class="hero-heading container">
             <span class="top-accent"></span>
-            <h2>Bono's Catering</h2>
+            <h1>Bono's Catering</h1>
             <span class="bottom-accent"></span>
          </div>
       </div>
@@ -25,7 +25,7 @@
             <?php the_field('intro_text'); ?>
 
             <?php if(get_field('catering_menu_pdf')) { ?>
-               <a href="<?php the_field('catering_menu_pdf'); ?>" class="btn btn--ghost" target="_blank">Download Menu</a>
+               <a href="<?php the_field('catering_menu_pdf'); ?>" class="btn btn--ghost" target="_blank">Download Menu<span class="target_blank">(opens in new window)</span></a>
             <?php } ?>
          </div>
       </div>

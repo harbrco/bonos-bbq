@@ -58,9 +58,9 @@
             <div class="social-sharing">
                <h3>Share This Article</h3>
                <ul class="social-links">
-                  <li><a target="_blank" href="http://api.addthis.com/oexchange/0.8/forward/facebook/offer?url=<?php the_permalink(); ?>" rel="nofollow"><span class="fa fa-facebook"></span></a></li>
-                  <li><a target="_blank" href="http://api.addthis.com/oexchange/0.8/forward/twitter/offer?url=<?php the_permalink(); ?>" rel="nofollow"><span class="fa fa-twitter"></span></a></li>
-                  <li><a href="mailto:?subject=Check out this article&body=Hi, I found this and thought you might like it: <?php the_permalink(); ?>"><span class="fa fa-envelope-o"></span></a></li>
+                  <li><a target="_blank" href="http://api.addthis.com/oexchange/0.8/forward/facebook/offer?url=<?php the_permalink(); ?>" rel="nofollow"><p style="display: none;">Article1<span class="target_blank">(opens in new window)</span></p><span class="fa fa-facebook"></span></a></li>
+                  <li><a target="_blank" href="http://api.addthis.com/oexchange/0.8/forward/twitter/offer?url=<?php the_permalink(); ?>" rel="nofollow"><p style="display: none;">Article2<span class="target_blank">(opens in new window)</span></p><span class="fa fa-twitter"></span></a></li>
+                  <li><a href="mailto:?subject=Check out this article&body=Hi, I found this and thought you might like it: <?php the_permalink(); ?>"><p style="display: none;">Article3<span class="target_blank">(opens in new window)</span></p><span class="fa fa-envelope-o"></span></a></li>
                </ul>
             </div>
          </article>

@@ -6,8 +6,13 @@
       <?php if ( has_post_thumbnail()) { // Check if thumbnail exists ?>
          <div class="article-teaser-columns">
             <div class="feat-img-col">
+   				<?php
+   					$thumbnail_id = get_post_thumbnail_id( get_the_ID() );
+   				?>
                <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
-                  <?php the_post_thumbnail(array(400,400)); // Declare pixel size you need inside the array ?>
+                  <img alt="PostImage" src="<?php echo get_the_post_thumbnail_url(get_the_ID(),'post-size'); 
+                  //the_post_thumbnail(array(400,400)); // Declare pixel size you need inside the array ?>" />
+                  <p style="display: none;"><?php the_title();?></p>
                </a>
             </div>
 

@@ -34,7 +34,7 @@
 
          .menu-items-list {
             display: block;
-            padding: 5% 10%;
+            padding: 5% 10% 3%;
 
             .menu-item-list {
                column-count: 2;
@@ -69,6 +69,31 @@
                   h4 {
                      margin-top: 0;
                   }
+               }
+            }
+         }
+
+         .location-link-cta {
+            display: block;
+            background-color: $lightGray;
+            text-align: center;
+            padding: 15px 20px;
+            font-size: 17px;
+            line-height: 19px;
+            @extend %sansB;
+            text-transform: uppercase;
+            border: 1px solid $secondary;
+
+            span {
+               display: inline-block;
+               margin-right: 4px;
+            }
+
+            a {
+               color: $secondary;
+
+               &:hover {
+                  color: $black;
                }
             }
          }
@@ -130,7 +155,7 @@
 
          .menu-items-list {
             display: block;
-            padding: 5% 10%;
+            padding: 5% 10% 3%;
             max-height: calc(100vh - 260px) !important;
             overflow-y: scroll;
 
@@ -171,6 +196,31 @@
                   h4 {
                      margin-top: 0;
                   }
+               }
+            }
+         }
+
+         .location-link-cta {
+            display: block;
+            background-color: $lightGray;
+            text-align: center;
+            padding: 15px 20px;
+            font-size: 17px;
+            line-height: 19px;
+            @extend %sansB;
+            text-transform: uppercase;
+            border: 1px solid $secondary;
+
+            span {
+               display: inline-block;
+               margin-right: 4px;
+            }
+
+            a {
+               color: $secondary;
+
+               &:hover {
+                  color: $black;
                }
             }
          }
@@ -298,7 +348,9 @@
    .menu {
       .menu-categories {
          .menu-category-wrap {
-            a {
+            .fancybox-menu-box,
+            .next-prev-menu-category-links,
+            .more-items {
                display: none;
             }
 
@@ -307,11 +359,21 @@
 
                .menu-items-list {
                   display: block;
-                  padding: 5%;
+                  padding: 5% 5% 3.5%;
                }
 
-               .more-items {
-                  display: none;
+               .location-link-cta {
+                  background-color: $lightGray;
+                  padding: 12px 20px;
+                  font-size: 15px;
+                  line-height: 20px;
+                  //border: 1px solid $secondary;
+                  border: none;
+
+                  span {
+                     display: block;
+                     margin-right: 0;
+                  }
                }
             }
          }
@@ -344,11 +406,19 @@
 @media only screen and (max-width:400px) {
    .menu {
       .menu-categories {
-         .menu-items-box {
-            .menu-category-heading {
-               h3 {
-                  font-size: 22px;
-                  line-height: 26px;
+         .menu-category-wrap {
+            .menu-items-box {
+               .menu-category-heading {
+                  h3 {
+                     font-size: 22px;
+                     line-height: 26px;
+                  }
+               }
+
+               .location-link-cta {
+                  font-size: 14px;
+                  line-height: 19px;
+                  padding: 12px;
                }
             }
          }

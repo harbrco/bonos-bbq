@@ -31,7 +31,7 @@ if (function_exists('add_theme_support'))
     add_image_size('medium', 250, '', true); // Medium Thumbnail
     add_image_size('small', 120, '', true); // Small Thumbnail
     add_image_size('custom-size', 700, 200, true); // Custom Thumbnail Size call using the_post_thumbnail('custom-size');
-
+	add_image_size('post-size', 400, 400, true);
     // Enables post and comment RSS feed links to head
     add_theme_support('automatic-feed-links');
 
@@ -369,7 +369,8 @@ add_filter('style_loader_tag', 'html5_style_remove'); // Remove 'text/css' from 
 add_filter('post_thumbnail_html', 'remove_thumbnail_dimensions', 10); // Remove width and height dynamic attributes to thumbnails
 add_filter('image_send_to_editor', 'remove_thumbnail_dimensions', 10); // Remove width and height dynamic attributes to post images
 add_filter( 'woocommerce_show_page_title' , 'woo_hide_page_title' );
-
+add_filter( 'gform_tabindex_22', '__return_false' );
+add_filter( 'gform_tabindex', '__return_false' );
 // Remove Filters
 remove_filter('the_excerpt', 'wpautop'); // Remove <p> tags from Excerpt altogether
 
@@ -685,5 +686,9 @@ function gf_spinner_replace( $image_src, $form ) {
 }
 add_filter( 'gform_ajax_spinner_url', 'gf_spinner_replace', 10, 2 );
 
+add_action( 'init', 'remove_wc_page_noindex' );
+function remove_wc_page_noindex(){
+    remove_action( 'wp_head', 'wc_page_noindex' );
+}
 
 ?>

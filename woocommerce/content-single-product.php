@@ -17,12 +17,12 @@
               while ( have_rows('variant_gallery') ) : the_row(); ?>
                 <div data-variant="<?php the_sub_field('variant_name'); ?>" class="variantWrapper isHidden variant-<?php echo $variantCount; ?>">
                   <?php if (get_sub_field('single_image_or_gallery') == 'single') { ?>
-                    <img src="<?php the_sub_field('variant_image') ?>" class="" />
+                    <img alt="single-image" src="<?php the_sub_field('variant_image') ?>" class="" />
                   <?php } else { ?>
                     <div class="selected-image">
                       <?php $featSlideCount = 1; ?>
                       <?php while ( have_rows('variant_inner_gallery') ) : the_row(); ?>
-                        <img src="<?php the_sub_field('gallery_image') ?>" class="featured slide-<?php echo $featSlideCount; ?>" />
+                        <img alt="featured-<?php echo $featSlideCount; ?>" src="<?php the_sub_field('gallery_image') ?>" class="featured slide-<?php echo $featSlideCount; ?>" />
                         <?php $featSlideCount = $featSlideCount + 1; ?>
                       <?php endwhile; ?>
                     </div>
@@ -30,7 +30,7 @@
                       <?php $slideCount = 1; ?>
                       <?php while ( have_rows('variant_inner_gallery') ) : the_row(); ?>
                         <div class="slide slide-<?php echo $slideCount; ?>">
-                          <img src="<?php the_sub_field('gallery_image') ?>" class="" />
+                          <img alt="slide-<?php echo $slideCount; ?>" src="<?php the_sub_field('gallery_image') ?>" class="" />
                         </div>
                         <?php $slideCount = $slideCount + 1; ?>
                       <?php endwhile; ?>
@@ -50,7 +50,7 @@
                 <div class="selected-image baseGallery">
                   <?php $featSlideCount = 1; ?>
                   <?php foreach( $attachment_ids as $attachment_id ) { ?>
-                    <img src="<?php echo $image_link = wp_get_attachment_url( $attachment_id ); ?>" class="featured slide-<?php echo $featSlideCount; ?>" />
+                    <img alt="featured-<?php echo $featSlideCount; ?>" src="<?php echo $image_link = wp_get_attachment_url( $attachment_id ); ?>" class="featured slide-<?php echo $featSlideCount; ?>" />
                     <?php $featSlideCount = $featSlideCount + 1;
                   } ?>
                 </div>
@@ -58,7 +58,7 @@
                   <?php $slideCount = 1; ?>
                   <?php foreach( $attachment_ids as $attachment_id ) { ?>
                     <div class="slide slide-<?php echo $slideCount; ?>">
-                      <img src="<?php echo $image_link = wp_get_attachment_url( $attachment_id ); ?>" />
+                      <img alt="slide slide-<?php echo $slideCount; ?>" src="<?php echo $image_link = wp_get_attachment_url( $attachment_id ); ?>" />
                     </div>
                     <?php $slideCount = $slideCount + 1;
                   } ?>

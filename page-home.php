@@ -14,7 +14,7 @@
          <div class="inner">
             <div class="hero-heading container">
                <span class="top-accent"></span>
-               <h2>Real Pit Barbecue Since 1949</h2>
+               <h1>Real Pit Barbecue Since 1949</h1>
 
                <div class="heading-tagline">
                   <h3>Yeah, It's Good.</h3>
@@ -52,7 +52,7 @@
                <div class="darkOverlay do20"></div>
                <div class="slide-text">
                   <?php if ( get_sub_field('open_in_new_tab') && get_sub_field('slide_link_url') ) { ?>
-                     <a href="<?php the_sub_field('slide_link_url'); ?>" target="_blank">
+                     <a href="<?php the_sub_field('slide_link_url'); ?>">
                         <h4><?php the_sub_field('slide_title'); ?></h4>
                         <span>View</span>
                      </a>
@@ -107,8 +107,13 @@
 
          <div class="video" style="background-image: url('<?php the_field('cta_left_background_image'); ?>');">
             <video class="thevideo" loop preload="none">
-            <source src="<?php the_field('cta_left_background_video_webm'); ?>" type="video/webm">
-            <source src="<?php the_field('cta_left_background_video_mp4'); ?>" type="video/mp4">
+               <?php 
+                $cta_left_background_video_webm = the_field('cta_left_background_video_webm'); 
+                $cta_left_background_video_mp4 = the_field('cta_left_background_video_mp4'); 
+
+               ?>
+            <?php if(!empty($cta_left_background_video_webm)){?><source src="<?php echo $cta_left_background_video_webm; ?>" type="video/webm"><?php } ?>
+            <?php if(!empty($cta_left_background_video_mp4)){?><source src="<?php echo $cta_left_background_video_mp4; ?>" type="video/mp4"><?php } ?>
             Your browser does not support the video tag.
             </video>
          </div>
@@ -126,8 +131,13 @@
 
          <div class="video" style="background-image: url('<?php the_field('cta_right_background_image'); ?>');">
             <video class="thevideo" loop preload="none">
-            <source src="<?php the_field('cta_right_background_video_webm'); ?>" type="video/webm">
-            <source src="<?php the_field('cta_right_background_video_mp4'); ?>" type="video/mp4">
+            <?php 
+             $cta_right_background_video_webm = the_field('cta_right_background_video_webm'); 
+             $cta_right_background_video_mp4 = the_field('cta_right_background_video_mp4'); 
+
+            ?>
+            <?php if(!empty($cta_right_background_video_webm)){?><source src="<?php echo $cta_right_background_video_webm; ?>" type="video/webm"><?php } ?>
+            <?php if(!empty($cta_right_background_video_mp4)){?><source src="<?php echo $cta_right_background_video_mp4; ?>" type="video/mp4"><?php } ?>
             Your browser does not support the video tag.
             </video>
          </div>

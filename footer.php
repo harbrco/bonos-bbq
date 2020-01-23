@@ -2,7 +2,7 @@
 
       <!-- footer -->
       <div class="footer-wrapper">
-         <footer class="footer" role="contentinfo">
+         <footer class="footer">
             <div class="smoked-badge"></div>
 
             <div class="subscribe-form-wrapper">
@@ -13,7 +13,7 @@
             </div>
 
             <div class="footer-copyright">
-               <p><span class="copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?></span> <span class="footer-copyright-divider">&nbsp;&nbsp;•&nbsp;&nbsp;</span> <span class="harbr-credit"><a href="http://harbr.co/" target="_blank">Crafted by Harbr</a></span></p>
+               <p><span class="copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?></span> <span class="footer-copyright-divider">&nbsp;&nbsp;•&nbsp;&nbsp;</span> <span class="harbr-credit"><a href="http://harbr.co/" target="_blank">Crafted by Harbr<span class="target_blank">(opens in new window)</span></a></span></p>
             </div>
 
          </footer>
@@ -24,6 +24,7 @@
          <div id="fancyWrap" class="">
             <?php if ( !is_page('menu') ) { ?>
                <a href="javascript:parent.$.fancybox.close();" class="close-modal close-btn modal-toggle">
+                  <p style="display: none;">Close Modal</p>
                   <span></span>
                   <span></span>
                </a>
@@ -42,6 +43,13 @@
       ga('create', 'UA-XXXXXXXX-XX', 'yourdomain.com');
       ga('send', 'pageview');
       </script>
+	  
+	  <script type="text/javascript">
+	var _userway_config = {
+	account: 'nmPgtMFbxu'
+	};
+	</script>
+	<script type="text/javascript" src="https://cdn.userway.org/widget.js"></script>
 
    </body>
 </html>

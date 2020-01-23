@@ -8,7 +8,7 @@
       <div class="inner">
          <div class="hero-heading container">
             <span class="top-accent"></span>
-            <h2>Bono's News</h2>
+            <h1>Bono's News</h1>
             <span class="bottom-accent"></span>
          </div>
       </div>

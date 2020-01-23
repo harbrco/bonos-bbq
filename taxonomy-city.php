@@ -20,7 +20,7 @@
    <div class="container narrowContentLg">
       <div class="location-navigate">
          <div class="city-filter">
-            <h4 class="label">Find Your City:</h4>
+            <h4 class="label">Find Your City2:</h4>
             <?php echo do_shortcode('[searchandfilter taxonomies="city" types"select"]') ?>
          </div>
 

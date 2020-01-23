@@ -6,7 +6,7 @@
       <div class="inner">
          <div class="hero-heading container">
             <span class="top-accent"></span>
-            <h2>Our Soul is Our People</h2>
+            <h1>Our Soul is Our People</h1>
             <span class="bottom-accent"></span>
          </div>
       </div>

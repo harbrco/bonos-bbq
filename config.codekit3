@@ -7,11 +7,12 @@
 		"uuidString": "D9C93073-AE3A-418A-9505-30BB628C1CAA"
 		}
 	],
-"creatorBuild": "28815",
+"creatorBuild": "31483",
 "files": {
 	"/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/.gitignore",
 		"oF": 0
@@ -19,6 +20,7 @@
 	"/404.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/404.php",
 		"oF": 0
@@ -26,6 +28,7 @@
 	"/archive.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/archive.php",
 		"oF": 0
@@ -33,6 +36,7 @@
 	"/author.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/author.php",
 		"oF": 0
@@ -40,6 +44,7 @@
 	"/category.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/category.php",
 		"oF": 0
@@ -47,456 +52,9 @@
 	"/comments.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/comments.php",
-		"oF": 0
-		},
-	"/css/.sass-cache/018ae8ff61843b003062597ec0bfbfb2df6c5cde/_position.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/css/.sass-cache/018ae8ff61843b003062597ec0bfbfb2df6c5cde/_position.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/018ae8ff61843b003062597ec0bfbfb2df6c5cde/_selection.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/css/.sass-cache/018ae8ff61843b003062597ec0bfbfb2df6c5cde/_selection.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/2719a277eeea41678d25e3d630593798649b5f4c/normalize.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/css/.sass-cache/2719a277eeea41678d25e3d630593798649b5f4c/normalize.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/2719a277eeea41678d25e3d630593798649b5f4c/responsivegridsystem.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/css/.sass-cache/2719a277eeea41678d25e3d630593798649b5f4c/responsivegridsystem.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/3ed861e1d415821db2a234053c8faafc013c2883/_breakpoints.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/css/.sass-cache/3ed861e1d415821db2a234053c8faafc013c2883/_breakpoints.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/3ed861e1d415821db2a234053c8faafc013c2883/_buttons.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/css/.sass-cache/3ed861e1d415821db2a234053c8faafc013c2883/_buttons.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/3ed861e1d415821db2a234053c8faafc013c2883/_clearfix.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/css/.sass-cache/3ed861e1d415821db2a234053c8faafc013c2883/_clearfix.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/3ed861e1d415821db2a234053c8faafc013c2883/_common.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/css/.sass-cache/3ed861e1d415821db2a234053c8faafc013c2883/_common.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/3ed861e1d415821db2a234053c8faafc013c2883/_defaults.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/css/.sass-cache/3ed861e1d415821db2a234053c8faafc013c2883/_defaults.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/3ed861e1d415821db2a234053c8faafc013c2883/_grid.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/css/.sass-cache/3ed861e1d415821db2a234053c8faafc013c2883/_grid.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/3ed861e1d415821db2a234053c8faafc013c2883/_inputs.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/css/.sass-cache/3ed861e1d415821db2a234053c8faafc013c2883/_inputs.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/3ed861e1d415821db2a234053c8faafc013c2883/_lists.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/css/.sass-cache/3ed861e1d415821db2a234053c8faafc013c2883/_lists.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/3ed861e1d415821db2a234053c8faafc013c2883/_misc.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/css/.sass-cache/3ed861e1d415821db2a234053c8faafc013c2883/_misc.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/3ed861e1d415821db2a234053c8faafc013c2883/_print.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/css/.sass-cache/3ed861e1d415821db2a234053c8faafc013c2883/_print.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/3ed861e1d415821db2a234053c8faafc013c2883/_retina-images.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/css/.sass-cache/3ed861e1d415821db2a234053c8faafc013c2883/_retina-images.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/3ed861e1d415821db2a234053c8faafc013c2883/_typography.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/css/.sass-cache/3ed861e1d415821db2a234053c8faafc013c2883/_typography.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/3ed861e1d415821db2a234053c8faafc013c2883/_vars.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/css/.sass-cache/3ed861e1d415821db2a234053c8faafc013c2883/_vars.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/40c7960e6f4611f09524cb38d7a9bc526b2e71fa/site.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/css/.sass-cache/40c7960e6f4611f09524cb38d7a9bc526b2e71fa/site.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/5a06b32ae1e05fa4cee110bf82f503676f3a62d9/_external.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/css/.sass-cache/5a06b32ae1e05fa4cee110bf82f503676f3a62d9/_external.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/64b645de09fcc1d52130d561cf5cbcfc9c81b8bc/_footer.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/css/.sass-cache/64b645de09fcc1d52130d561cf5cbcfc9c81b8bc/_footer.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/64b645de09fcc1d52130d561cf5cbcfc9c81b8bc/_header.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/css/.sass-cache/64b645de09fcc1d52130d561cf5cbcfc9c81b8bc/_header.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/64b645de09fcc1d52130d561cf5cbcfc9c81b8bc/_main.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/css/.sass-cache/64b645de09fcc1d52130d561cf5cbcfc9c81b8bc/_main.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/64b645de09fcc1d52130d561cf5cbcfc9c81b8bc/_nav.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/css/.sass-cache/64b645de09fcc1d52130d561cf5cbcfc9c81b8bc/_nav.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/64b645de09fcc1d52130d561cf5cbcfc9c81b8bc/_sidebar.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/css/.sass-cache/64b645de09fcc1d52130d561cf5cbcfc9c81b8bc/_sidebar.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/8750a1a583d0d3bf9cc261cd3d89e22ce9ed7d6f/_position.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/css/.sass-cache/8750a1a583d0d3bf9cc261cd3d89e22ce9ed7d6f/_position.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/8750a1a583d0d3bf9cc261cd3d89e22ce9ed7d6f/_selection.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/css/.sass-cache/8750a1a583d0d3bf9cc261cd3d89e22ce9ed7d6f/_selection.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/885a627dfc1bddefb07aecb75aab5bcefce28ddf/_about.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/css/.sass-cache/885a627dfc1bddefb07aecb75aab5bcefce28ddf/_about.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/885a627dfc1bddefb07aecb75aab5bcefce28ddf/_blog.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/css/.sass-cache/885a627dfc1bddefb07aecb75aab5bcefce28ddf/_blog.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/885a627dfc1bddefb07aecb75aab5bcefce28ddf/_common.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/css/.sass-cache/885a627dfc1bddefb07aecb75aab5bcefce28ddf/_common.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/885a627dfc1bddefb07aecb75aab5bcefce28ddf/_contact.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/css/.sass-cache/885a627dfc1bddefb07aecb75aab5bcefce28ddf/_contact.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/885a627dfc1bddefb07aecb75aab5bcefce28ddf/_home.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/css/.sass-cache/885a627dfc1bddefb07aecb75aab5bcefce28ddf/_home.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/885a627dfc1bddefb07aecb75aab5bcefce28ddf/_locations.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/css/.sass-cache/885a627dfc1bddefb07aecb75aab5bcefce28ddf/_locations.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/885a627dfc1bddefb07aecb75aab5bcefce28ddf/_menu.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/css/.sass-cache/885a627dfc1bddefb07aecb75aab5bcefce28ddf/_menu.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/885a627dfc1bddefb07aecb75aab5bcefce28ddf/_shop-archive.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/css/.sass-cache/885a627dfc1bddefb07aecb75aab5bcefce28ddf/_shop-archive.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/885a627dfc1bddefb07aecb75aab5bcefce28ddf/_shop-checkout.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/css/.sass-cache/885a627dfc1bddefb07aecb75aab5bcefce28ddf/_shop-checkout.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/8de209130588a38deb788e6e5411350ffae847aa/_external.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/css/.sass-cache/8de209130588a38deb788e6e5411350ffae847aa/_external.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/8e5d429afce1ecd7b754ac504a148c1ea2fb160c/normalize.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/css/.sass-cache/8e5d429afce1ecd7b754ac504a148c1ea2fb160c/normalize.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/8e5d429afce1ecd7b754ac504a148c1ea2fb160c/responsivegridsystem.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/css/.sass-cache/8e5d429afce1ecd7b754ac504a148c1ea2fb160c/responsivegridsystem.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/b1fe934bcc380f93b9e2831c4e775931ae165cd7/_breakpoints.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/css/.sass-cache/b1fe934bcc380f93b9e2831c4e775931ae165cd7/_breakpoints.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/b1fe934bcc380f93b9e2831c4e775931ae165cd7/_buttons.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/css/.sass-cache/b1fe934bcc380f93b9e2831c4e775931ae165cd7/_buttons.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/b1fe934bcc380f93b9e2831c4e775931ae165cd7/_clearfix.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/css/.sass-cache/b1fe934bcc380f93b9e2831c4e775931ae165cd7/_clearfix.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/b1fe934bcc380f93b9e2831c4e775931ae165cd7/_defaults.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/css/.sass-cache/b1fe934bcc380f93b9e2831c4e775931ae165cd7/_defaults.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/b1fe934bcc380f93b9e2831c4e775931ae165cd7/_forms.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/css/.sass-cache/b1fe934bcc380f93b9e2831c4e775931ae165cd7/_forms.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/b1fe934bcc380f93b9e2831c4e775931ae165cd7/_grid.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/css/.sass-cache/b1fe934bcc380f93b9e2831c4e775931ae165cd7/_grid.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/b1fe934bcc380f93b9e2831c4e775931ae165cd7/_misc.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/css/.sass-cache/b1fe934bcc380f93b9e2831c4e775931ae165cd7/_misc.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/b1fe934bcc380f93b9e2831c4e775931ae165cd7/_print.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/css/.sass-cache/b1fe934bcc380f93b9e2831c4e775931ae165cd7/_print.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/b1fe934bcc380f93b9e2831c4e775931ae165cd7/_retina-images.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/css/.sass-cache/b1fe934bcc380f93b9e2831c4e775931ae165cd7/_retina-images.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/b1fe934bcc380f93b9e2831c4e775931ae165cd7/_vars.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/css/.sass-cache/b1fe934bcc380f93b9e2831c4e775931ae165cd7/_vars.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/c4a9fb98e24cb3739dbba4e31a95a1556633d14d/_footer.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/css/.sass-cache/c4a9fb98e24cb3739dbba4e31a95a1556633d14d/_footer.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/c4a9fb98e24cb3739dbba4e31a95a1556633d14d/_header.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/css/.sass-cache/c4a9fb98e24cb3739dbba4e31a95a1556633d14d/_header.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/c4a9fb98e24cb3739dbba4e31a95a1556633d14d/_sidebar.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/css/.sass-cache/c4a9fb98e24cb3739dbba4e31a95a1556633d14d/_sidebar.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/d578b06a978edca041d25e4bdcc0d3d75cb84584/site.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/css/.sass-cache/d578b06a978edca041d25e4bdcc0d3d75cb84584/site.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/e7c1df23294949b25d8b7add1c7f4ae25c0361e0/_about.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/css/.sass-cache/e7c1df23294949b25d8b7add1c7f4ae25c0361e0/_about.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/e7c1df23294949b25d8b7add1c7f4ae25c0361e0/_blog-post.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/css/.sass-cache/e7c1df23294949b25d8b7add1c7f4ae25c0361e0/_blog-post.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/e7c1df23294949b25d8b7add1c7f4ae25c0361e0/_blog.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/css/.sass-cache/e7c1df23294949b25d8b7add1c7f4ae25c0361e0/_blog.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/e7c1df23294949b25d8b7add1c7f4ae25c0361e0/_capabilites.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/css/.sass-cache/e7c1df23294949b25d8b7add1c7f4ae25c0361e0/_capabilites.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/e7c1df23294949b25d8b7add1c7f4ae25c0361e0/_capabilities-single.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/css/.sass-cache/e7c1df23294949b25d8b7add1c7f4ae25c0361e0/_capabilities-single.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/e7c1df23294949b25d8b7add1c7f4ae25c0361e0/_capabilities.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/css/.sass-cache/e7c1df23294949b25d8b7add1c7f4ae25c0361e0/_capabilities.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/e7c1df23294949b25d8b7add1c7f4ae25c0361e0/_case-study-examples.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/css/.sass-cache/e7c1df23294949b25d8b7add1c7f4ae25c0361e0/_case-study-examples.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/e7c1df23294949b25d8b7add1c7f4ae25c0361e0/_case-study-single.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/css/.sass-cache/e7c1df23294949b25d8b7add1c7f4ae25c0361e0/_case-study-single.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/e7c1df23294949b25d8b7add1c7f4ae25c0361e0/_common.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/css/.sass-cache/e7c1df23294949b25d8b7add1c7f4ae25c0361e0/_common.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/e7c1df23294949b25d8b7add1c7f4ae25c0361e0/_contact.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/css/.sass-cache/e7c1df23294949b25d8b7add1c7f4ae25c0361e0/_contact.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/e7c1df23294949b25d8b7add1c7f4ae25c0361e0/_home.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/css/.sass-cache/e7c1df23294949b25d8b7add1c7f4ae25c0361e0/_home.scssc",
-		"oF": 0
-		},
-	"/css/.sass-cache/e7c1df23294949b25d8b7add1c7f4ae25c0361e0/_our-capabilities.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/css/.sass-cache/e7c1df23294949b25d8b7add1c7f4ae25c0361e0/_our-capabilities.scssc",
 		"oF": 0
 		},
 	"/css/css/responsivegridsystem.css": {
@@ -532,10 +90,10 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/css/html5blank-min.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
 	"/css/libs/fancybox-helpers/blank.gif": {
 		"ft": 4194304,
@@ -551,35 +109,35 @@
 		"oA": 0,
 		"oAP": "/css/libs/fancybox-helpers/fancybox_buttons.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"/css/libs/fancybox-helpers/fancybox_loading.gif": {
 		"ft": 4194304,
-		"iS": 6567,
+		"iS": 4348,
 		"oA": 0,
 		"oAP": "/css/libs/fancybox-helpers/fancybox_loading.gif",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"/css/libs/fancybox-helpers/fancybox_loading@2x.gif": {
 		"ft": 4194304,
-		"iS": 13984,
+		"iS": 12136,
 		"oA": 0,
 		"oAP": "/css/libs/fancybox-helpers/fancybox_loading@2x.gif",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"/css/libs/fancybox-helpers/fancybox_overlay.png": {
 		"ft": 32768,
-		"iS": 1003,
+		"iS": 125,
 		"oA": 0,
 		"oAP": "/css/libs/fancybox-helpers/fancybox_overlay.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -589,19 +147,19 @@
 		"oA": 0,
 		"oAP": "/css/libs/fancybox-helpers/fancybox_sprite.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"/css/libs/fancybox-helpers/fancybox_sprite@2x.png": {
 		"ft": 32768,
-		"iS": 6553,
+		"iS": 5861,
 		"oA": 0,
 		"oAP": "/css/libs/fancybox-helpers/fancybox_sprite@2x.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -620,14 +178,14 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/css/libs/fancybox-helpers/jquery.fancybox-buttons-min.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
 	"/css/libs/images/bx_loader.gif": {
 		"ft": 4194304,
-		"iS": 8581,
+		"iS": 5615,
 		"oA": 0,
 		"oAP": "/css/libs/images/bx_loader.gif",
 		"oF": 0,
@@ -635,7 +193,7 @@
 		},
 	"/css/libs/images/controls.png": {
 		"ft": 32768,
-		"iS": 2806,
+		"iS": 1472,
 		"oA": 0,
 		"oAP": "/css/libs/images/controls.png",
 		"oF": 0,
@@ -659,10 +217,10 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/css/libs/jquery.bxslider-min.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
 	"/css/libs/jquery.fancybox-min.css": {
 		"aP": 0,
@@ -679,10 +237,10 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/css/libs/jquery.fancybox-min.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
 	"/css/libs/normalize.scss": {
 		"aP": 1,
@@ -704,7 +262,7 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/css/css/responsivegridsystem.css",
 		"oF": 0,
 		"oS": 0,
@@ -866,12 +424,15 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/css/pages/.sass-cache/e7c1df23294949b25d8b7add1c7f4ae25c0361e0/_our-capabilities.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/css/pages/.sass-cache/e7c1df23294949b25d8b7add1c7f4ae25c0361e0/_our-capabilities.scssc",
-		"oF": 0
+	"/css/order-online.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "/css/order-online-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"/css/pages/_about.scss": {
 		"aP": 1,
@@ -1034,14 +595,15 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/css/site-min.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
 	"/css/site.css.map": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/css/site.css.map",
 		"oF": 0
@@ -1057,7 +619,7 @@
 		"oAP": "/css/site.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 0
+		"uL": 1
 		},
 	"/css/vendor/_external.scss": {
 		"aP": 1,
@@ -1095,6 +657,7 @@
 	"/fonts/font-awesome/fonts/fontawesome-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/fonts/font-awesome/fonts/fontawesome-webfont.eot",
 		"oF": 0
@@ -1112,6 +675,7 @@
 	"/fonts/font-awesome/fonts/fontawesome-webfont.ttf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/fonts/font-awesome/fonts/fontawesome-webfont.ttf",
 		"oF": 0
@@ -1119,6 +683,7 @@
 	"/fonts/font-awesome/fonts/fontawesome-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/fonts/font-awesome/fonts/fontawesome-webfont.woff",
 		"oF": 0
@@ -1126,6 +691,7 @@
 	"/fonts/font-awesome/fonts/fontawesome-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/fonts/font-awesome/fonts/fontawesome-webfont.woff2",
 		"oF": 0
@@ -1133,6 +699,7 @@
 	"/fonts/font-awesome/fonts/FontAwesome.otf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/fonts/font-awesome/fonts/FontAwesome.otf",
 		"oF": 0
@@ -1140,106 +707,9 @@
 	"/fonts/font-awesome/HELP-US-OUT.txt": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/fonts/font-awesome/HELP-US-OUT.txt",
-		"oF": 0
-		},
-	"/fonts/font-awesome/scss/.sass-cache/fb4e24fa24f96e27c38b580e42d54aad94683f33/_animated.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/fonts/font-awesome/scss/.sass-cache/fb4e24fa24f96e27c38b580e42d54aad94683f33/_animated.scssc",
-		"oF": 0
-		},
-	"/fonts/font-awesome/scss/.sass-cache/fb4e24fa24f96e27c38b580e42d54aad94683f33/_bordered-pulled.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/fonts/font-awesome/scss/.sass-cache/fb4e24fa24f96e27c38b580e42d54aad94683f33/_bordered-pulled.scssc",
-		"oF": 0
-		},
-	"/fonts/font-awesome/scss/.sass-cache/fb4e24fa24f96e27c38b580e42d54aad94683f33/_core.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/fonts/font-awesome/scss/.sass-cache/fb4e24fa24f96e27c38b580e42d54aad94683f33/_core.scssc",
-		"oF": 0
-		},
-	"/fonts/font-awesome/scss/.sass-cache/fb4e24fa24f96e27c38b580e42d54aad94683f33/_fixed-width.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/fonts/font-awesome/scss/.sass-cache/fb4e24fa24f96e27c38b580e42d54aad94683f33/_fixed-width.scssc",
-		"oF": 0
-		},
-	"/fonts/font-awesome/scss/.sass-cache/fb4e24fa24f96e27c38b580e42d54aad94683f33/_icons.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/fonts/font-awesome/scss/.sass-cache/fb4e24fa24f96e27c38b580e42d54aad94683f33/_icons.scssc",
-		"oF": 0
-		},
-	"/fonts/font-awesome/scss/.sass-cache/fb4e24fa24f96e27c38b580e42d54aad94683f33/_larger.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/fonts/font-awesome/scss/.sass-cache/fb4e24fa24f96e27c38b580e42d54aad94683f33/_larger.scssc",
-		"oF": 0
-		},
-	"/fonts/font-awesome/scss/.sass-cache/fb4e24fa24f96e27c38b580e42d54aad94683f33/_list.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/fonts/font-awesome/scss/.sass-cache/fb4e24fa24f96e27c38b580e42d54aad94683f33/_list.scssc",
-		"oF": 0
-		},
-	"/fonts/font-awesome/scss/.sass-cache/fb4e24fa24f96e27c38b580e42d54aad94683f33/_mixins.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/fonts/font-awesome/scss/.sass-cache/fb4e24fa24f96e27c38b580e42d54aad94683f33/_mixins.scssc",
-		"oF": 0
-		},
-	"/fonts/font-awesome/scss/.sass-cache/fb4e24fa24f96e27c38b580e42d54aad94683f33/_path.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/fonts/font-awesome/scss/.sass-cache/fb4e24fa24f96e27c38b580e42d54aad94683f33/_path.scssc",
-		"oF": 0
-		},
-	"/fonts/font-awesome/scss/.sass-cache/fb4e24fa24f96e27c38b580e42d54aad94683f33/_rotated-flipped.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/fonts/font-awesome/scss/.sass-cache/fb4e24fa24f96e27c38b580e42d54aad94683f33/_rotated-flipped.scssc",
-		"oF": 0
-		},
-	"/fonts/font-awesome/scss/.sass-cache/fb4e24fa24f96e27c38b580e42d54aad94683f33/_screen-reader.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/fonts/font-awesome/scss/.sass-cache/fb4e24fa24f96e27c38b580e42d54aad94683f33/_screen-reader.scssc",
-		"oF": 0
-		},
-	"/fonts/font-awesome/scss/.sass-cache/fb4e24fa24f96e27c38b580e42d54aad94683f33/_stacked.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/fonts/font-awesome/scss/.sass-cache/fb4e24fa24f96e27c38b580e42d54aad94683f33/_stacked.scssc",
-		"oF": 0
-		},
-	"/fonts/font-awesome/scss/.sass-cache/fb4e24fa24f96e27c38b580e42d54aad94683f33/_variables.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/fonts/font-awesome/scss/.sass-cache/fb4e24fa24f96e27c38b580e42d54aad94683f33/_variables.scssc",
-		"oF": 0
-		},
-	"/fonts/font-awesome/scss/.sass-cache/fb4e24fa24f96e27c38b580e42d54aad94683f33/font-awesome.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/fonts/font-awesome/scss/.sass-cache/fb4e24fa24f96e27c38b580e42d54aad94683f33/font-awesome.scssc",
 		"oF": 0
 		},
 	"/fonts/font-awesome/scss/_animated.scss": {
@@ -1424,6 +894,7 @@
 	"/fonts/font-awesome/scss/font-awesome.css.map": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/fonts/font-awesome/scss/font-awesome.css.map",
 		"oF": 0
@@ -1444,6 +915,7 @@
 	"/fonts/readme.txt": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/fonts/readme.txt",
 		"oF": 0
@@ -1451,6 +923,7 @@
 	"/footer.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/footer.php",
 		"oF": 0
@@ -1458,6 +931,7 @@
 	"/functions.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/functions.php",
 		"oF": 0
@@ -1475,6 +949,7 @@
 	"/geo-my-wp/posts-locator/nearby-locations/lightcoral/content-end.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/geo-my-wp/posts-locator/nearby-locations/lightcoral/content-end.php",
 		"oF": 0
@@ -1482,6 +957,7 @@
 	"/geo-my-wp/posts-locator/nearby-locations/lightcoral/content-single-item.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/geo-my-wp/posts-locator/nearby-locations/lightcoral/content-single-item.php",
 		"oF": 0
@@ -1489,6 +965,7 @@
 	"/geo-my-wp/posts-locator/nearby-locations/lightcoral/content-start.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/geo-my-wp/posts-locator/nearby-locations/lightcoral/content-start.php",
 		"oF": 0
@@ -1506,6 +983,7 @@
 	"/geo-my-wp/posts-locator/nearby-locations/lightcoral/no-results.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/geo-my-wp/posts-locator/nearby-locations/lightcoral/no-results.php",
 		"oF": 0
@@ -1513,6 +991,7 @@
 	"/header.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/header.php",
 		"oF": 0
@@ -1541,7 +1020,7 @@
 		},
 	"/img/contact-intro-photo.jpg": {
 		"ft": 16384,
-		"iS": 103210,
+		"iS": 97237,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/contact-intro-photo.jpg",
@@ -1563,7 +1042,7 @@
 		},
 	"/img/icons/apple-touch-icon-114x114.png": {
 		"ft": 32768,
-		"iS": 18311,
+		"iS": 7963,
 		"oA": 0,
 		"oAP": "/img/icons/apple-touch-icon-114x114.png",
 		"oF": 0,
@@ -1574,7 +1053,7 @@
 		},
 	"/img/icons/apple-touch-icon-144x144.png": {
 		"ft": 32768,
-		"iS": 25863,
+		"iS": 0,
 		"oA": 0,
 		"oAP": "/img/icons/apple-touch-icon-144x144.png",
 		"oF": 0,
@@ -1585,7 +1064,7 @@
 		},
 	"/img/icons/apple-touch-icon-152x152.png": {
 		"ft": 32768,
-		"iS": 28431,
+		"iS": 11916,
 		"oA": 0,
 		"oAP": "/img/icons/apple-touch-icon-152x152.png",
 		"oF": 0,
@@ -1596,7 +1075,7 @@
 		},
 	"/img/icons/arrow-sm-white-lt@2x.png": {
 		"ft": 32768,
-		"iS": 261,
+		"iS": 243,
 		"oA": 0,
 		"oAP": "/img/icons/arrow-sm-white-lt@2x.png",
 		"oF": 0,
@@ -1607,7 +1086,7 @@
 		},
 	"/img/icons/arrow-sm-white-rt@2x.png": {
 		"ft": 32768,
-		"iS": 251,
+		"iS": 239,
 		"oA": 0,
 		"oAP": "/img/icons/arrow-sm-white-rt@2x.png",
 		"oF": 0,
@@ -1618,7 +1097,7 @@
 		},
 	"/img/icons/audio-pause@2x.png": {
 		"ft": 32768,
-		"iS": 2760,
+		"iS": 193,
 		"oA": 0,
 		"oAP": "/img/icons/audio-pause@2x.png",
 		"oF": 0,
@@ -1629,7 +1108,7 @@
 		},
 	"/img/icons/audio-play@2x.png": {
 		"ft": 32768,
-		"iS": 3406,
+		"iS": 483,
 		"oA": 0,
 		"oAP": "/img/icons/audio-play@2x.png",
 		"oF": 0,
@@ -1640,7 +1119,7 @@
 		},
 	"/img/icons/close-x-sprite.png": {
 		"ft": 32768,
-		"iS": 689,
+		"iS": 0,
 		"oA": 0,
 		"oAP": "/img/icons/close-x-sprite.png",
 		"oF": 0,
@@ -1674,6 +1153,7 @@
 	"/img/icons/favicon.ico": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/img/icons/favicon.ico",
 		"oF": 0
@@ -1724,7 +1204,7 @@
 		},
 	"/img/section-bgs/about-harvey-bg.jpg": {
 		"ft": 16384,
-		"iS": 135400,
+		"iS": 35040,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/section-bgs/about-harvey-bg.jpg",
@@ -1768,7 +1248,7 @@
 		},
 	"/img/section-bgs/catering-hero-bg.jpg": {
 		"ft": 16384,
-		"iS": 554969,
+		"iS": 98304,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/section-bgs/catering-hero-bg.jpg",
@@ -1801,7 +1281,7 @@
 		},
 	"/img/section-bgs/home-hero-bg2.jpg": {
 		"ft": 16384,
-		"iS": 261850,
+		"iS": 35040,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/section-bgs/home-hero-bg2.jpg",
@@ -1834,7 +1314,7 @@
 		},
 	"/img/section-bgs/menu-family-feast-min.jpg": {
 		"ft": 16384,
-		"iS": 152914,
+		"iS": 49640,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/section-bgs/menu-family-feast-min.jpg",
@@ -1889,7 +1369,7 @@
 		},
 	"/img/section-bgs/menu-smokehouse-stackers-min.jpg": {
 		"ft": 16384,
-		"iS": 154628,
+		"iS": 14600,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/section-bgs/menu-smokehouse-stackers-min.jpg",
@@ -1923,11 +1403,13 @@
 	"/index.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/index.php",
 		"oF": 0
 		},
 	"/js/libs/fancybox-helpers/jquery.fancybox-buttons.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1938,6 +1420,7 @@
 		"tS": 0
 		},
 	"/js/libs/fancybox-helpers/jquery.fancybox-media.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1948,6 +1431,7 @@
 		"tS": 0
 		},
 	"/js/libs/fastclick.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1958,6 +1442,7 @@
 		"tS": 0
 		},
 	"/js/libs/jquery.bxslider.min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1968,6 +1453,7 @@
 		"tS": 0
 		},
 	"/js/libs/jquery.fancybox.pack.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1978,6 +1464,7 @@
 		"tS": 0
 		},
 	"/js/libs/jquery.fittext.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1988,6 +1475,7 @@
 		"tS": 0
 		},
 	"/js/libs/jquery.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1997,7 +1485,19 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"/js/libs/min/jquery-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/libs/min/min/jquery-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"/js/libs/min/jquery.mousewheel.min-ck.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2008,6 +1508,7 @@
 		"tS": 0
 		},
 	"/js/libs/modernizr.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2018,6 +1519,7 @@
 		"tS": 0
 		},
 	"/js/min/scripts-ck.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2028,10 +1530,11 @@
 		"tS": 0
 		},
 	"/js/min/scripts-min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/js/min/min/scripts-min-min.js",
 		"oF": 0,
 		"sC": 1,
@@ -2040,11 +1543,13 @@
 	"/js/min/scripts-min.js.map": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/js/min/scripts-min.js.map",
 		"oF": 0
 		},
 	"/js/scripts.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2057,6 +1562,7 @@
 	"/languages/de_DE.mo": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/languages/de_DE.mo",
 		"oF": 0
@@ -2064,6 +1570,7 @@
 	"/languages/de_DE.po": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/languages/de_DE.po",
 		"oF": 0
@@ -2071,6 +1578,7 @@
 	"/languages/es_ES.mo": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/languages/es_ES.mo",
 		"oF": 0
@@ -2078,6 +1586,7 @@
 	"/languages/es_ES.po": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/languages/es_ES.po",
 		"oF": 0
@@ -2085,6 +1594,7 @@
 	"/languages/fr_FR.mo": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/languages/fr_FR.mo",
 		"oF": 0
@@ -2092,6 +1602,7 @@
 	"/languages/fr_FR.po": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/languages/fr_FR.po",
 		"oF": 0
@@ -2099,6 +1610,7 @@
 	"/languages/HTML5Blank.pot": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/languages/HTML5Blank.pot",
 		"oF": 0
@@ -2106,6 +1618,7 @@
 	"/languages/it_IT.mo": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/languages/it_IT.mo",
 		"oF": 0
@@ -2113,6 +1626,7 @@
 	"/languages/it_IT.po": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/languages/it_IT.po",
 		"oF": 0
@@ -2120,6 +1634,7 @@
 	"/languages/nl_NL.mo": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/languages/nl_NL.mo",
 		"oF": 0
@@ -2127,6 +1642,7 @@
 	"/languages/nl_NL.po": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/languages/nl_NL.po",
 		"oF": 0
@@ -2134,6 +1650,7 @@
 	"/languages/pt_BR.mo": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/languages/pt_BR.mo",
 		"oF": 0
@@ -2141,6 +1658,7 @@
 	"/languages/pt_BR.po": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/languages/pt_BR.po",
 		"oF": 0
@@ -2148,6 +1666,7 @@
 	"/languages/ro_RO.mo": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/languages/ro_RO.mo",
 		"oF": 0
@@ -2155,6 +1674,7 @@
 	"/languages/ro_RO.po": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/languages/ro_RO.po",
 		"oF": 0
@@ -2162,6 +1682,7 @@
 	"/loop-locations.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/loop-locations.php",
 		"oF": 0
@@ -2169,6 +1690,7 @@
 	"/loop.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/loop.php",
 		"oF": 0
@@ -2176,6 +1698,7 @@
 	"/media/bonos-jingle.m4a": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/media/bonos-jingle.m4a",
 		"oF": 0
@@ -2183,6 +1706,7 @@
 	"/media/jingle.mp3": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/media/jingle.mp3",
 		"oF": 0
@@ -2190,6 +1714,7 @@
 	"/page-home.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/page-home.php",
 		"oF": 0
@@ -2197,6 +1722,7 @@
 	"/page-shop.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/page-shop.php",
 		"oF": 0
@@ -2204,6 +1730,7 @@
 	"/page.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/page.php",
 		"oF": 0
@@ -2211,6 +1738,7 @@
 	"/pagination.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/pagination.php",
 		"oF": 0
@@ -2218,6 +1746,7 @@
 	"/partials/partial-about.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/partials/partial-about.php",
 		"oF": 0
@@ -2225,6 +1754,7 @@
 	"/partials/partial-careers.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/partials/partial-careers.php",
 		"oF": 0
@@ -2232,6 +1762,7 @@
 	"/partials/partial-cart.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/partials/partial-cart.php",
 		"oF": 0
@@ -2239,6 +1770,7 @@
 	"/partials/partial-catering.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/partials/partial-catering.php",
 		"oF": 0
@@ -2246,6 +1778,7 @@
 	"/partials/partial-checkout.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/partials/partial-checkout.php",
 		"oF": 0
@@ -2253,6 +1786,7 @@
 	"/partials/partial-contact.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/partials/partial-contact.php",
 		"oF": 0
@@ -2260,6 +1794,7 @@
 	"/partials/partial-donation-requests.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/partials/partial-donation-requests.php",
 		"oF": 0
@@ -2267,6 +1802,7 @@
 	"/partials/partial-fundraising.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/partials/partial-fundraising.php",
 		"oF": 0
@@ -2274,20 +1810,23 @@
 	"/partials/partial-locations.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"hM": 0,
+		"oA": 2,
 		"oAP": "/partials/partial-locations.php",
 		"oF": 0
 		},
 	"/partials/partial-menu.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"hM": 0,
+		"oA": 2,
 		"oAP": "/partials/partial-menu.php",
 		"oF": 0
 		},
 	"/partials/partial-order-online.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/partials/partial-order-online.php",
 		"oF": 0
@@ -2306,6 +1845,7 @@
 	"/search.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/search.php",
 		"oF": 0
@@ -2313,6 +1853,7 @@
 	"/searchform.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/searchform.php",
 		"oF": 0
@@ -2320,6 +1861,7 @@
 	"/sidebar.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/sidebar.php",
 		"oF": 0
@@ -2327,6 +1869,7 @@
 	"/single-location.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/single-location.php",
 		"oF": 0
@@ -2334,6 +1877,7 @@
 	"/single-order_online.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/single-order_online.php",
 		"oF": 0
@@ -2341,9 +1885,20 @@
 	"/single.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/single.php",
 		"oF": 0
+		},
+	"/style-min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "/style-min-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"/style.css": {
 		"aP": 0,
@@ -2358,6 +1913,7 @@
 	"/tag.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/tag.php",
 		"oF": 0
@@ -2365,6 +1921,7 @@
 	"/taxonomy-city.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/taxonomy-city.php",
 		"oF": 0
@@ -2372,6 +1929,7 @@
 	"/template-demo.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/template-demo.php",
 		"oF": 0
@@ -2379,6 +1937,7 @@
 	"/woocommerce.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/woocommerce.php",
 		"oF": 0
@@ -2386,6 +1945,7 @@
 	"/woocommerce/archive-product.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/woocommerce/archive-product.php",
 		"oF": 0
@@ -2393,6 +1953,7 @@
 	"/woocommerce/cart/cart-empty.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/woocommerce/cart/cart-empty.php",
 		"oF": 0
@@ -2400,6 +1961,7 @@
 	"/woocommerce/cart/cart-shipping.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/woocommerce/cart/cart-shipping.php",
 		"oF": 0
@@ -2407,6 +1969,7 @@
 	"/woocommerce/cart/cart-totals.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/woocommerce/cart/cart-totals.php",
 		"oF": 0
@@ -2414,6 +1977,7 @@
 	"/woocommerce/cart/cart.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/woocommerce/cart/cart.php",
 		"oF": 0
@@ -2421,6 +1985,7 @@
 	"/woocommerce/cart/mini-cart.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/woocommerce/cart/mini-cart.php",
 		"oF": 0
@@ -2428,6 +1993,7 @@
 	"/woocommerce/cart/shipping-calculator.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/woocommerce/cart/shipping-calculator.php",
 		"oF": 0
@@ -2435,6 +2001,7 @@
 	"/woocommerce/checkout/form-billing.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/woocommerce/checkout/form-billing.php",
 		"oF": 0
@@ -2442,6 +2009,7 @@
 	"/woocommerce/checkout/form-checkout.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/woocommerce/checkout/form-checkout.php",
 		"oF": 0
@@ -2449,6 +2017,7 @@
 	"/woocommerce/checkout/form-shipping.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/woocommerce/checkout/form-shipping.php",
 		"oF": 0
@@ -2456,6 +2025,7 @@
 	"/woocommerce/checkout/review-order.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/woocommerce/checkout/review-order.php",
 		"oF": 0
@@ -2463,6 +2033,7 @@
 	"/woocommerce/content-single-product.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/woocommerce/content-single-product.php",
 		"oF": 0
@@ -2470,6 +2041,7 @@
 	"/woocommerce/notices/error.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/woocommerce/notices/error.php",
 		"oF": 0
@@ -2477,6 +2049,7 @@
 	"/woocommerce/notices/notice.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/woocommerce/notices/notice.php",
 		"oF": 0
@@ -2484,6 +2057,7 @@
 	"/woocommerce/notices/success.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/woocommerce/notices/success.php",
 		"oF": 0
@@ -2491,6 +2065,7 @@
 	"/woocommerce/single-product.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/woocommerce/single-product.php",
 		"oF": 0
@@ -2498,6 +2073,7 @@
 	"/woocommerce/single-product/price.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/woocommerce/single-product/price.php",
 		"oF": 0
@@ -2516,6 +2092,7 @@
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
+	"allowInjectionReloads": 1,
 	"alwaysUseExternalServer": 1,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
@@ -2527,6 +2104,7 @@
 	"babelConfigType": 0,
 	"babelCustomPluginsList": "",
 	"babelCustomPresetsList": "",
+	"babelExcludeString": "'node_modules/**', 'bower_components/**', /\\/core-js\\//",
 	"babelInsertModuleIDs": 0,
 	"babelModuleID": "",
 	"babelNoComments": 0,
@@ -2597,6 +2175,12 @@
 		"function-sent": {
 			"active": 0
 			},
+		"inline-consecutive-adds": {
+			"active": 0
+			},
+		"inline-environment-variables": {
+			"active": 0
+			},
 		"instanceof": {
 			"active": 0
 			},
@@ -2618,6 +2202,36 @@
 		"minify-booleans": {
 			"active": 0
 			},
+		"minify-builtins": {
+			"active": 0
+			},
+		"minify-constant-folding": {
+			"active": 0
+			},
+		"minify-dead-code-elimination": {
+			"active": 0
+			},
+		"minify-flip-comparisons": {
+			"active": 0
+			},
+		"minify-guarded-expressions": {
+			"active": 0
+			},
+		"minify-infinity": {
+			"active": 0
+			},
+		"minify-mangle-names": {
+			"active": 0
+			},
+		"minify-numeric-literals": {
+			"active": 0
+			},
+		"minify-simplify": {
+			"active": 0
+			},
+		"minify-type-constructors": {
+			"active": 0
+			},
 		"modules-amd": {
 			"active": 0
 			},
@@ -2628,6 +2242,9 @@
 			"active": 0
 			},
 		"modules-umd": {
+			"active": 0
+			},
+		"named-capturing-groups-regex": {
 			"active": 0
 			},
 		"new-target": {
@@ -2663,7 +2280,13 @@
 		"parameters": {
 			"active": 0
 			},
+		"partial-application": {
+			"active": 0
+			},
 		"pipeline-operator": {
+			"active": 0
+			},
+		"private-methods": {
 			"active": 0
 			},
 		"property-literals": {
@@ -2699,10 +2322,16 @@
 		"regenerator": {
 			"active": 0
 			},
+		"regexp-constructors": {
+			"active": 0
+			},
 		"remove-console": {
 			"active": 0
 			},
 		"remove-debugger": {
+			"active": 0
+			},
+		"remove-undefined": {
 			"active": 0
 			},
 		"reserved-words": {
@@ -2746,11 +2375,10 @@
 			}
 		},
 	"babelRetainLines": 0,
+	"babelUseBuiltInsType": 0,
 	"bowerAbbreviatedPath": "bower_components",
-	"bowerAutoCreateInfoFile": 1,
-	"bowerInstallDevDependencies": 0,
-	"bowerSaveDependencies": 1,
-	"bowerSaveDevDependencies": 0,
+	"bowerForceLatestOnConflict": 1,
+	"bowerTargetDependencyListType": 1,
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
 	"browserslistString": ">0.2%, last 2 versions, Firefox ESR, not dead",
@@ -3651,6 +3279,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-useless-catch": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-useless-computed-key": {
 			"active": 1,
 			"optionString": ""
@@ -3750,6 +3382,10 @@
 		"prefer-destructuring": {
 			"active": 0,
 			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
+			},
+		"prefer-named-capture-group": {
+			"active": 0,
+			"optionString": ""
 			},
 		"prefer-numeric-literals": {
 			"active": 0,
@@ -4313,6 +3949,7 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -4334,6 +3971,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 2,
+		"bundleFormat": 0,
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"syntaxCheckerStyle": 1,
@@ -4356,7 +3994,8 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -4395,6 +4034,7 @@
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
 		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -4404,7 +4044,8 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -4425,7 +4066,8 @@
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
 		"outputStyle": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -4454,7 +4096,8 @@
 		"outputFormat": 0,
 		"outputStyle": 1,
 		"railsCompatible": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
@@ -4497,6 +4140,11 @@
 		},
 	"languageDefaultsUserDefined": [
 		],
+	"npmAbbreviatedPath": "",
+	"npmCreatePackageLock": 1,
+	"npmInstallOptionalDependencies": 0,
+	"npmSaveExactVersion": 0,
+	"npmTargetDependencyListType": 1,
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, /storage/framework/sessions, node_modules",
@@ -4542,16 +4190,20 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"ascii_only": {
-			"active": 0,
+		"arrows": {
+			"active": 1,
 			"flagValue": -1
 			},
-		"bare_returns": {
+		"ascii_only": {
 			"active": 0,
 			"flagValue": -1
 			},
 		"booleans": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"booleans_as_integers": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"braces": {
@@ -4563,14 +4215,14 @@
 			"flagValue": -1
 			},
 		"comments": {
-			"active": 1,
+			"active": 0,
 			"flagValue": -1
 			},
 		"comparisons": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"compress": {
+		"computed_props": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -4593,6 +4245,10 @@
 		"drop_debugger": {
 			"active": 1,
 			"flagValue": -1
+			},
+		"ecma": {
+			"active": 1,
+			"flagValue": 5
 			},
 		"eval": {
 			"active": 0,
@@ -4618,10 +4274,6 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"html5_comments": {
-			"active": 1,
-			"flagValue": -1
-			},
 		"ie8": {
 			"active": 0,
 			"flagValue": -1
@@ -4630,13 +4282,13 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"indent-start": {
-			"active": 0,
-			"flagValue": 0
-			},
 		"indent_level": {
 			"active": 0,
 			"flagValue": 4
+			},
+		"indent_start": {
+			"active": 0,
+			"flagValue": 0
 			},
 		"inline": {
 			"active": 1,
@@ -4648,6 +4300,10 @@
 			},
 		"join_vars": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"keep_classnames": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"keep_fargs": {
@@ -4670,13 +4326,13 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"mangle": {
-			"active": 1,
-			"flagValue": -1
-			},
 		"max_line_len": {
 			"active": 1,
 			"flagValue": 32000
+			},
+		"module": {
+			"active": 0,
+			"flagValue": -1
 			},
 		"negate_iife": {
 			"active": 1,
@@ -4685,10 +4341,6 @@
 		"passes": {
 			"active": 1,
 			"flagValue": 1
-			},
-		"preserve_line": {
-			"active": 0,
-			"flagValue": -1
 			},
 		"properties": {
 			"active": 1,
@@ -4712,6 +4364,10 @@
 			},
 		"reduce_vars": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"safari10": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"semicolons": {
@@ -4746,6 +4402,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"unsafe_arrows": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"unsafe_comps": {
 			"active": 0,
 			"flagValue": -1
@@ -4755,6 +4415,10 @@
 			"flagValue": -1
 			},
 		"unsafe_math": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_methods": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -4782,15 +4446,12 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"width": {
-			"active": 1,
-			"flagValue": 80
-			},
 		"wrap_iife": {
 			"active": 0,
 			"flagValue": -1
 			}
 		},
+	"uglifyMangleNames": 1,
 	"uglifyReservedNamesString": "$",
 	"websiteRelativeRoot": ""
 	},

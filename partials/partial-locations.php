@@ -6,7 +6,7 @@
       <div class="inner">
          <div class="hero-heading container">
             <span class="top-accent"></span>
-            <h2>Our Locations</h2>
+            <h1>Our Locations</h1>
             <span class="bottom-accent"></span>
          </div>
       </div>
@@ -24,6 +24,7 @@
       <div class="location-navigate">
          <div class="city-filter">
             <h4 class="label">Find Your City:</h4>
+            <label for="ofcity" style="display: none;">City</label>
             <?php echo do_shortcode('[searchandfilter taxonomies="city" types"select"]') ?>
          </div>
       </div>

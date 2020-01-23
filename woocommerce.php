@@ -34,7 +34,7 @@ global $product;
                <?php if (get_field('shop_header_title', 'option')) { ?>
                  <h2><?php the_field('shop_header_title', 'option') ?></h2>
                <?php } else { ?>
-                 <h2>Bono's Shop</h2>
+                 <h1>Bono's Shop</h1>
                <?php } ?>
                <span class="bottom-accent"></span>
             </div>
@@ -58,7 +58,7 @@ global $product;
 
                <div class="split-50-right">
                   <p>Look no further! You can purchase gift cards starting at $20.</p>
-                  <a href="https://onelink.quickgifts.com/merchant/bonos-pit-bar-b-q/" target="_blank" class="btn btn--ghost">Purchase Gift Cards Now</a>
+                  <a href="https://onelink.quickgifts.com/merchant/bonos-pit-bar-b-q/" target="_blank" class="btn btn--ghost">Purchase Gift Cards Now<span class="target_blank">(opens in new window)</span></a>
                </div>
             </div>
          </div>

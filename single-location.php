@@ -33,11 +33,11 @@
                   <p><?php the_field('location_phone_numbers'); ?></p>
 
                   <?php if ( get_field('location_menu_pdf') ) { ?>
-                     <a href="<?php the_field('location_menu_pdf'); ?>" class="btn btn--ghost" target="_blank">View Menu</a>
+                     <a href="<?php the_field('location_menu_pdf'); ?>" class="btn btn--ghost" target="_blank">View Menu<span class="target_blank">(opens in new window)</span></a>
                   <?php } ?>
 
                   <?php if ( get_field('online_ordering_url') ) { ?>
-                     <a href="<?php the_field('online_ordering_url') ?>" class="btn btn--ghost">Order Online</a>
+                     <a href="<?php the_field('online_ordering_url') ?>" class="btn btn--ghost" >Order Online<p style="display: none;"><?php the_title(); ?></p></a>
                   <?php } ?>
 
                   <a href="/catering/" class="btn btn--ghost">Get Catering</a>

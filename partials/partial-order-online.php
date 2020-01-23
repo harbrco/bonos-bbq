@@ -6,7 +6,7 @@
       <div class="inner">
          <div class="hero-heading container">
             <span class="top-accent"></span>
-            <h2>Order Online</h2>
+            <h1>Order Online</h1>
             <span class="bottom-accent"></span>
          </div>
       </div>

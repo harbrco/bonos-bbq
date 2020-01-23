@@ -68,4 +68,5 @@
 <?php else: ?>
 <?php endif; ?>
 
+ <link href="<?php echo get_template_directory_uri();?>/css/order-online.css" rel='stylesheet' type='text/css'>
 <?php get_footer(); ?>

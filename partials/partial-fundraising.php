@@ -6,7 +6,7 @@
       <div class="inner">
          <div class="hero-heading container">
             <span class="top-accent"></span>
-            <h2><?php the_title(); ?></h2>
+            <h1><?php the_title(); ?></h1>
             <span class="bottom-accent"></span>
          </div>
       </div>
