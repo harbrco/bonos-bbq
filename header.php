@@ -3,7 +3,7 @@
    <head>
       <meta charset="<?php bloginfo('charset'); ?>">
      <meta name="description" content="A page's description,usually one or two sentences."/>
-     
+
 	  <title><?php bloginfo('name'); ?> <?php echo get_post_type(); ?> | <?php is_front_page() ? bloginfo('description') : wp_title(''); ?></title>
 
       <link rel="apple-touch-icon-precomposed" href="<?php echo get_template_directory_uri(); ?>/img/icons/apple-touch-icon-114x114.png" />
@@ -26,6 +26,9 @@
       <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/fonts/font-awesome/css/font-awesome.min.css">
 
       <?php wp_head(); ?>
+
+      <!-- marketing pixel script from 3D Digital -->
+      <script async src='https://tag.simpli.fi/sifitag/b0204af0-28dc-0138-6523-06659b33d47c'></script>
 
    </head>
    <body <?php body_class('menu'); ?>>
